@@ -120,7 +120,7 @@ If you use this code or dataset in your research, please cite:
   title={Nutrition Facts Vision: An LLM-Powered Mobile System for Personalized Food Label Analysis},
   author={Kolcu, Ziya},
   year={2025},
-  url={https://github.com/ZiyaKolcu/nfv_ocr_experiment_app}
+  url={https://github.com/ZiyaKolcu/nfv_experiment_app}
 }
 
 ```
