@@ -1,0 +1,5944 @@
+{
+  "summary": {
+    "total_products": 50,
+    "valid_evaluations": 49,
+    "ingredients": {
+      "precision": 0.939,
+      "recall": 0.891,
+      "f1_score": 0.911
+    },
+    "nutrition": {
+      "precision": 0.793,
+      "recall": 0.782,
+      "f1_score": 0.787
+    },
+    "overall_f1": 0.849
+  },
+  "detailed_evaluations": [
+    {
+      "product_id": "Product_001_Fanta_1L",
+      "has_error": false,
+      "ingredients": {
+        "precision": 1.0,
+        "recall": 0.714,
+        "f1_score": 0.833,
+        "tp": 10,
+        "fp": 0,
+        "fn": 4,
+        "match_details": [
+          {
+            "pred": "şeker veya fruktoz-glukoz şurubu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "karbondioksit",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "portakal suyu konsantresi",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "malik asit",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "sodyum sitrat",
+            "match": "TP",
+            "score": 0.96
+          },
+          {
+            "pred": "c vitamini",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "koruyucu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "tatlandırıcılar (aspartam",
+            "match": "TP",
+            "score": 0.7
+          },
+          {
+            "pred": "sakarin)",
+            "match": "TP",
+            "score": 0.94
+          },
+          {
+            "pred": "renklendirici",
+            "match": "TP",
+            "score": 1.0
+          }
+        ]
+      },
+      "nutrition": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "details": [
+          {
+            "field": "energy_kcal",
+            "status": "TP (Correct)",
+            "gt": 30,
+            "pred": 30
+          },
+          {
+            "field": "fat_total_g",
+            "status": "TP (Correct)",
+            "gt": 0,
+            "pred": 0
+          },
+          {
+            "field": "carbohydrate_g",
+            "status": "TP (Correct)",
+            "gt": 7.3,
+            "pred": 7.32
+          },
+          {
+            "field": "sugar_g",
+            "status": "TP (Correct)",
+            "gt": 7.3,
+            "pred": 7.32
+          },
+          {
+            "field": "protein_g",
+            "status": "TP (Correct)",
+            "gt": 0,
+            "pred": 0
+          },
+          {
+            "field": "salt_g",
+            "status": "TP (Correct)",
+            "gt": 0.02,
+            "pred": 0.02
+          }
+        ]
+      },
+      "overall_f1": 0.916
+    },
+    {
+      "product_id": "Product_002_SchweppesBitterLimon_1L",
+      "has_error": false,
+      "ingredients": {
+        "precision": 0.636,
+        "recall": 0.538,
+        "f1_score": 0.583,
+        "tp": 7,
+        "fp": 4,
+        "fn": 6,
+        "match_details": [
+          {
+            "pred": "su",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "şeker/fruktoz-glukoz şurubu",
+            "match": "TP",
+            "score": 0.85
+          },
+          {
+            "pred": "limon ve portakal konsantresi",
+            "match": "TP",
+            "score": 0.86
+          },
+          {
+            "pred": "karbondioksit",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "asitlik düzenleyiciler",
+            "match": "TP",
+            "score": 0.86
+          },
+          {
+            "pred": "aromalar",
+            "match": "FP",
+            "score": 0.52
+          },
+          {
+            "pred": "tatlandırıcılar (asesülfam k",
+            "match": "TP",
+            "score": 0.96
+          },
+          {
+            "pred": "siklamat",
+            "match": "FP",
+            "score": 0.43
+          },
+          {
+            "pred": "sakarin)",
+            "match": "FP",
+            "score": 0.47
+          },
+          {
+            "pred": "renklendirici",
+            "match": "TP",
+            "score": 0.9
+          },
+          {
+            "pred": "stabilizatör",
+            "match": "FP",
+            "score": 0.31
+          }
+        ]
+      },
+      "nutrition": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "details": [
+          {
+            "field": "energy_kcal",
+            "status": "TP (Correct)",
+            "gt": 21,
+            "pred": 21
+          },
+          {
+            "field": "fat_total_g",
+            "status": "TP (Correct)",
+            "gt": 0,
+            "pred": 0
+          },
+          {
+            "field": "carbohydrate_g",
+            "status": "TP (Correct)",
+            "gt": 5.0,
+            "pred": 5.0
+          },
+          {
+            "field": "sugar_g",
+            "status": "TP (Correct)",
+            "gt": 5.0,
+            "pred": 5.0
+          },
+          {
+            "field": "protein_g",
+            "status": "TP (Correct)",
+            "gt": 0,
+            "pred": 0
+          },
+          {
+            "field": "salt_g",
+            "status": "TP (Correct)",
+            "gt": 0.0,
+            "pred": 0
+          }
+        ]
+      },
+      "overall_f1": 0.791
+    },
+    {
+      "product_id": "Product_003_FiskobirlikNuga_700g",
+      "has_error": false,
+      "ingredients": {
+        "precision": 0.909,
+        "recall": 0.909,
+        "f1_score": 0.909,
+        "tp": 10,
+        "fp": 1,
+        "fn": 1,
+        "match_details": [
+          {
+            "pred": "şeker",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "bitkisel yağlar (değişen oranlarda fındık yağı",
+            "match": "TP",
+            "score": 0.77
+          },
+          {
+            "pred": "ayçiçek",
+            "match": "TP",
+            "score": 0.93
+          },
+          {
+            "pred": "pamuk)",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "fındık",
+            "match": "FP",
+            "score": 0.53
+          },
+          {
+            "pred": "kakao tozu",
+            "match": "TP",
+            "score": 0.91
+          },
+          {
+            "pred": "yağsız süt tozu",
+            "match": "TP",
+            "score": 0.9
+          },
+          {
+            "pred": "peynir altı suyu tozu",
+            "match": "TP",
+            "score": 0.93
+          },
+          {
+            "pred": "laktoz",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "emülgatör",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "aroma verici",
+            "match": "TP",
+            "score": 0.92
+          }
+        ]
+      },
+      "nutrition": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "details": [
+          {
+            "field": "energy_kcal",
+            "status": "TP (Correct)",
+            "gt": 535,
+            "pred": 535
+          },
+          {
+            "field": "fat_total_g",
+            "status": "TP (Correct)",
+            "gt": 30.5,
+            "pred": 30.5
+          },
+          {
+            "field": "carbohydrate_g",
+            "status": "TP (Correct)",
+            "gt": 58.1,
+            "pred": 58.1
+          },
+          {
+            "field": "sugar_g",
+            "status": "TP (Correct)",
+            "gt": 49.8,
+            "pred": 49.8
+          },
+          {
+            "field": "protein_g",
+            "status": "TP (Correct)",
+            "gt": 8.2,
+            "pred": 8.2
+          },
+          {
+            "field": "salt_g",
+            "status": "TP (Correct)",
+            "gt": 0.2,
+            "pred": 0.2
+          }
+        ]
+      },
+      "overall_f1": 0.955
+    },
+    {
+      "product_id": "Product_004_SütaşKakaoluSüt_200ml",
+      "has_error": false,
+      "ingredients": {
+        "precision": 0.857,
+        "recall": 1.0,
+        "f1_score": 0.923,
+        "tp": 6,
+        "fp": 1,
+        "fn": 0,
+        "match_details": [
+          {
+            "pred": "homojenize ve pastörize inek sütü",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "sofra şekeri",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "kakao (%1",
+            "match": "TP",
+            "score": 0.9
+          },
+          {
+            "pred": "2)",
+            "match": "FP",
+            "score": 0.0
+          },
+          {
+            "pred": "kıvam arttırıcı",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "doğal vanilya aroma vericisi",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "vitamin d",
+            "match": "TP",
+            "score": 1.0
+          }
+        ]
+      },
+      "nutrition": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "details": [
+          {
+            "field": "energy_kcal",
+            "status": "TP (Correct)",
+            "gt": 60,
+            "pred": 60
+          },
+          {
+            "field": "fat_total_g",
+            "status": "TP (Correct)",
+            "gt": 1.2,
+            "pred": 2.0
+          },
+          {
+            "field": "carbohydrate_g",
+            "status": "TP (Correct)",
+            "gt": 9.5,
+            "pred": 9.5
+          },
+          {
+            "field": "sugar_g",
+            "status": "TP (Correct)",
+            "gt": 9.4,
+            "pred": 9.4
+          },
+          {
+            "field": "protein_g",
+            "status": "TP (Correct)",
+            "gt": 2.8,
+            "pred": 2.8
+          },
+          {
+            "field": "salt_g",
+            "status": "TP (Correct)",
+            "gt": 0.1,
+            "pred": 0.1
+          }
+        ]
+      },
+      "overall_f1": 0.962
+    },
+    {
+      "product_id": "Product_005_Biskrem_100g",
+      "has_error": false,
+      "ingredients": {
+        "precision": 1.0,
+        "recall": 0.941,
+        "f1_score": 0.97,
+        "tp": 16,
+        "fp": 0,
+        "fn": 1,
+        "match_details": [
+          {
+            "pred": "buğday unu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "şeker",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "bitkisel yağlar (palm",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "ayçiçek)",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "invert şeker şurubu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "yağı azaltılmış kakao tozu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "yumurta",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "fındık püresi",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "tuz",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "kabartıcılar (sodyum hidrojen karbonat",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "disodyum difosfat)",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "tam yağlı süt tozu",
+            "match": "TP",
+            "score": 0.97
+          },
+          {
+            "pred": "emülgatörler (soya lesitini",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "poligliserol polirisinoleat)",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "aroma vericiler",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "fındık eser miktarda susam ve diğer sert kabuklu meyveler içerebilir",
+            "match": "TP",
+            "score": 0.95
+          }
+        ]
+      },
+      "nutrition": {
+        "precision": 0.667,
+        "recall": 0.667,
+        "f1_score": 0.667,
+        "tp": 4,
+        "fp": 2,
+        "fn": 2,
+        "details": [
+          {
+            "field": "energy_kcal",
+            "status": "TP (Correct)",
+            "gt": 492,
+            "pred": 492
+          },
+          {
+            "field": "fat_total_g",
+            "status": "TP (Correct)",
+            "gt": 23,
+            "pred": 21.3
+          },
+          {
+            "field": "carbohydrate_g",
+            "status": "TP (Correct)",
+            "gt": 63,
+            "pred": 60
+          },
+          {
+            "field": "sugar_g",
+            "status": "Mismatch",
+            "gt": 34,
+            "pred": 19
+          },
+          {
+            "field": "protein_g",
+            "status": "TP (Correct)",
+            "gt": 6.4,
+            "pred": 6.8
+          },
+          {
+            "field": "salt_g",
+            "status": "Mismatch",
+            "gt": 0.68,
+            "pred": 0.2
+          }
+        ]
+      },
+      "overall_f1": 0.819
+    },
+    {
+      "product_id": "Product_006_ÜlkerPöti_35g",
+      "has_error": false,
+      "ingredients": {
+        "precision": 1.0,
+        "recall": 0.88,
+        "f1_score": 0.936,
+        "tp": 22,
+        "fp": 0,
+        "fn": 3,
+        "match_details": [
+          {
+            "pred": "buğday unu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "şeker",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "yumurta",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "su",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "bitkisel yağlar (palm",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "tam hidrojenize palm)",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "invert şeker şurubu",
+            "match": "TP",
+            "score": 0.97
+          },
+          {
+            "pred": "nem verici",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "yumurta beyazı",
+            "match": "TP",
+            "score": 0.9
+          },
+          {
+            "pred": "yağı azaltılmış kakao tozu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "modifiye nişasta",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "kabartıcılar (disodyum difosfat",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "sodyum hidrojen karbonat)",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "tuz",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "emülgatörler (yağ asitlerinin mono ve digliseritleri",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "lesitin (kolza",
+            "match": "TP",
+            "score": 0.81
+          },
+          {
+            "pred": "ayçiçeği))",
+            "match": "TP",
+            "score": 0.71
+          },
+          {
+            "pred": "koruyucular (sorbik asit",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "potasyum sorbat)",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "asitlik düzenleyici",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "kıvam artırıcı",
+            "match": "TP",
+            "score": 0.97
+          },
+          {
+            "pred": "aroma vericiler",
+            "match": "TP",
+            "score": 1.0
+          }
+        ]
+      },
+      "nutrition": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "details": [
+          {
+            "field": "energy_kcal",
+            "status": "TP (Correct)",
+            "gt": 392,
+            "pred": 392
+          },
+          {
+            "field": "fat_total_g",
+            "status": "TP (Correct)",
+            "gt": 19,
+            "pred": 19
+          },
+          {
+            "field": "carbohydrate_g",
+            "status": "TP (Correct)",
+            "gt": 48,
+            "pred": 48
+          },
+          {
+            "field": "sugar_g",
+            "status": "TP (Correct)",
+            "gt": 27,
+            "pred": 27
+          },
+          {
+            "field": "protein_g",
+            "status": "TP (Correct)",
+            "gt": 5.6,
+            "pred": 5.6
+          },
+          {
+            "field": "salt_g",
+            "status": "TP (Correct)",
+            "gt": 1.1,
+            "pred": 1.1
+          }
+        ]
+      },
+      "overall_f1": 0.968
+    },
+    {
+      "product_id": "Product_007_EtiEtimek_143g",
+      "has_error": false,
+      "ingredients": {
+        "precision": 0.9,
+        "recall": 0.9,
+        "f1_score": 0.9,
+        "tp": 9,
+        "fp": 1,
+        "fn": 1,
+        "match_details": [
+          {
+            "pred": "buğday unu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "bitkisel yağ (ayçiçek",
+            "match": "TP",
+            "score": 0.9
+          },
+          {
+            "pred": "pamuk",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "kanola)",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "şeker",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "maya",
+            "match": "TP",
+            "score": 0.9
+          },
+          {
+            "pred": "tuz",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "malt ekstrakt",
+            "match": "TP",
+            "score": 0.79
+          },
+          {
+            "pred": "gluten",
+            "match": "FP",
+            "score": 0.25
+          },
+          {
+            "pred": "emülgatör  üretim tesisinde süt ürünü ve yumurta içerebilir",
+            "match": "TP",
+            "score": 0.9
+          }
+        ]
+      },
+      "nutrition": {
+        "precision": 0.4,
+        "recall": 0.333,
+        "f1_score": 0.364,
+        "tp": 2,
+        "fp": 3,
+        "fn": 4,
+        "details": [
+          {
+            "field": "energy_kcal",
+            "status": "TP (Correct)",
+            "gt": 402,
+            "pred": 402
+          },
+          {
+            "field": "fat_total_g",
+            "status": "TP (Correct)",
+            "gt": 6.7,
+            "pred": 6.0
+          },
+          {
+            "field": "carbohydrate_g",
+            "status": "Mismatch",
+            "gt": 70,
+            "pred": 83.0
+          },
+          {
+            "field": "sugar_g",
+            "status": "FN (Missed)",
+            "gt": 6.7,
+            "pred": null
+          },
+          {
+            "field": "protein_g",
+            "status": "Mismatch",
+            "gt": 13,
+            "pred": 11.0
+          },
+          {
+            "field": "salt_g",
+            "status": "Mismatch",
+            "gt": 1.2,
+            "pred": 1.69
+          }
+        ]
+      },
+      "overall_f1": 0.632
+    },
+    {
+      "product_id": "Product_008_EtiLifalifYulafEzmesi_350g",
+      "has_error": false,
+      "ingredients": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "match_details": [
+          {
+            "pred": "yulaf ezmesi",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "az miktarda antep fıstığı",
+            "match": "TP",
+            "score": 0.88
+          },
+          {
+            "pred": "badem",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "fındık",
+            "match": "TP",
+            "score": 0.9
+          }
+        ]
+      },
+      "nutrition": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "details": [
+          {
+            "field": "energy_kcal",
+            "status": "TP (Correct)",
+            "gt": 360,
+            "pred": 360
+          },
+          {
+            "field": "fat_total_g",
+            "status": "TP (Correct)",
+            "gt": 7.5,
+            "pred": 7.5
+          },
+          {
+            "field": "carbohydrate_g",
+            "status": "TP (Correct)",
+            "gt": 53,
+            "pred": 53
+          },
+          {
+            "field": "sugar_g",
+            "status": "TP (Correct)",
+            "gt": 1.3,
+            "pred": 1.3
+          },
+          {
+            "field": "protein_g",
+            "status": "TP (Correct)",
+            "gt": 14,
+            "pred": 14
+          },
+          {
+            "field": "salt_g",
+            "status": "TP (Correct)",
+            "gt": 0.02,
+            "pred": 0.02
+          }
+        ]
+      },
+      "overall_f1": 1.0
+    },
+    {
+      "product_id": "Product_009_DimesŞeftaliMeyveSuyu_200ml",
+      "has_error": false,
+      "ingredients": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "tp": 5,
+        "fp": 0,
+        "fn": 0,
+        "match_details": [
+          {
+            "pred": "su",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "şeftali püre konsantresi",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "şeker",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "aroma verici",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "asitlik düzenleyici",
+            "match": "TP",
+            "score": 1.0
+          }
+        ]
+      },
+      "nutrition": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "details": [
+          {
+            "field": "energy_kcal",
+            "status": "TP (Correct)",
+            "gt": 43,
+            "pred": 43
+          },
+          {
+            "field": "fat_total_g",
+            "status": "TP (Correct)",
+            "gt": 0,
+            "pred": 0
+          },
+          {
+            "field": "carbohydrate_g",
+            "status": "TP (Correct)",
+            "gt": 11,
+            "pred": 11
+          },
+          {
+            "field": "sugar_g",
+            "status": "TP (Correct)",
+            "gt": 10,
+            "pred": 10
+          },
+          {
+            "field": "protein_g",
+            "status": "TP (Correct)",
+            "gt": 0,
+            "pred": 0
+          },
+          {
+            "field": "salt_g",
+            "status": "TP (Correct)",
+            "gt": 0,
+            "pred": 0
+          }
+        ]
+      },
+      "overall_f1": 1.0
+    },
+    {
+      "product_id": "Product_010_GüneşNişasta_800g",
+      "has_error": false,
+      "ingredients": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "match_details": [
+          {
+            "pred": "mısır nişastası",
+            "match": "TP",
+            "score": 1.0
+          }
+        ]
+      },
+      "nutrition": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "details": [
+          {
+            "field": "energy_kcal",
+            "status": "TP (Correct)",
+            "gt": 352,
+            "pred": 352
+          },
+          {
+            "field": "fat_total_g",
+            "status": "TP (Correct)",
+            "gt": 0.1,
+            "pred": 0.1
+          },
+          {
+            "field": "carbohydrate_g",
+            "status": "TP (Correct)",
+            "gt": 88,
+            "pred": 88
+          },
+          {
+            "field": "sugar_g",
+            "status": "TP (Correct)",
+            "gt": 0,
+            "pred": 0
+          },
+          {
+            "field": "protein_g",
+            "status": "TP (Correct)",
+            "gt": 0.45,
+            "pred": 0.45
+          },
+          {
+            "field": "salt_g",
+            "status": "TP (Correct)",
+            "gt": 0.025,
+            "pred": 0.025
+          }
+        ]
+      },
+      "overall_f1": 1.0
+    },
+    {
+      "product_id": "Product_011_AnkaraKuskus_500g",
+      "has_error": false,
+      "ingredients": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "match_details": [
+          {
+            "pred": "durum buğday irmiği",
+            "match": "TP",
+            "score": 0.97
+          }
+        ]
+      },
+      "nutrition": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "details": [
+          {
+            "field": "energy_kcal",
+            "status": "TP (Correct)",
+            "gt": 357,
+            "pred": 357
+          },
+          {
+            "field": "fat_total_g",
+            "status": "TP (Correct)",
+            "gt": 1.7,
+            "pred": 1.79
+          },
+          {
+            "field": "carbohydrate_g",
+            "status": "TP (Correct)",
+            "gt": 73.3,
+            "pred": 73.3
+          },
+          {
+            "field": "sugar_g",
+            "status": "TP (Correct)",
+            "gt": 2.5,
+            "pred": 2.5
+          },
+          {
+            "field": "protein_g",
+            "status": "TP (Correct)",
+            "gt": 10.7,
+            "pred": 10.79
+          },
+          {
+            "field": "salt_g",
+            "status": "TP (Correct)",
+            "gt": 0.004,
+            "pred": 0.0049
+          }
+        ]
+      },
+      "overall_f1": 1.0
+    },
+    {
+      "product_id": "Product_012_AnkaraMakarna_500g",
+      "has_error": false,
+      "ingredients": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "match_details": [
+          {
+            "pred": "durum buğdayı irmiği",
+            "match": "TP",
+            "score": 1.0
+          }
+        ]
+      },
+      "nutrition": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "details": [
+          {
+            "field": "energy_kcal",
+            "status": "TP (Correct)",
+            "gt": 357,
+            "pred": 357
+          },
+          {
+            "field": "fat_total_g",
+            "status": "TP (Correct)",
+            "gt": 1.7,
+            "pred": 1.5
+          },
+          {
+            "field": "carbohydrate_g",
+            "status": "TP (Correct)",
+            "gt": 73.3,
+            "pred": 71
+          },
+          {
+            "field": "sugar_g",
+            "status": "TP (Correct)",
+            "gt": 2.5,
+            "pred": 2.9
+          },
+          {
+            "field": "protein_g",
+            "status": "TP (Correct)",
+            "gt": 10.7,
+            "pred": 10.7
+          },
+          {
+            "field": "salt_g",
+            "status": "TP (Correct)",
+            "gt": 0.004,
+            "pred": 0.004
+          }
+        ]
+      },
+      "overall_f1": 1.0
+    },
+    {
+      "product_id": "Product_013_ÜlkerÇubukKraker_40g",
+      "has_error": false,
+      "ingredients": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "tp": 10,
+        "fp": 0,
+        "fn": 0,
+        "match_details": [
+          {
+            "pred": "buğday unu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "bitkisel yağ",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "tuz (%3",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "5)",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "emülgatörler (soya lesitini",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "yağ asitlerinin mono ve digliseritlerinin mono ve diasetil tartarik asit esterleri)",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "asitlik düzenleyici",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "kabartıcılar (sodyum hidrojen karbonat",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "disodyum difosfat)",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "tam yağlı süt tozu",
+            "match": "TP",
+            "score": 0.97
+          }
+        ]
+      },
+      "nutrition": {
+        "precision": 0.5,
+        "recall": 0.5,
+        "f1_score": 0.5,
+        "tp": 3,
+        "fp": 3,
+        "fn": 3,
+        "details": [
+          {
+            "field": "energy_kcal",
+            "status": "TP (Correct)",
+            "gt": 403,
+            "pred": 403
+          },
+          {
+            "field": "fat_total_g",
+            "status": "TP (Correct)",
+            "gt": 6.3,
+            "pred": 6.3
+          },
+          {
+            "field": "carbohydrate_g",
+            "status": "Mismatch",
+            "gt": 73,
+            "pred": 63
+          },
+          {
+            "field": "sugar_g",
+            "status": "Mismatch",
+            "gt": 0,
+            "pred": 2.4
+          },
+          {
+            "field": "protein_g",
+            "status": "Mismatch",
+            "gt": 12,
+            "pred": 4.3
+          },
+          {
+            "field": "salt_g",
+            "status": "TP (Correct)",
+            "gt": 4.3,
+            "pred": 4.3
+          }
+        ]
+      },
+      "overall_f1": 0.75
+    },
+    {
+      "product_id": "Product_014_AvşarLimonluGazoz_200g",
+      "has_error": false,
+      "ingredients": {
+        "precision": 0.833,
+        "recall": 0.833,
+        "f1_score": 0.833,
+        "tp": 10,
+        "fp": 2,
+        "fn": 2,
+        "match_details": [
+          {
+            "pred": "doğal maden suyu",
+            "match": "FP",
+            "score": 0.65
+          },
+          {
+            "pred": "karbondioksit",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "asitlik düzenleyici",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "c vitamini",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "doğal aroma verici",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "doğal limon aroma verici ve diğer doğal aroma vericiler",
+            "match": "TP",
+            "score": 0.98
+          },
+          {
+            "pred": "stabilizörler (arap zamkı",
+            "match": "TP",
+            "score": 0.72
+          },
+          {
+            "pred": "agar",
+            "match": "FP",
+            "score": 0.28
+          },
+          {
+            "pred": "reçinesinin gliserol esteri)",
+            "match": "TP",
+            "score": 0.88
+          },
+          {
+            "pred": "antioksidan",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "koruyucular (potasyum sorbat",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "sodyum benzoat)",
+            "match": "TP",
+            "score": 1.0
+          }
+        ]
+      },
+      "nutrition": {
+        "precision": 1.0,
+        "recall": 0.833,
+        "f1_score": 0.909,
+        "tp": 5,
+        "fp": 0,
+        "fn": 1,
+        "details": [
+          {
+            "field": "energy_kcal",
+            "status": "TP (Correct)",
+            "gt": 40,
+            "pred": 40
+          },
+          {
+            "field": "fat_total_g",
+            "status": "TP (Correct)",
+            "gt": 0,
+            "pred": 0
+          },
+          {
+            "field": "carbohydrate_g",
+            "status": "TP (Correct)",
+            "gt": 9.6,
+            "pred": 9.6
+          },
+          {
+            "field": "sugar_g",
+            "status": "TP (Correct)",
+            "gt": 9.6,
+            "pred": 9.6
+          },
+          {
+            "field": "protein_g",
+            "status": "TP (Correct)",
+            "gt": 0,
+            "pred": 0.2
+          },
+          {
+            "field": "salt_g",
+            "status": "FN (Missed)",
+            "gt": 0.2,
+            "pred": null
+          }
+        ]
+      },
+      "overall_f1": 0.871
+    },
+    {
+      "product_id": "Product_015_EtiGongPopsBalHardal_80g",
+      "has_error": false,
+      "ingredients": {
+        "precision": 0.917,
+        "recall": 0.846,
+        "f1_score": 0.88,
+        "tp": 11,
+        "fp": 1,
+        "fn": 2,
+        "match_details": [
+          {
+            "pred": "mısır",
+            "match": "TP",
+            "score": 0.9
+          },
+          {
+            "pred": "bitkisel yağ",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "bal ve hardal aroma çeşnisi %679 [şeker",
+            "match": "TP",
+            "score": 0.9
+          },
+          {
+            "pred": "tuz",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "soğan tozu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "aroma vericiler",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "buğday unu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "ayçiçeği lesitini",
+            "match": "FP",
+            "score": 0.33
+          },
+          {
+            "pred": "maydanoz tozu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "bal ekstraktı",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "hardal ekstraktı]",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "emülgatör  az miktarda süt ürünü ve kereviz içerebilir",
+            "match": "TP",
+            "score": 0.9
+          }
+        ]
+      },
+      "nutrition": {
+        "precision": 0.8,
+        "recall": 0.667,
+        "f1_score": 0.727,
+        "tp": 4,
+        "fp": 1,
+        "fn": 2,
+        "details": [
+          {
+            "field": "energy_kcal",
+            "status": "TP (Correct)",
+            "gt": 453,
+            "pred": 453
+          },
+          {
+            "field": "fat_total_g",
+            "status": "TP (Correct)",
+            "gt": 18,
+            "pred": 18.0
+          },
+          {
+            "field": "carbohydrate_g",
+            "status": "TP (Correct)",
+            "gt": 67,
+            "pred": 67.0
+          },
+          {
+            "field": "sugar_g",
+            "status": "TP (Correct)",
+            "gt": 4.0,
+            "pred": 4.0
+          },
+          {
+            "field": "protein_g",
+            "status": "Mismatch",
+            "gt": 5.1,
+            "pred": 6.7
+          },
+          {
+            "field": "salt_g",
+            "status": "FN (Missed)",
+            "gt": 2.4,
+            "pred": null
+          }
+        ]
+      },
+      "overall_f1": 0.803
+    },
+    {
+      "product_id": "Product_016_DamlaMineraMangoAnanas_200ml",
+      "has_error": false,
+      "ingredients": {
+        "precision": 1.0,
+        "recall": 0.778,
+        "f1_score": 0.875,
+        "tp": 7,
+        "fp": 0,
+        "fn": 2,
+        "match_details": [
+          {
+            "pred": "doğal zencefil veya fruktoz-glikoz şurubu",
+            "match": "TP",
+            "score": 0.73
+          },
+          {
+            "pred": "asitlik düzenleyici",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "koruyucu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "tatlandırıcılar (asesülfam k",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "sukraloz)",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "karbondioksit",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "aroma vericiler",
+            "match": "TP",
+            "score": 1.0
+          }
+        ]
+      },
+      "nutrition": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "details": [
+          {
+            "field": "energy_kcal",
+            "status": "TP (Correct)",
+            "gt": 16,
+            "pred": 16
+          },
+          {
+            "field": "fat_total_g",
+            "status": "TP (Correct)",
+            "gt": 0,
+            "pred": 0
+          },
+          {
+            "field": "carbohydrate_g",
+            "status": "TP (Correct)",
+            "gt": 3.8,
+            "pred": 3.8
+          },
+          {
+            "field": "sugar_g",
+            "status": "TP (Correct)",
+            "gt": 3.8,
+            "pred": 3.8
+          },
+          {
+            "field": "protein_g",
+            "status": "TP (Correct)",
+            "gt": 0,
+            "pred": 0
+          },
+          {
+            "field": "salt_g",
+            "status": "TP (Correct)",
+            "gt": 0,
+            "pred": 0
+          }
+        ]
+      },
+      "overall_f1": 0.938
+    },
+    {
+      "product_id": "Product_017_ÜlkerÇikolata_60g",
+      "has_error": false,
+      "ingredients": {
+        "precision": 1.0,
+        "recall": 0.778,
+        "f1_score": 0.875,
+        "tp": 7,
+        "fp": 0,
+        "fn": 2,
+        "match_details": [
+          {
+            "pred": "şeker",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "tam yağlı süt tozu",
+            "match": "TP",
+            "score": 0.97
+          },
+          {
+            "pred": "kakao yağı",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "kakao kitlesi",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "emülgatör",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "tuz",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "aroma verici",
+            "match": "TP",
+            "score": 0.9
+          }
+        ]
+      },
+      "nutrition": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "details": [
+          {
+            "field": "energy_kcal",
+            "status": "TP (Correct)",
+            "gt": 537,
+            "pred": 537
+          },
+          {
+            "field": "fat_total_g",
+            "status": "TP (Correct)",
+            "gt": 30,
+            "pred": 30.0
+          },
+          {
+            "field": "carbohydrate_g",
+            "status": "TP (Correct)",
+            "gt": 57,
+            "pred": 57.0
+          },
+          {
+            "field": "sugar_g",
+            "status": "TP (Correct)",
+            "gt": 55,
+            "pred": 56.0
+          },
+          {
+            "field": "protein_g",
+            "status": "TP (Correct)",
+            "gt": 7.9,
+            "pred": 7.9
+          },
+          {
+            "field": "salt_g",
+            "status": "TP (Correct)",
+            "gt": 0.26,
+            "pred": 0.26
+          }
+        ]
+      },
+      "overall_f1": 0.938
+    },
+    {
+      "product_id": "Product_018_ÜlkerSaklıköyTamBuğday_95g",
+      "has_error": false,
+      "ingredients": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "tp": 21,
+        "fp": 0,
+        "fn": 0,
+        "match_details": [
+          {
+            "pred": "buğday unu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "şeker",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "bitkisel yağlar",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "tam buğday unu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "nişasta",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "tam yağlı süt tozu",
+            "match": "TP",
+            "score": 0.97
+          },
+          {
+            "pred": "fındık püresi",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "peyniraltı suyu tozu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "kabartıcılar (amonyum hidrojen karbonat",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "sodyum hidrojen karbonat",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "disodyum difosfat)",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "malt ekstraktı",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "yağsız süt tozu",
+            "match": "TP",
+            "score": 0.97
+          },
+          {
+            "pred": "invert şeker şurubu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "tuz",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "aroma vericiler",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "emülgatörler (soya lesitini",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "sodyum stearoil-2-laktilat)",
+            "match": "TP",
+            "score": 0.98
+          },
+          {
+            "pred": "yumurta",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "yağı azaltılmış kakao tozu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "asitlik düzenleyici",
+            "match": "TP",
+            "score": 1.0
+          }
+        ]
+      },
+      "nutrition": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 6,
+        "details": [
+          {
+            "field": "energy_kcal",
+            "status": "FN (Missed)",
+            "gt": 488,
+            "pred": null
+          },
+          {
+            "field": "fat_total_g",
+            "status": "FN (Missed)",
+            "gt": 23,
+            "pred": null
+          },
+          {
+            "field": "carbohydrate_g",
+            "status": "FN (Missed)",
+            "gt": 62,
+            "pred": null
+          },
+          {
+            "field": "sugar_g",
+            "status": "FN (Missed)",
+            "gt": 25,
+            "pred": null
+          },
+          {
+            "field": "protein_g",
+            "status": "FN (Missed)",
+            "gt": 6.2,
+            "pred": null
+          },
+          {
+            "field": "salt_g",
+            "status": "FN (Missed)",
+            "gt": 0.99,
+            "pred": null
+          }
+        ]
+      },
+      "overall_f1": 0.5
+    },
+    {
+      "product_id": "Product_019_EtiLifalifAyÇekirdekliDomatesliTuzluYulafBar_30g",
+      "has_error": false,
+      "ingredients": {
+        "precision": 0.875,
+        "recall": 0.778,
+        "f1_score": 0.824,
+        "tp": 14,
+        "fp": 2,
+        "fn": 4,
+        "match_details": [
+          {
+            "pred": "yulaf ezmesi  %37",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "tam buğday gevreği",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "ayçekirdeği %12",
+            "match": "TP",
+            "score": 0.97
+          },
+          {
+            "pred": "bitkisel yağlar (ayçiçek",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "palm yağı)",
+            "match": "FP",
+            "score": 0.48
+          },
+          {
+            "pred": "domates salçası %4",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "hurma ezmesi",
+            "match": "TP",
+            "score": 0.8
+          },
+          {
+            "pred": "bal",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "tereyağı",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "yumurta akı tozu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "peynir altı suyu tozu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "tuz %14",
+            "match": "TP",
+            "score": 0.92
+          },
+          {
+            "pred": "buğday gluteni",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "sarımsak tozu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "maydanoz",
+            "match": "FP",
+            "score": 0.38
+          },
+          {
+            "pred": "kekik",
+            "match": "TP",
+            "score": 0.9
+          }
+        ]
+      },
+      "nutrition": {
+        "precision": 0.333,
+        "recall": 0.333,
+        "f1_score": 0.333,
+        "tp": 2,
+        "fp": 4,
+        "fn": 4,
+        "details": [
+          {
+            "field": "energy_kcal",
+            "status": "Mismatch",
+            "gt": 476,
+            "pred": 491
+          },
+          {
+            "field": "fat_total_g",
+            "status": "TP (Correct)",
+            "gt": 25,
+            "pred": 25
+          },
+          {
+            "field": "carbohydrate_g",
+            "status": "Mismatch",
+            "gt": 44,
+            "pred": 79
+          },
+          {
+            "field": "sugar_g",
+            "status": "Mismatch",
+            "gt": 7.9,
+            "pred": 44
+          },
+          {
+            "field": "protein_g",
+            "status": "TP (Correct)",
+            "gt": 17,
+            "pred": 16
+          },
+          {
+            "field": "salt_g",
+            "status": "Mismatch",
+            "gt": 1.6,
+            "pred": 1.4
+          }
+        ]
+      },
+      "overall_f1": 0.579
+    },
+    {
+      "product_id": "Product_020_SekÇikolatalıSüt_200ml",
+      "has_error": false,
+      "ingredients": {
+        "precision": 1.0,
+        "recall": 0.778,
+        "f1_score": 0.875,
+        "tp": 7,
+        "fp": 0,
+        "fn": 2,
+        "match_details": [
+          {
+            "pred": "pastörize süt",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "şeker",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "kakao",
+            "match": "TP",
+            "score": 0.9
+          },
+          {
+            "pred": "%02 çikolata tozu",
+            "match": "TP",
+            "score": 0.94
+          },
+          {
+            "pred": "çikolata aroma vericisi",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "vanilya aroma vericisi",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "kıvam artırıcı",
+            "match": "TP",
+            "score": 0.97
+          }
+        ]
+      },
+      "nutrition": {
+        "precision": 0.833,
+        "recall": 0.833,
+        "f1_score": 0.833,
+        "tp": 5,
+        "fp": 1,
+        "fn": 1,
+        "details": [
+          {
+            "field": "energy_kcal",
+            "status": "TP (Correct)",
+            "gt": 62,
+            "pred": 62
+          },
+          {
+            "field": "fat_total_g",
+            "status": "TP (Correct)",
+            "gt": 1.5,
+            "pred": 1.5
+          },
+          {
+            "field": "carbohydrate_g",
+            "status": "Mismatch",
+            "gt": 9.2,
+            "pred": 11.0
+          },
+          {
+            "field": "sugar_g",
+            "status": "TP (Correct)",
+            "gt": 9,
+            "pred": 9.2
+          },
+          {
+            "field": "protein_g",
+            "status": "TP (Correct)",
+            "gt": 2.8,
+            "pred": 2.8
+          },
+          {
+            "field": "salt_g",
+            "status": "TP (Correct)",
+            "gt": 0.1,
+            "pred": 0.1
+          }
+        ]
+      },
+      "overall_f1": 0.854
+    },
+    {
+      "product_id": "Product_021_CappyKarışıkMeyveNektarı_330ml",
+      "has_error": false,
+      "ingredients": {
+        "precision": 1.0,
+        "recall": 0.9,
+        "f1_score": 0.947,
+        "tp": 9,
+        "fp": 0,
+        "fn": 1,
+        "match_details": [
+          {
+            "pred": "konsantrelerden üretilmiş karışık meyve suyu (elma",
+            "match": "TP",
+            "score": 0.91
+          },
+          {
+            "pred": "portakal",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "limon",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "üzüm",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "şeftali)",
+            "match": "TP",
+            "score": 0.94
+          },
+          {
+            "pred": "su",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "şeker",
+            "match": "TP",
+            "score": 0.9
+          },
+          {
+            "pred": "aroma vericiler",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "asitlik düzenleyici",
+            "match": "TP",
+            "score": 1.0
+          }
+        ]
+      },
+      "nutrition": {
+        "precision": 0.833,
+        "recall": 0.833,
+        "f1_score": 0.833,
+        "tp": 5,
+        "fp": 1,
+        "fn": 1,
+        "details": [
+          {
+            "field": "energy_kcal",
+            "status": "Mismatch",
+            "gt": 43,
+            "pred": 140
+          },
+          {
+            "field": "fat_total_g",
+            "status": "TP (Correct)",
+            "gt": 0,
+            "pred": 0
+          },
+          {
+            "field": "carbohydrate_g",
+            "status": "TP (Correct)",
+            "gt": 10,
+            "pred": 10
+          },
+          {
+            "field": "sugar_g",
+            "status": "TP (Correct)",
+            "gt": 10,
+            "pred": 10
+          },
+          {
+            "field": "protein_g",
+            "status": "TP (Correct)",
+            "gt": 0,
+            "pred": 0
+          },
+          {
+            "field": "salt_g",
+            "status": "TP (Correct)",
+            "gt": 0,
+            "pred": 0
+          }
+        ]
+      },
+      "overall_f1": 0.89
+    },
+    {
+      "product_id": "Product_022_ÜlkerÇikolatalıGofret_36g",
+      "has_error": false,
+      "ingredients": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "tp": 21,
+        "fp": 0,
+        "fn": 0,
+        "match_details": [
+          {
+            "pred": "şeker",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "buğday unu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "bitkisel yağlar (palm",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "tam hidrojenize palm",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "palm çekirdeği)",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "fındık püresi",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "tam yağlı süt tozu",
+            "match": "TP",
+            "score": 0.97
+          },
+          {
+            "pred": "kakao yağı",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "kakao kitlesi",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "nişasta",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "peyniraltı suyu tozu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "emülgatörler (amonyum fosfatitler",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "soya lesitini",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "poligliserol polirisinoleat)",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "tuz",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "yağı azaltılmış kakao tozu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "yağsız süt tozu",
+            "match": "TP",
+            "score": 0.97
+          },
+          {
+            "pred": "yumurta akı tozu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "aroma vericiler",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "kabartıcılar (amonyum hidrojen karbonat",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "sodyum hidrojen karbonat)",
+            "match": "TP",
+            "score": 0.9
+          }
+        ]
+      },
+      "nutrition": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "details": [
+          {
+            "field": "energy_kcal",
+            "status": "TP (Correct)",
+            "gt": 543,
+            "pred": 543
+          },
+          {
+            "field": "fat_total_g",
+            "status": "TP (Correct)",
+            "gt": 31,
+            "pred": 31
+          },
+          {
+            "field": "carbohydrate_g",
+            "status": "TP (Correct)",
+            "gt": 58,
+            "pred": 58.3
+          },
+          {
+            "field": "sugar_g",
+            "status": "TP (Correct)",
+            "gt": 38,
+            "pred": 38
+          },
+          {
+            "field": "protein_g",
+            "status": "TP (Correct)",
+            "gt": 6.5,
+            "pred": 6.5
+          },
+          {
+            "field": "salt_g",
+            "status": "TP (Correct)",
+            "gt": 0.26,
+            "pred": 0.26
+          }
+        ]
+      },
+      "overall_f1": 1.0
+    },
+    {
+      "product_id": "Product_023_ÜlkerFındıkKremalıGofret_220gr",
+      "has_error": false,
+      "ingredients": {
+        "precision": 1.0,
+        "recall": 0.85,
+        "f1_score": 0.919,
+        "tp": 17,
+        "fp": 0,
+        "fn": 3,
+        "match_details": [
+          {
+            "pred": "şeker",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "buğday unu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "bitkisel yağlar (palm",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "tam hidrojenize palm",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "ayçiçek",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "kanola)",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "fındık püresi",
+            "match": "TP",
+            "score": 0.9
+          },
+          {
+            "pred": "nişasta",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "yağı azaltılmış kakao tozu",
+            "match": "TP",
+            "score": 0.93
+          },
+          {
+            "pred": "peyniraltı suyu tozu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "yağsız süt tozu",
+            "match": "TP",
+            "score": 0.97
+          },
+          {
+            "pred": "yumurta",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "emülgatör",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "tuz",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "doğal aroma verici",
+            "match": "TP",
+            "score": 0.9
+          },
+          {
+            "pred": "asitlik düzenleyici",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "kabartıcı",
+            "match": "TP",
+            "score": 0.9
+          }
+        ]
+      },
+      "nutrition": {
+        "precision": 0.333,
+        "recall": 0.333,
+        "f1_score": 0.333,
+        "tp": 2,
+        "fp": 4,
+        "fn": 4,
+        "details": [
+          {
+            "field": "energy_kcal",
+            "status": "TP (Correct)",
+            "gt": 513,
+            "pred": 513
+          },
+          {
+            "field": "fat_total_g",
+            "status": "Mismatch",
+            "gt": 25,
+            "pred": 29
+          },
+          {
+            "field": "carbohydrate_g",
+            "status": "Mismatch",
+            "gt": 65,
+            "pred": 58
+          },
+          {
+            "field": "sugar_g",
+            "status": "Mismatch",
+            "gt": 37,
+            "pred": 28
+          },
+          {
+            "field": "protein_g",
+            "status": "Mismatch",
+            "gt": 5.8,
+            "pred": 6.9
+          },
+          {
+            "field": "salt_g",
+            "status": "TP (Correct)",
+            "gt": 0.3,
+            "pred": 0.3
+          }
+        ]
+      },
+      "overall_f1": 0.626
+    },
+    {
+      "product_id": "Product_024_Ülkerİkram_84g",
+      "has_error": false,
+      "ingredients": {
+        "precision": 0,
+        "recall": 0,
+        "f1_score": 0,
+        "details": []
+      },
+      "nutrition": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 6,
+        "details": [
+          {
+            "field": "energy_kcal",
+            "status": "FN (Missed)",
+            "gt": 143,
+            "pred": null
+          },
+          {
+            "field": "fat_total_g",
+            "status": "FN (Missed)",
+            "gt": 6.2,
+            "pred": null
+          },
+          {
+            "field": "carbohydrate_g",
+            "status": "FN (Missed)",
+            "gt": 19,
+            "pred": null
+          },
+          {
+            "field": "sugar_g",
+            "status": "FN (Missed)",
+            "gt": 7.5,
+            "pred": null
+          },
+          {
+            "field": "protein_g",
+            "status": "FN (Missed)",
+            "gt": 2.1,
+            "pred": null
+          },
+          {
+            "field": "salt_g",
+            "status": "FN (Missed)",
+            "gt": 0.19,
+            "pred": null
+          }
+        ]
+      },
+      "overall_f1": 0.0
+    },
+    {
+      "product_id": "Product_025_EtiBurçakKurabi_50g",
+      "has_error": false,
+      "ingredients": {
+        "precision": 0.95,
+        "recall": 0.864,
+        "f1_score": 0.905,
+        "tp": 19,
+        "fp": 1,
+        "fn": 3,
+        "match_details": [
+          {
+            "pred": "tam buğday unu",
+            "match": "TP",
+            "score": 0.9
+          },
+          {
+            "pred": "buğday unu",
+            "match": "TP",
+            "score": 0.9
+          },
+          {
+            "pred": "elma suyu konsantresi",
+            "match": "TP",
+            "score": 0.91
+          },
+          {
+            "pred": "bitkisel yağ",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "şeker",
+            "match": "FP",
+            "score": 0.32
+          },
+          {
+            "pred": "yulaf ezmesi",
+            "match": "TP",
+            "score": 0.9
+          },
+          {
+            "pred": "hindistan cevizi",
+            "match": "TP",
+            "score": 0.91
+          },
+          {
+            "pred": "kabartıcılar (amonyum hidrojen karbonat",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "sodyum hidrojen karbonat",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "sodyum asit pirofosfat)",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "çavdar unu",
+            "match": "TP",
+            "score": 0.9
+          },
+          {
+            "pred": "mısır unu",
+            "match": "TP",
+            "score": 0.9
+          },
+          {
+            "pred": "hindiba kökü lifi",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "portakal püresi",
+            "match": "TP",
+            "score": 0.91
+          },
+          {
+            "pred": "kalsiyum minerali",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "tuz",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "vitamin d",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "vitamin b12",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "doğal aroma verici",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "demir minerali",
+            "match": "TP",
+            "score": 1.0
+          }
+        ]
+      },
+      "nutrition": {
+        "precision": 0.833,
+        "recall": 0.833,
+        "f1_score": 0.833,
+        "tp": 5,
+        "fp": 1,
+        "fn": 1,
+        "details": [
+          {
+            "field": "energy_kcal",
+            "status": "TP (Correct)",
+            "gt": 448,
+            "pred": 448
+          },
+          {
+            "field": "fat_total_g",
+            "status": "Mismatch",
+            "gt": 117,
+            "pred": 17
+          },
+          {
+            "field": "carbohydrate_g",
+            "status": "TP (Correct)",
+            "gt": 60,
+            "pred": 60
+          },
+          {
+            "field": "sugar_g",
+            "status": "TP (Correct)",
+            "gt": 13,
+            "pred": 13
+          },
+          {
+            "field": "protein_g",
+            "status": "TP (Correct)",
+            "gt": 10,
+            "pred": 10
+          },
+          {
+            "field": "salt_g",
+            "status": "TP (Correct)",
+            "gt": 0.98,
+            "pred": 0.98
+          }
+        ]
+      },
+      "overall_f1": 0.869
+    },
+    {
+      "product_id": "Product_026_EtiBurçakTamBuğdayUnluBisküvi_131g",
+      "has_error": false,
+      "ingredients": {
+        "precision": 0.95,
+        "recall": 0.905,
+        "f1_score": 0.927,
+        "tp": 19,
+        "fp": 1,
+        "fn": 2,
+        "match_details": [
+          {
+            "pred": "buğday unu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "tam buğday unu",
+            "match": "TP",
+            "score": 0.9
+          },
+          {
+            "pred": "bitkisel yağ (palm",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "ayçiçek",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "pamuk",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "kanola)",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "şeker",
+            "match": "TP",
+            "score": 0.9
+          },
+          {
+            "pred": "glikoz şurubu",
+            "match": "FP",
+            "score": 0.56
+          },
+          {
+            "pred": "arpa maltı ekstraktı",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "kabartıcılar (amonyum hidrojen karbonat",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "sodyum hidrojen karbonat",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "sodyum asit pirofosfat)",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "invert şeker şurubu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "peynir altı suyu tozu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "yağsız süt tozu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "buğday kepeği",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "tuz",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "aroma vericiler",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "emülgatör",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "renklendirici  eser miktarda susam içerebilir",
+            "match": "TP",
+            "score": 0.9
+          }
+        ]
+      },
+      "nutrition": {
+        "precision": 0.5,
+        "recall": 0.5,
+        "f1_score": 0.5,
+        "tp": 3,
+        "fp": 3,
+        "fn": 3,
+        "details": [
+          {
+            "field": "energy_kcal",
+            "status": "TP (Correct)",
+            "gt": 455,
+            "pred": 455
+          },
+          {
+            "field": "fat_total_g",
+            "status": "Mismatch",
+            "gt": 18,
+            "pred": 14.8
+          },
+          {
+            "field": "carbohydrate_g",
+            "status": "TP (Correct)",
+            "gt": 62,
+            "pred": 67.4
+          },
+          {
+            "field": "sugar_g",
+            "status": "TP (Correct)",
+            "gt": 20,
+            "pred": 19.6
+          },
+          {
+            "field": "protein_g",
+            "status": "Mismatch",
+            "gt": 8.0,
+            "pred": 9.3
+          },
+          {
+            "field": "salt_g",
+            "status": "Mismatch",
+            "gt": 1.1,
+            "pred": 1.3
+          }
+        ]
+      },
+      "overall_f1": 0.714
+    },
+    {
+      "product_id": "Product_027_DrOetkerÇikolataSosu_123g",
+      "has_error": false,
+      "ingredients": {
+        "precision": 0.875,
+        "recall": 1.0,
+        "f1_score": 0.933,
+        "tp": 7,
+        "fp": 1,
+        "fn": 0,
+        "match_details": [
+          {
+            "pred": "şeker",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "yağı azaltılmış kakao",
+            "match": "TP",
+            "score": 0.9
+          },
+          {
+            "pred": "modifiye mısır nişastası",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "nişasta",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "çikolata (%1",
+            "match": "TP",
+            "score": 0.83
+          },
+          {
+            "pred": "9)",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "kıvam arttırıcı",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "tuz",
+            "match": "FP",
+            "score": 0.2
+          }
+        ]
+      },
+      "nutrition": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "details": [
+          {
+            "field": "energy_kcal",
+            "status": "TP (Correct)",
+            "gt": 125,
+            "pred": 125
+          },
+          {
+            "field": "fat_total_g",
+            "status": "TP (Correct)",
+            "gt": 2.0,
+            "pred": 2.0
+          },
+          {
+            "field": "carbohydrate_g",
+            "status": "TP (Correct)",
+            "gt": 22,
+            "pred": 22.0
+          },
+          {
+            "field": "sugar_g",
+            "status": "TP (Correct)",
+            "gt": 19,
+            "pred": 19.0
+          },
+          {
+            "field": "protein_g",
+            "status": "TP (Correct)",
+            "gt": 4.2,
+            "pred": 4.2
+          },
+          {
+            "field": "salt_g",
+            "status": "TP (Correct)",
+            "gt": 0.13,
+            "pred": 0.139
+          }
+        ]
+      },
+      "overall_f1": 0.967
+    },
+    {
+      "product_id": "Product_028_CocaCola_300ml",
+      "has_error": false,
+      "ingredients": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "tp": 7,
+        "fp": 0,
+        "fn": 0,
+        "match_details": [
+          {
+            "pred": "su",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "şeker",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "karbondioksit",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "renklendirici",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "asitlik düzenleyici",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "doğal aroma verici",
+            "match": "TP",
+            "score": 0.92
+          },
+          {
+            "pred": "kafein",
+            "match": "TP",
+            "score": 1.0
+          }
+        ]
+      },
+      "nutrition": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "details": [
+          {
+            "field": "energy_kcal",
+            "status": "TP (Correct)",
+            "gt": 42,
+            "pred": 42
+          },
+          {
+            "field": "fat_total_g",
+            "status": "TP (Correct)",
+            "gt": 0,
+            "pred": 0
+          },
+          {
+            "field": "carbohydrate_g",
+            "status": "TP (Correct)",
+            "gt": 10.6,
+            "pred": 10.6
+          },
+          {
+            "field": "sugar_g",
+            "status": "TP (Correct)",
+            "gt": 10.6,
+            "pred": 10.6
+          },
+          {
+            "field": "protein_g",
+            "status": "TP (Correct)",
+            "gt": 0,
+            "pred": 0
+          },
+          {
+            "field": "salt_g",
+            "status": "TP (Correct)",
+            "gt": 0,
+            "pred": 0
+          }
+        ]
+      },
+      "overall_f1": 1.0
+    },
+    {
+      "product_id": "Product_029_Fanta_330ml",
+      "has_error": false,
+      "ingredients": {
+        "precision": 0.833,
+        "recall": 0.714,
+        "f1_score": 0.769,
+        "tp": 10,
+        "fp": 2,
+        "fn": 4,
+        "match_details": [
+          {
+            "pred": "su",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "şeker veya fruktoz-glukoz şurubu",
+            "match": "TP",
+            "score": 0.94
+          },
+          {
+            "pred": "portakal suyu konsantresi",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "asit (sitrik asit",
+            "match": "FP",
+            "score": 0.65
+          },
+          {
+            "pred": "malik asit",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "sodyum sitrat)",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "c vitamini",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "koruyucu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "aroma vericiler",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "tatlandırıcılar (asesülfam k",
+            "match": "TP",
+            "score": 0.7
+          },
+          {
+            "pred": "sukraloz)",
+            "match": "FP",
+            "score": 0.43
+          },
+          {
+            "pred": "renklendirici",
+            "match": "TP",
+            "score": 1.0
+          }
+        ]
+      },
+      "nutrition": {
+        "precision": 0.5,
+        "recall": 0.5,
+        "f1_score": 0.5,
+        "tp": 3,
+        "fp": 3,
+        "fn": 3,
+        "details": [
+          {
+            "field": "energy_kcal",
+            "status": "Mismatch",
+            "gt": 30,
+            "pred": 99
+          },
+          {
+            "field": "fat_total_g",
+            "status": "TP (Correct)",
+            "gt": 0,
+            "pred": 0
+          },
+          {
+            "field": "carbohydrate_g",
+            "status": "Mismatch",
+            "gt": 7.3,
+            "pred": 24.1
+          },
+          {
+            "field": "sugar_g",
+            "status": "Mismatch",
+            "gt": 7.3,
+            "pred": 24.1
+          },
+          {
+            "field": "protein_g",
+            "status": "TP (Correct)",
+            "gt": 0,
+            "pred": 0
+          },
+          {
+            "field": "salt_g",
+            "status": "TP (Correct)",
+            "gt": 0.02,
+            "pred": 0.07
+          }
+        ]
+      },
+      "overall_f1": 0.635
+    },
+    {
+      "product_id": "Product_030_DrOetkerPuding_111g",
+      "has_error": false,
+      "ingredients": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "tp": 5,
+        "fp": 0,
+        "fn": 0,
+        "match_details": [
+          {
+            "pred": "şeker",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "yağı azaltılmış kakao tozu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "nişasta",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "bitter çikolata parçaları (%1",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "0)",
+            "match": "TP",
+            "score": 0.9
+          }
+        ]
+      },
+      "nutrition": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "details": [
+          {
+            "field": "energy_kcal",
+            "status": "TP (Correct)",
+            "gt": 131,
+            "pred": 131
+          },
+          {
+            "field": "fat_total_g",
+            "status": "TP (Correct)",
+            "gt": 3.7,
+            "pred": 3.7
+          },
+          {
+            "field": "carbohydrate_g",
+            "status": "TP (Correct)",
+            "gt": 19,
+            "pred": 19.0
+          },
+          {
+            "field": "sugar_g",
+            "status": "TP (Correct)",
+            "gt": 16,
+            "pred": 16.0
+          },
+          {
+            "field": "protein_g",
+            "status": "TP (Correct)",
+            "gt": 4.0,
+            "pred": 4.0
+          },
+          {
+            "field": "salt_g",
+            "status": "TP (Correct)",
+            "gt": 0.11,
+            "pred": 0.11
+          }
+        ]
+      },
+      "overall_f1": 1.0
+    },
+    {
+      "product_id": "Product_031_NestleÇikolataClassicBitter_60g",
+      "has_error": false,
+      "ingredients": {
+        "precision": 1.0,
+        "recall": 0.889,
+        "f1_score": 0.941,
+        "tp": 8,
+        "fp": 0,
+        "fn": 1,
+        "match_details": [
+          {
+            "pred": "kakao kitlesi",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "şeker",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "peyniraltı suyu tozu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "yağı azaltılmış kakao tozu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "süt yağı",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "kakao yağı",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "emülgatör",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "doğal aroma verici",
+            "match": "TP",
+            "score": 0.9
+          }
+        ]
+      },
+      "nutrition": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "details": [
+          {
+            "field": "energy_kcal",
+            "status": "TP (Correct)",
+            "gt": 521,
+            "pred": 521
+          },
+          {
+            "field": "fat_total_g",
+            "status": "TP (Correct)",
+            "gt": 31,
+            "pred": 31
+          },
+          {
+            "field": "carbohydrate_g",
+            "status": "TP (Correct)",
+            "gt": 49,
+            "pred": 49
+          },
+          {
+            "field": "sugar_g",
+            "status": "TP (Correct)",
+            "gt": 45,
+            "pred": 45
+          },
+          {
+            "field": "protein_g",
+            "status": "TP (Correct)",
+            "gt": 6.8,
+            "pred": 6.8
+          },
+          {
+            "field": "salt_g",
+            "status": "TP (Correct)",
+            "gt": 0.02,
+            "pred": 0.02
+          }
+        ]
+      },
+      "overall_f1": 0.97
+    },
+    {
+      "product_id": "Product_032_SütaşLabne_200g",
+      "has_error": false,
+      "ingredients": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "tp": 3,
+        "fp": 0,
+        "fn": 0,
+        "match_details": [
+          {
+            "pred": "pastörize inek sütü",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "peynir kültürü",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "sofra tuzu",
+            "match": "TP",
+            "score": 1.0
+          }
+        ]
+      },
+      "nutrition": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "details": [
+          {
+            "field": "energy_kcal",
+            "status": "TP (Correct)",
+            "gt": 198,
+            "pred": 198
+          },
+          {
+            "field": "fat_total_g",
+            "status": "TP (Correct)",
+            "gt": 18,
+            "pred": 18.0
+          },
+          {
+            "field": "carbohydrate_g",
+            "status": "TP (Correct)",
+            "gt": 4.5,
+            "pred": 4.5
+          },
+          {
+            "field": "sugar_g",
+            "status": "TP (Correct)",
+            "gt": 4.5,
+            "pred": 4.5
+          },
+          {
+            "field": "protein_g",
+            "status": "TP (Correct)",
+            "gt": 4.5,
+            "pred": 4.5
+          },
+          {
+            "field": "salt_g",
+            "status": "TP (Correct)",
+            "gt": 0.7,
+            "pred": 0.7
+          }
+        ]
+      },
+      "overall_f1": 1.0
+    },
+    {
+      "product_id": "Product_033_HeinzDomatesKetçap_375g",
+      "has_error": false,
+      "ingredients": {
+        "precision": 0.857,
+        "recall": 1.0,
+        "f1_score": 0.923,
+        "tp": 6,
+        "fp": 1,
+        "fn": 0,
+        "match_details": [
+          {
+            "pred": "domates püresi",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "sirke",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "şeker",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "tuz",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "baharat ve bitki özütleri",
+            "match": "TP",
+            "score": 0.96
+          },
+          {
+            "pred": "baharat az miktarda hardal",
+            "match": "TP",
+            "score": 0.9
+          },
+          {
+            "pred": "yumurta ve süt ürünü içerebilir",
+            "match": "FP",
+            "score": 0.36
+          }
+        ]
+      },
+      "nutrition": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "details": [
+          {
+            "field": "energy_kcal",
+            "status": "TP (Correct)",
+            "gt": 102,
+            "pred": 102
+          },
+          {
+            "field": "fat_total_g",
+            "status": "TP (Correct)",
+            "gt": 0.1,
+            "pred": 0.19
+          },
+          {
+            "field": "carbohydrate_g",
+            "status": "TP (Correct)",
+            "gt": 23.2,
+            "pred": 23.29
+          },
+          {
+            "field": "sugar_g",
+            "status": "TP (Correct)",
+            "gt": 22.8,
+            "pred": 22.89
+          },
+          {
+            "field": "protein_g",
+            "status": "TP (Correct)",
+            "gt": 1.2,
+            "pred": 1.29
+          },
+          {
+            "field": "salt_g",
+            "status": "TP (Correct)",
+            "gt": 1.8,
+            "pred": 1.89
+          }
+        ]
+      },
+      "overall_f1": 0.962
+    },
+    {
+      "product_id": "Product_034_HeinzMayonez_330g",
+      "has_error": false,
+      "ingredients": {
+        "precision": 0.9,
+        "recall": 0.947,
+        "f1_score": 0.923,
+        "tp": 18,
+        "fp": 2,
+        "fn": 1,
+        "match_details": [
+          {
+            "pred": "su",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "bitkisel yağ",
+            "match": "FP",
+            "score": 0.5
+          },
+          {
+            "pred": "modifiye nişastalar",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "sirke",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "şeker",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "pastörize yumurta sarısı",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "tuz",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "hardal tozu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "kıvam arttırıcılar (arap sakızı",
+            "match": "TP",
+            "score": 0.9
+          },
+          {
+            "pred": "ksantan gam)",
+            "match": "FP",
+            "score": 0.42
+          },
+          {
+            "pred": "koruyucu (sodyum benzoat",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "potasyum sorbat)",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "aroma vericiler",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "asitlik düzenleyici (sitrik asit",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "laktik asit)",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "baharat karışımı",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "antioksidan (enginar ekstraktı",
+            "match": "TP",
+            "score": 0.77
+          },
+          {
+            "pred": "kalsiyum disodyum edta)",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "renklendirici (beta karoten",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "paprika ekstraktı)",
+            "match": "TP",
+            "score": 1.0
+          }
+        ]
+      },
+      "nutrition": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "details": [
+          {
+            "field": "energy_kcal",
+            "status": "TP (Correct)",
+            "gt": 385,
+            "pred": 385
+          },
+          {
+            "field": "fat_total_g",
+            "status": "TP (Correct)",
+            "gt": 39,
+            "pred": 41.0
+          },
+          {
+            "field": "carbohydrate_g",
+            "status": "TP (Correct)",
+            "gt": 6.2,
+            "pred": 6.0
+          },
+          {
+            "field": "sugar_g",
+            "status": "TP (Correct)",
+            "gt": 2,
+            "pred": 2.0
+          },
+          {
+            "field": "protein_g",
+            "status": "TP (Correct)",
+            "gt": 0.5,
+            "pred": 1.5
+          },
+          {
+            "field": "salt_g",
+            "status": "TP (Correct)",
+            "gt": 1.5,
+            "pred": 1.5
+          }
+        ]
+      },
+      "overall_f1": 0.962
+    },
+    {
+      "product_id": "Product_035_EtiNero_330g",
+      "has_error": false,
+      "ingredients": {
+        "precision": 1.0,
+        "recall": 0.704,
+        "f1_score": 0.826,
+        "tp": 19,
+        "fp": 0,
+        "fn": 8,
+        "match_details": [
+          {
+            "pred": "buğday unu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "bitkisel yağı",
+            "match": "TP",
+            "score": 0.71
+          },
+          {
+            "pred": "şeker şurubu",
+            "match": "TP",
+            "score": 0.9
+          },
+          {
+            "pred": "yağı azaltılmış kakao tozu",
+            "match": "TP",
+            "score": 0.95
+          },
+          {
+            "pred": "tam yağlı süt tozu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "kabartıcılar (amonyum hidrojen karbonat",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "sodyum karbonat)",
+            "match": "TP",
+            "score": 0.78
+          },
+          {
+            "pred": "tuz",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "aroma verici",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "krema  [şeker",
+            "match": "TP",
+            "score": 0.9
+          },
+          {
+            "pred": "bitkisel yağlar (palm",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "ayçiçek",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "pamuk",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "kanola)",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "nişasta",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "yağsız peynir altı suyu tozu",
+            "match": "TP",
+            "score": 0.9
+          },
+          {
+            "pred": "emülgatör",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "aroma verici] eser miktarda fındık",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "soya ve susam içerebilir",
+            "match": "TP",
+            "score": 0.86
+          }
+        ]
+      },
+      "nutrition": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 6,
+        "details": [
+          {
+            "field": "energy_kcal",
+            "status": "FN (Missed)",
+            "gt": 487,
+            "pred": null
+          },
+          {
+            "field": "fat_total_g",
+            "status": "FN (Missed)",
+            "gt": 23,
+            "pred": null
+          },
+          {
+            "field": "carbohydrate_g",
+            "status": "FN (Missed)",
+            "gt": 59,
+            "pred": null
+          },
+          {
+            "field": "sugar_g",
+            "status": "FN (Missed)",
+            "gt": 34,
+            "pred": null
+          },
+          {
+            "field": "protein_g",
+            "status": "FN (Missed)",
+            "gt": 8.2,
+            "pred": null
+          },
+          {
+            "field": "salt_g",
+            "status": "FN (Missed)",
+            "gt": 0.57,
+            "pred": null
+          }
+        ]
+      },
+      "overall_f1": 0.413
+    },
+    {
+      "product_id": "Product_036_EtiBurçak_393g",
+      "has_error": false,
+      "ingredients": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "tp": 22,
+        "fp": 0,
+        "fn": 0,
+        "match_details": [
+          {
+            "pred": "buğday unu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "tam buğday unu  %25",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "bitkisel yağlar (palm",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "ayçiçek",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "pamuk",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "kanola)",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "şeker",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "yumurta",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "arpa maltı ekstraktı",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "kabartıcılar (amonyum hidrojen karbonat",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "sodyum hidrojen karbonat",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "sodyum asit pirofosfat)",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "invert şeker şurubu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "peynir altı suyu tozu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "yağsız süt tozu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "buğday kepeği",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "tuz",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "aroma vericiler",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "emülgatör",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "renklendirici  eser miktarda fındık",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "soya ürünü",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "susam ve yer fıstığı içerebilir",
+            "match": "TP",
+            "score": 1.0
+          }
+        ]
+      },
+      "nutrition": {
+        "precision": 1.0,
+        "recall": 0.833,
+        "f1_score": 0.909,
+        "tp": 5,
+        "fp": 0,
+        "fn": 1,
+        "details": [
+          {
+            "field": "energy_kcal",
+            "status": "TP (Correct)",
+            "gt": 455,
+            "pred": 455
+          },
+          {
+            "field": "fat_total_g",
+            "status": "TP (Correct)",
+            "gt": 18,
+            "pred": 18
+          },
+          {
+            "field": "carbohydrate_g",
+            "status": "TP (Correct)",
+            "gt": 62,
+            "pred": 62
+          },
+          {
+            "field": "sugar_g",
+            "status": "TP (Correct)",
+            "gt": 20,
+            "pred": 20
+          },
+          {
+            "field": "protein_g",
+            "status": "FN (Missed)",
+            "gt": 8.0,
+            "pred": null
+          },
+          {
+            "field": "salt_g",
+            "status": "TP (Correct)",
+            "gt": 1.1,
+            "pred": 1.1
+          }
+        ]
+      },
+      "overall_f1": 0.955
+    },
+    {
+      "product_id": "Product_037_DostKefir_1L",
+      "has_error": false,
+      "ingredients": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "tp": 3,
+        "fp": 0,
+        "fn": 0,
+        "match_details": [
+          {
+            "pred": "pastörize ve homojenize inek sütü",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "kefir kültürü",
+            "match": "TP",
+            "score": 0.9
+          },
+          {
+            "pred": "probiyotik mikroorganizma",
+            "match": "TP",
+            "score": 0.9
+          }
+        ]
+      },
+      "nutrition": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "details": [
+          {
+            "field": "energy_kcal",
+            "status": "TP (Correct)",
+            "gt": 44,
+            "pred": 44
+          },
+          {
+            "field": "fat_total_g",
+            "status": "TP (Correct)",
+            "gt": 2.3,
+            "pred": 2.3
+          },
+          {
+            "field": "carbohydrate_g",
+            "status": "TP (Correct)",
+            "gt": 3.2,
+            "pred": 3.2
+          },
+          {
+            "field": "sugar_g",
+            "status": "TP (Correct)",
+            "gt": 3.2,
+            "pred": 3.2
+          },
+          {
+            "field": "protein_g",
+            "status": "TP (Correct)",
+            "gt": 2.7,
+            "pred": 2.7
+          },
+          {
+            "field": "salt_g",
+            "status": "TP (Correct)",
+            "gt": 0,
+            "pred": 0.1
+          }
+        ]
+      },
+      "overall_f1": 1.0
+    },
+    {
+      "product_id": "Product_038_ÜlkerHanımellerÇokodamla_82g",
+      "has_error": false,
+      "ingredients": {
+        "precision": 0.947,
+        "recall": 0.947,
+        "f1_score": 0.947,
+        "tp": 18,
+        "fp": 1,
+        "fn": 1,
+        "match_details": [
+          {
+            "pred": "buğday unu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "şeker",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "bitkisel yağlar (palm",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "tam hidrojene palm çekirdeği)",
+            "match": "TP",
+            "score": 0.97
+          },
+          {
+            "pred": "invert şeker şurubu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "yağı azaltılmış kakao tozu",
+            "match": "TP",
+            "score": 0.93
+          },
+          {
+            "pred": "peyniraltı suyu tozu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "kabartıcılar (amonyum hidrojen karbonat",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "sodyum hidrojen karbonat",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "disodyum difosfat)",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "tuz",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "yağsız sütozu",
+            "match": "TP",
+            "score": 0.96
+          },
+          {
+            "pred": "tam yağlı sütozu",
+            "match": "TP",
+            "score": 0.97
+          },
+          {
+            "pred": "emülgatörler (soya lesitini",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "poligliserol polirisinoleat)",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "aroma vericiler",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "yumurta",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "fındık eser miktarda yer fıstığı",
+            "match": "TP",
+            "score": 0.9
+          },
+          {
+            "pred": "sert kabuklu meyveler ve susam içerebilir",
+            "match": "FP",
+            "score": 0.37
+          }
+        ]
+      },
+      "nutrition": {
+        "precision": 0.667,
+        "recall": 0.667,
+        "f1_score": 0.667,
+        "tp": 4,
+        "fp": 2,
+        "fn": 2,
+        "details": [
+          {
+            "field": "energy_kcal",
+            "status": "TP (Correct)",
+            "gt": 488,
+            "pred": 488
+          },
+          {
+            "field": "fat_total_g",
+            "status": "TP (Correct)",
+            "gt": 23,
+            "pred": 23.0
+          },
+          {
+            "field": "carbohydrate_g",
+            "status": "TP (Correct)",
+            "gt": 65,
+            "pred": 65.0
+          },
+          {
+            "field": "sugar_g",
+            "status": "TP (Correct)",
+            "gt": 28,
+            "pred": 26.0
+          },
+          {
+            "field": "protein_g",
+            "status": "Mismatch",
+            "gt": 5.9,
+            "pred": 1.8
+          },
+          {
+            "field": "salt_g",
+            "status": "Mismatch",
+            "gt": 0.86,
+            "pred": 0.26
+          }
+        ]
+      },
+      "overall_f1": 0.807
+    },
+    {
+      "product_id": "Product_039_KühneElmaSirkesi_500ml",
+      "has_error": false,
+      "ingredients": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "match_details": [
+          {
+            "pred": "elma sirkesi",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "antioksidan sodyum metabisülfit",
+            "match": "TP",
+            "score": 1.0
+          }
+        ]
+      },
+      "nutrition": {
+        "precision": 0.833,
+        "recall": 0.833,
+        "f1_score": 0.833,
+        "tp": 5,
+        "fp": 1,
+        "fn": 1,
+        "details": [
+          {
+            "field": "energy_kcal",
+            "status": "Mismatch",
+            "gt": 6,
+            "pred": 61
+          },
+          {
+            "field": "fat_total_g",
+            "status": "TP (Correct)",
+            "gt": 0,
+            "pred": 0
+          },
+          {
+            "field": "carbohydrate_g",
+            "status": "TP (Correct)",
+            "gt": 1.4,
+            "pred": 1.4
+          },
+          {
+            "field": "sugar_g",
+            "status": "TP (Correct)",
+            "gt": 0,
+            "pred": 0
+          },
+          {
+            "field": "protein_g",
+            "status": "TP (Correct)",
+            "gt": 0,
+            "pred": 0
+          },
+          {
+            "field": "salt_g",
+            "status": "TP (Correct)",
+            "gt": 0,
+            "pred": 0
+          }
+        ]
+      },
+      "overall_f1": 0.916
+    },
+    {
+      "product_id": "Product_040_TadelleSütlüÇikolataKaplamalıFındıkKremalıGofret_28g",
+      "has_error": false,
+      "ingredients": {
+        "precision": 0.955,
+        "recall": 0.808,
+        "f1_score": 0.875,
+        "tp": 21,
+        "fp": 1,
+        "fn": 5,
+        "match_details": [
+          {
+            "pred": "fındık kreması  (şeker",
+            "match": "TP",
+            "score": 0.95
+          },
+          {
+            "pred": "bitkisel yağ (palm",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "ayçiçeği)",
+            "match": "TP",
+            "score": 0.82
+          },
+          {
+            "pred": "peynir altı suyu tozu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "fındık",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "yağı azaltılmış kakao tozu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "yağsız süt tozu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "emülgatör",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "doğal aroma verici )",
+            "match": "TP",
+            "score": 0.95
+          },
+          {
+            "pred": "sütlü çikolata kaplama  (şeker",
+            "match": "TP",
+            "score": 0.97
+          },
+          {
+            "pred": "kakao yağı",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "tam yağlı süt tozu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "kakao kitlesi",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "yağsız süt tozu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "emülgatör",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "doğal aroma verici )",
+            "match": "TP",
+            "score": 0.95
+          },
+          {
+            "pred": "gofret yaprağı (buğday unu",
+            "match": "TP",
+            "score": 0.96
+          },
+          {
+            "pred": "bitkisel yağ",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "tuz",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "emülgatör",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "kabartıcı (amonyum bikarbonat",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "sodyum bikarbonat))",
+            "match": "FP",
+            "score": 0.62
+          }
+        ]
+      },
+      "nutrition": {
+        "precision": 0.833,
+        "recall": 0.833,
+        "f1_score": 0.833,
+        "tp": 5,
+        "fp": 1,
+        "fn": 1,
+        "details": [
+          {
+            "field": "energy_kcal",
+            "status": "TP (Correct)",
+            "gt": 526,
+            "pred": 526
+          },
+          {
+            "field": "fat_total_g",
+            "status": "TP (Correct)",
+            "gt": 28,
+            "pred": 28
+          },
+          {
+            "field": "carbohydrate_g",
+            "status": "TP (Correct)",
+            "gt": 62,
+            "pred": 62
+          },
+          {
+            "field": "sugar_g",
+            "status": "TP (Correct)",
+            "gt": 42,
+            "pred": 38
+          },
+          {
+            "field": "protein_g",
+            "status": "Mismatch",
+            "gt": 6.5,
+            "pred": 7.7
+          },
+          {
+            "field": "salt_g",
+            "status": "TP (Correct)",
+            "gt": 0.65,
+            "pred": 0.65
+          }
+        ]
+      },
+      "overall_f1": 0.854
+    },
+    {
+      "product_id": "Product_041_ÜlkerAlbeniAtıştırmalık_72g",
+      "has_error": false,
+      "ingredients": {
+        "precision": 1.0,
+        "recall": 0.929,
+        "f1_score": 0.963,
+        "tp": 26,
+        "fp": 0,
+        "fn": 2,
+        "match_details": [
+          {
+            "pred": "şeker",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "buğday unu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "bitkisel yağlar (palm",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "palm çekirdeği",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "shea)",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "maltodekstrin",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "şekerli koyulaştırılmış yarı yağlı süt",
+            "match": "TP",
+            "score": 0.99
+          },
+          {
+            "pred": "kakao kitlesi",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "invert şeker şurubu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "tam yağlı süt tozu",
+            "match": "TP",
+            "score": 0.97
+          },
+          {
+            "pred": "kakao yağı",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "peynir altı suyu tozu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "yağı azaltılmış kakao tozu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "emülgatörler (amonyum fosfatitler",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "yağ asitlerinin mono ve digliseritleri",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "soya lesitini",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "poligliserol polirisinoleat",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "yağ asitlerinin mono ve diasetil tartarik asit esterleri)",
+            "match": "TP",
+            "score": 0.99
+          },
+          {
+            "pred": "kabartıcılar (amonyum hidrojen karbonat",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "disodyum difosfat",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "sodyum hidrojen karbonat)",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "nem verici",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "yağsız süt tozu",
+            "match": "TP",
+            "score": 0.97
+          },
+          {
+            "pred": "nişasta",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "aroma vericiler",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "un işlem maddesi",
+            "match": "TP",
+            "score": 0.9
+          }
+        ]
+      },
+      "nutrition": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "tp": 0,
+        "fp": 4,
+        "fn": 6,
+        "details": [
+          {
+            "field": "energy_kcal",
+            "status": "Mismatch",
+            "gt": 483,
+            "pred": 147
+          },
+          {
+            "field": "fat_total_g",
+            "status": "Mismatch",
+            "gt": 25,
+            "pred": 8.0
+          },
+          {
+            "field": "carbohydrate_g",
+            "status": "Mismatch",
+            "gt": 62,
+            "pred": 13
+          },
+          {
+            "field": "sugar_g",
+            "status": "Mismatch",
+            "gt": 39,
+            "pred": 10
+          },
+          {
+            "field": "protein_g",
+            "status": "FN (Missed)",
+            "gt": 4.5,
+            "pred": null
+          },
+          {
+            "field": "salt_g",
+            "status": "FN (Missed)",
+            "gt": 0.3,
+            "pred": null
+          }
+        ]
+      },
+      "overall_f1": 0.481
+    },
+    {
+      "product_id": "Product_042_ÜlkerBeyazÇikolatalıFındıklıKremalıGofret_35g",
+      "has_error": false,
+      "ingredients": {
+        "precision": 0.944,
+        "recall": 0.944,
+        "f1_score": 0.944,
+        "tp": 17,
+        "fp": 1,
+        "fn": 1,
+        "match_details": [
+          {
+            "pred": "şeker",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "buğday unu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "bitkisel yağlar (palm",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "tam hidrojenize palm",
+            "match": "TP",
+            "score": 0.98
+          },
+          {
+            "pred": "kakao yağı)",
+            "match": "TP",
+            "score": 0.95
+          },
+          {
+            "pred": "tam yağlı süt tozu",
+            "match": "TP",
+            "score": 0.97
+          },
+          {
+            "pred": "peynir altı suyu tozu",
+            "match": "TP",
+            "score": 0.98
+          },
+          {
+            "pred": "fındık püresi",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "yağsız süt tozu",
+            "match": "TP",
+            "score": 0.97
+          },
+          {
+            "pred": "nişasta",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "emülgatörler (soya lesitini",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "poligliserol polisinoleat)",
+            "match": "TP",
+            "score": 0.96
+          },
+          {
+            "pred": "tuz",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "aroma vericiler",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "yumurta akı tozu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "alkalize edilmiş kakao tozu",
+            "match": "FP",
+            "score": 0.6
+          },
+          {
+            "pred": "kabartıcılar (amonyum hidrojen karbonat",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "sodyum hidrojen karbonat)",
+            "match": "TP",
+            "score": 0.9
+          }
+        ]
+      },
+      "nutrition": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "details": [
+          {
+            "field": "energy_kcal",
+            "status": "TP (Correct)",
+            "gt": 520,
+            "pred": 520
+          },
+          {
+            "field": "fat_total_g",
+            "status": "TP (Correct)",
+            "gt": 26,
+            "pred": 26
+          },
+          {
+            "field": "carbohydrate_g",
+            "status": "TP (Correct)",
+            "gt": 65,
+            "pred": 65
+          },
+          {
+            "field": "sugar_g",
+            "status": "TP (Correct)",
+            "gt": 44,
+            "pred": 44
+          },
+          {
+            "field": "protein_g",
+            "status": "TP (Correct)",
+            "gt": 6.6,
+            "pred": 6.6
+          },
+          {
+            "field": "salt_g",
+            "status": "TP (Correct)",
+            "gt": 0.33,
+            "pred": 0.33
+          }
+        ]
+      },
+      "overall_f1": 0.972
+    },
+    {
+      "product_id": "Product_043_DrOetkerKazandibi_155g",
+      "has_error": false,
+      "ingredients": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "match_details": [
+          {
+            "pred": "şeker",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "nişastalar",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "pirinç unu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "aroma verici",
+            "match": "TP",
+            "score": 1.0
+          }
+        ]
+      },
+      "nutrition": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "details": [
+          {
+            "field": "energy_kcal",
+            "status": "TP (Correct)",
+            "gt": 151,
+            "pred": 151
+          },
+          {
+            "field": "fat_total_g",
+            "status": "TP (Correct)",
+            "gt": 3.8,
+            "pred": 3.8
+          },
+          {
+            "field": "carbohydrate_g",
+            "status": "TP (Correct)",
+            "gt": 25,
+            "pred": 25
+          },
+          {
+            "field": "sugar_g",
+            "status": "TP (Correct)",
+            "gt": 19,
+            "pred": 19
+          },
+          {
+            "field": "protein_g",
+            "status": "TP (Correct)",
+            "gt": 3.6,
+            "pred": 3.6
+          },
+          {
+            "field": "salt_g",
+            "status": "TP (Correct)",
+            "gt": 0.12,
+            "pred": 0.12
+          }
+        ]
+      },
+      "overall_f1": 1.0
+    },
+    {
+      "product_id": "Product_044_ÜlkerMetroKlasik_36g",
+      "has_error": false,
+      "ingredients": {
+        "precision": 1.0,
+        "recall": 0.955,
+        "f1_score": 0.977,
+        "tp": 21,
+        "fp": 0,
+        "fn": 1,
+        "match_details": [
+          {
+            "pred": "şeker",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "maltodekstrin",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "şekerli koyulaştırılmış yarım yağlı süt",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "invert şeker şurubu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "su",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "bitkisel yağlar (palm",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "tam hidrojenize palm çekirdeği)",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "kakao yağı",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "tam yağlı süt tozu",
+            "match": "TP",
+            "score": 0.97
+          },
+          {
+            "pred": "kakao kitlesi",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "yağsız süt tozu",
+            "match": "TP",
+            "score": 0.97
+          },
+          {
+            "pred": "yağı azaltılmış kakao tozu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "yumurta akı tozu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "emülgatörler (amonyum fosfatitler",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "yağ asitlerinin mono ve digliseritleri",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "poligliserol polirisinoleat",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "soya lesitini)",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "peyniraltı suyu tozu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "tuz",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "nişasta",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "aroma vericiler",
+            "match": "TP",
+            "score": 0.9
+          }
+        ]
+      },
+      "nutrition": {
+        "precision": 0.333,
+        "recall": 0.333,
+        "f1_score": 0.333,
+        "tp": 2,
+        "fp": 4,
+        "fn": 4,
+        "details": [
+          {
+            "field": "energy_kcal",
+            "status": "TP (Correct)",
+            "gt": 447,
+            "pred": 447
+          },
+          {
+            "field": "fat_total_g",
+            "status": "TP (Correct)",
+            "gt": 18,
+            "pred": 18.0
+          },
+          {
+            "field": "carbohydrate_g",
+            "status": "Mismatch",
+            "gt": 68,
+            "pred": 24.0
+          },
+          {
+            "field": "sugar_g",
+            "status": "Mismatch",
+            "gt": 53,
+            "pred": 19.0
+          },
+          {
+            "field": "protein_g",
+            "status": "Mismatch",
+            "gt": 3.8,
+            "pred": 1.4
+          },
+          {
+            "field": "salt_g",
+            "status": "Mismatch",
+            "gt": 0.56,
+            "pred": 0.13
+          }
+        ]
+      },
+      "overall_f1": 0.655
+    },
+    {
+      "product_id": "Product_045_KaanlarYağlıSiyahZeytin_1Kg",
+      "has_error": false,
+      "ingredients": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "match_details": [
+          {
+            "pred": "sofralık siyah zeytin",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "tuz",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "bitkisel ayçiçek yağı",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "asitlik düzenleyici",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "koruyucu (e211",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "e202)",
+            "match": "TP",
+            "score": 1.0
+          }
+        ]
+      },
+      "nutrition": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "details": [
+          {
+            "field": "energy_kcal",
+            "status": "TP (Correct)",
+            "gt": 140,
+            "pred": 140
+          },
+          {
+            "field": "fat_total_g",
+            "status": "TP (Correct)",
+            "gt": 10,
+            "pred": 10.0
+          },
+          {
+            "field": "carbohydrate_g",
+            "status": "TP (Correct)",
+            "gt": 10.6,
+            "pred": 10.6
+          },
+          {
+            "field": "sugar_g",
+            "status": "TP (Correct)",
+            "gt": 0.7,
+            "pred": 0.7
+          },
+          {
+            "field": "protein_g",
+            "status": "TP (Correct)",
+            "gt": 1.8,
+            "pred": 1.8
+          },
+          {
+            "field": "salt_g",
+            "status": "TP (Correct)",
+            "gt": 6.5,
+            "pred": 6.5
+          }
+        ]
+      },
+      "overall_f1": 1.0
+    },
+    {
+      "product_id": "Product_046_BiscolataStixHindistanCevizli_36g",
+      "has_error": false,
+      "ingredients": {
+        "precision": 1.0,
+        "recall": 0.913,
+        "f1_score": 0.955,
+        "tp": 21,
+        "fp": 0,
+        "fn": 2,
+        "match_details": [
+          {
+            "pred": "sütlü çikolata (%52",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "5) (şeker",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "kakao yağı",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "tam yağlı süt tozu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "kakao kitlesi",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "peyniraltı suyu tozu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "yağsız süt tozu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "emülgatör",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "aroma verici)",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "bisküvi",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "bitkisel yağ",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "fruktoz şurubu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "şeker",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "peyniraltı suyu tozu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "tuz",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "kabartıcılar (amonyum bikarbonat",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "sodyum asit pirofosfat",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "sodyum bikarbonat)",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "emülgatör )",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "hindistan cevizi (%13",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "5)",
+            "match": "TP",
+            "score": 0.9
+          }
+        ]
+      },
+      "nutrition": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "details": [
+          {
+            "field": "energy_kcal",
+            "status": "TP (Correct)",
+            "gt": 488,
+            "pred": 488
+          },
+          {
+            "field": "fat_total_g",
+            "status": "TP (Correct)",
+            "gt": 23,
+            "pred": 23.0
+          },
+          {
+            "field": "carbohydrate_g",
+            "status": "TP (Correct)",
+            "gt": 59.1,
+            "pred": 59.1
+          },
+          {
+            "field": "sugar_g",
+            "status": "TP (Correct)",
+            "gt": 34.1,
+            "pred": 34.1
+          },
+          {
+            "field": "protein_g",
+            "status": "TP (Correct)",
+            "gt": 9.0,
+            "pred": 9.0
+          },
+          {
+            "field": "salt_g",
+            "status": "TP (Correct)",
+            "gt": 0.6,
+            "pred": 0.6
+          }
+        ]
+      },
+      "overall_f1": 0.978
+    },
+    {
+      "product_id": "Product_047_BiscolataStixSütlüÇikolatalı_40g",
+      "has_error": false,
+      "ingredients": {
+        "precision": 1.0,
+        "recall": 0.947,
+        "f1_score": 0.973,
+        "tp": 18,
+        "fp": 0,
+        "fn": 1,
+        "match_details": [
+          {
+            "pred": "bisküvi",
+            "match": "TP",
+            "score": 0.9
+          },
+          {
+            "pred": "bitkisel yağ",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "fruktoz şurubu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "şeker",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "peyniraltı suyu tozu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "tuz",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "kabartıcılar (amonyum bikarbonat",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "sodyum bikarbonat",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "sodyum asit pirofosfat)",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "emülgatör )",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "sütlü çikolata  (şeker",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "kakao yağı",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "tam yağlı süt tozu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "kakao kitlesi",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "peyniraltı suyu tozu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "yağsız süt tozu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "emülgatör",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "aroma verici)",
+            "match": "TP",
+            "score": 0.9
+          }
+        ]
+      },
+      "nutrition": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "details": [
+          {
+            "field": "energy_kcal",
+            "status": "TP (Correct)",
+            "gt": 556,
+            "pred": 556
+          },
+          {
+            "field": "fat_total_g",
+            "status": "TP (Correct)",
+            "gt": 34,
+            "pred": 34.0
+          },
+          {
+            "field": "carbohydrate_g",
+            "status": "TP (Correct)",
+            "gt": 52.3,
+            "pred": 52.3
+          },
+          {
+            "field": "sugar_g",
+            "status": "TP (Correct)",
+            "gt": 27.5,
+            "pred": 27.5
+          },
+          {
+            "field": "protein_g",
+            "status": "TP (Correct)",
+            "gt": 8.5,
+            "pred": 8.5
+          },
+          {
+            "field": "salt_g",
+            "status": "TP (Correct)",
+            "gt": 1.1,
+            "pred": 1.1
+          }
+        ]
+      },
+      "overall_f1": 0.986
+    },
+    {
+      "product_id": "Product_049_BiscolataMoodCaramelMacchiato_125g",
+      "has_error": false,
+      "ingredients": {
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1_score": 0.857,
+        "tp": 30,
+        "fp": 0,
+        "fn": 10,
+        "match_details": [
+          {
+            "pred": "karamel macchiatolu krema : bitkisel yağ (palm",
+            "match": "TP",
+            "score": 0.98
+          },
+          {
+            "pred": "ayçiçek",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "pamuk)",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "şeker",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "peyniraltı suyu tozu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "tam yağlı süt tozu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "yağsız süt tozu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "beyaz çikolata  (şeker",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "kakao yağı",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "tam yağlı süt tozu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "yağsız süt tozu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "süt yağı",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "emülgatör",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "aroma verici)",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "karamelize şeker",
+            "match": "TP",
+            "score": 0.9
+          },
+          {
+            "pred": "emülgatör",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "kahve ; bisküvi : buğday unu",
+            "match": "TP",
+            "score": 0.79
+          },
+          {
+            "pred": "şeker",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "bitkisel yağ",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "patates nişastası",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "glikoz şurubu",
+            "match": "TP",
+            "score": 0.92
+          },
+          {
+            "pred": "yumurta",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "kakao tozu",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "tuz",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "kabartıcılar (amonyum bikarbonat",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "sodyum asit pirofosfat",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "sodyum bikarbonat)",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "pirinç nişastası",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "renklendirici",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "aroma verici; şeker tozu",
+            "match": "TP",
+            "score": 0.9
+          }
+        ]
+      },
+      "nutrition": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "details": [
+          {
+            "field": "energy_kcal",
+            "status": "TP (Correct)",
+            "gt": 506,
+            "pred": 506
+          },
+          {
+            "field": "fat_total_g",
+            "status": "TP (Correct)",
+            "gt": 28,
+            "pred": 28
+          },
+          {
+            "field": "carbohydrate_g",
+            "status": "TP (Correct)",
+            "gt": 56,
+            "pred": 56
+          },
+          {
+            "field": "sugar_g",
+            "status": "TP (Correct)",
+            "gt": 34,
+            "pred": 34
+          },
+          {
+            "field": "protein_g",
+            "status": "TP (Correct)",
+            "gt": 5.3,
+            "pred": 5.3
+          },
+          {
+            "field": "salt_g",
+            "status": "TP (Correct)",
+            "gt": 0.94,
+            "pred": 0.94
+          }
+        ]
+      },
+      "overall_f1": 0.928
+    },
+    {
+      "product_id": "Product_050_CocaCola_2,5L",
+      "has_error": false,
+      "ingredients": {
+        "precision": 0.889,
+        "recall": 1.0,
+        "f1_score": 0.941,
+        "tp": 8,
+        "fp": 1,
+        "fn": 0,
+        "match_details": [
+          {
+            "pred": "şeker",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "kola",
+            "match": "FP",
+            "score": 0.4
+          },
+          {
+            "pred": "su",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "karbondioksit",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "renklendirici",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "asitlik düzenleyici",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "aroma vericiler",
+            "match": "TP",
+            "score": 0.9
+          },
+          {
+            "pred": "kafein",
+            "match": "TP",
+            "score": 1.0
+          },
+          {
+            "pred": "tatlandırıcı",
+            "match": "TP",
+            "score": 1.0
+          }
+        ]
+      },
+      "nutrition": {
+        "precision": 0.667,
+        "recall": 0.667,
+        "f1_score": 0.667,
+        "tp": 4,
+        "fp": 2,
+        "fn": 2,
+        "details": [
+          {
+            "field": "energy_kcal",
+            "status": "TP (Correct)",
+            "gt": 30,
+            "pred": 30
+          },
+          {
+            "field": "fat_total_g",
+            "status": "TP (Correct)",
+            "gt": 0,
+            "pred": 0
+          },
+          {
+            "field": "carbohydrate_g",
+            "status": "Mismatch",
+            "gt": 7.5,
+            "pred": 18.8
+          },
+          {
+            "field": "sugar_g",
+            "status": "Mismatch",
+            "gt": 7.5,
+            "pred": 18.8
+          },
+          {
+            "field": "protein_g",
+            "status": "TP (Correct)",
+            "gt": 0,
+            "pred": 0
+          },
+          {
+            "field": "salt_g",
+            "status": "TP (Correct)",
+            "gt": 0,
+            "pred": 0
+          }
+        ]
+      },
+      "overall_f1": 0.804
+    }
+  ]
+}

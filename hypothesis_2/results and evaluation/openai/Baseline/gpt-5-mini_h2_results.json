@@ -1,0 +1,1034 @@
+[
+  {
+    "product_id": "Product_003_FiskobirlikNuga_700g",
+    "profile_name": "Profile_A_Vegan_Diabetic_Gluten",
+    "h1_ingredients": "şeker, bitkisel yağlar (değişen miktarda; ayçiçek, pamuk), fındık (%16), kakao tozu (%9), yağsız süt tozu, peynir altı suyu tozu (süt ürünü), laktoz (süt ürünü), emülgatör (ayçiçek lesitini), aroma verici (vanilin)",
+    "h1_nutrition": {
+      "basis": "100g",
+      "is_normalized_100g": true,
+      "values": {
+        "energy_kcal": 535,
+        "fat_total_g": 30.5,
+        "fat_saturated_g": 6.4,
+        "fat_trans_g": 0.2,
+        "carbohydrate_g": 58.1,
+        "sugar_g": 49.8,
+        "fiber_g": 5.8,
+        "protein_g": 8.2,
+        "salt_g": 0.2,
+        "micros": null
+      }
+    },
+    "llm_response": {
+      "ingredients": [
+        "şeker",
+        "bitkisel yağlar (değişen miktarda; ayçiçek, pamuk)",
+        "fındık (%16)",
+        "kakao tozu (%9)",
+        "yağsız süt tozu",
+        "peynir altı suyu tozu (süt ürünü)",
+        "laktoz (süt ürünü)",
+        "emülgatör (ayçiçek lesitini)",
+        "aroma verici (vanilin)"
+      ],
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": false,
+        "values": {
+          "energy_kcal": 535,
+          "fat_total_g": 30.5,
+          "fat_saturated_g": null,
+          "fat_trans_g": null,
+          "carbohydrate_g": 58.1,
+          "sugar_g": 49.8,
+          "fiber_g": null,
+          "protein_g": 8.2,
+          "salt_g": 0.2,
+          "micros": null
+        }
+      },
+      "risks": {
+        "şeker": "High",
+        "bitkisel yağlar (değişen miktarda; ayçiçek, pamuk)": "Low",
+        "fındık (%16)": "Low",
+        "kakao tozu (%9)": "Low",
+        "yağsız süt tozu": "High",
+        "peynir altı suyu tozu (süt ürünü)": "High",
+        "laktoz (süt ürünü)": "High",
+        "emülgatör (ayçiçek lesitini)": "Low",
+        "aroma verici (vanilin)": "Low"
+      },
+      "summary_explanation": "Ürün 100 g başına 49.8 g şeker içeriyor; bu, diyabet (şeker hastalığı) olan kullanıcı için yüksek risk oluşturur. Ayrıca ürün süt türevleri (yağsız süt tozu, peynir altı suyu tozu, laktoz) içeriyor — bu kullanıcı için vegan diyete uygun değildir (bu bileşenler vegan açısından 'High' risktir). Kullanıcının gluten/buğday/arpa alerjileri göz önünde bulundurulduğunda içerikte açıkça gluten, buğday veya arpa bulunmamaktadır; ancak üretim kaynaklı çapraz-kontaminasyon riski olabilir (etiket üzerinde aksi belirtilmemiş). Tuz (0.2 g/100 g) düşük ve hipertansiyon açısından problem oluşturmaz. Fındık içeriyor ancak kullanıcıda fındık alerjisi belirtilmemiş; yine de fındık alerjisi varsa dikkat gerekir.",
+      "summary_risk": "High"
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_015_EtiGongPopsBalHardal_80g",
+    "profile_name": "Profile_A_Vegan_Diabetic_Gluten",
+    "h1_ingredients": "mısır (%74), bitkisel yağ (palm), buğday unu (gluten), bal ve hardal aroması (%6, 7) [şeker, tuz, soğan tozu, aromalar, ayçiçeği lesitini], bal ekstraktı, hardal ekstraktı, tuz, emülgatör (ayçiçeği lesitini), soğan tozu, aroma vericiler. Az miktarda süt ürünü ve kereviz içerebilir",
+    "h1_nutrition": {
+      "basis": "100g",
+      "is_normalized_100g": true,
+      "values": {
+        "energy_kcal": 453,
+        "fat_total_g": 18,
+        "fat_saturated_g": 7.8,
+        "fat_trans_g": 0,
+        "carbohydrate_g": 67,
+        "sugar_g": 40,
+        "fiber_g": null,
+        "protein_g": null,
+        "salt_g": null,
+        "micros": null
+      }
+    },
+    "llm_response": {
+      "ingredients": [
+        "mısır (%74)",
+        "bitkisel yağ (palm)",
+        "buğday unu (gluten)",
+        "bal ve hardal aroması (%6, 7) [şeker, tuz, soğan tozu, aromalar, ayçiçeği lesitini]",
+        "bal ekstraktı",
+        "hardal ekstraktı",
+        "tuz",
+        "emülgatör (ayçiçeği lesitini)",
+        "soğan tozu",
+        "aroma vericiler",
+        "süt ürünü (iz miktarda, çapraz kontaminasyon)",
+        "kereviz (iz miktarda, çapraz kontaminasyon)"
+      ],
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": false,
+        "values": {
+          "energy_kcal": 453,
+          "fat_total_g": 18,
+          "fat_saturated_g": null,
+          "fat_trans_g": null,
+          "carbohydrate_g": 67,
+          "sugar_g": 40,
+          "fiber_g": null,
+          "protein_g": null,
+          "salt_g": null,
+          "micros": null
+        }
+      },
+      "risks": {
+        "mısır (%74)": "High",
+        "bitkisel yağ (palm)": "Medium",
+        "buğday unu (gluten)": "High",
+        "bal ve hardal aroması (%6, 7) [şeker, tuz, soğan tozu, aromalar, ayçiçeği lesitini]": "High",
+        "bal ekstraktı": "High",
+        "hardal ekstraktı": "Low",
+        "tuz": "High",
+        "emülgatör (ayçiçeği lesitini)": "Low",
+        "soğan tozu": "Low",
+        "aroma vericiler": "Medium",
+        "süt ürünü (iz miktarda, çapraz kontaminasyon)": "High",
+        "kereviz (iz miktarda, çapraz kontaminasyon)": "Medium"
+      },
+      "summary_explanation": "Ürün 100 g başına 67 g karbonhidrat ve 40 g şeker içeriyor; bu, diyabet (şeker hastalığı) olan kullanıcı için yüksek risk oluşturur. Etiket açıkça 'buğday unu (gluten)' içeriyor — kullanıcıda gluten/buğday/arpa alerjisi olduğundan bu ürün alerjen açısından yüksek risklidir. Üründe 'bal' (bal ve bal ekstraktı) bulunuyor; bu vegan diyetine uymamaktadır (vegan tercihine ters), dolayısıyla veganlik açısından yüksek risk vardır. 'Tuz' hem doğrudan listelenmiş hem de aroma bileşenlerinde geçiyor; hipertansiyon riski açısından önemli. Etiket ayrıca \"Az miktarda süt ürünü ve kereviz içerebilir\" uyarısı veriyor — süt ürünü izleri vegan tercihine ters ve olası çapraz-kontaminasyon riski getirir. Genel olarak; alerji (gluten), diyabet ve vegan tercihi göz önüne alındığında bu ürün kullanıcı için yüksek risk taşır.",
+      "summary_risk": "High"
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_019_EtiLifalifAyÇekirdekliDomatesliTuzluYulafBar_30g",
+    "profile_name": "Profile_A_Vegan_Diabetic_Gluten",
+    "h1_ingredients": "yulaf ezmesi (gluten) %37, tam buğday gevreği (gluten), ay çekirdeği %12, bitkisel yağlar (ayçiçek, zeytinyağı), domates salçası, hurma ezmesi, bal, tereyağı (süt ürünü), yumurta akı tozu, peynir altı suyu tozu (süt ürünü), tuz %1, 4, buğday gluteni, sarımsak tozu, biberiye, kekik, eser miktarda badem, fındık ve yer fıstığı içerebilir",
+    "h1_nutrition": {
+      "basis": "100g",
+      "is_normalized_100g": true,
+      "values": {
+        "energy_kcal": 476,
+        "fat_total_g": 25,
+        "fat_saturated_g": 4.1,
+        "fat_trans_g": 0,
+        "carbohydrate_g": 44,
+        "sugar_g": 7.9,
+        "fiber_g": null,
+        "protein_g": 6.0,
+        "salt_g": 1.0,
+        "micros": null
+      }
+    },
+    "llm_response": {
+      "ingredients": [
+        "yulaf ezmesi (gluten) %37",
+        "tam buğday gevreği (gluten)",
+        "ay çekirdeği %12",
+        "bitkisel yağlar (ayçiçek, zeytinyağı)",
+        "domates salçası",
+        "hurma ezmesi",
+        "bal",
+        "tereyağı (süt ürünü)",
+        "yumurta akı tozu",
+        "peynir altı suyu tozu (süt ürünü)",
+        "tuz %1.4",
+        "buğday gluteni",
+        "sarımsak tozu",
+        "biberiye",
+        "kekik",
+        "eser miktarda badem, fındık ve yer fıstığı içerebilir"
+      ],
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": true,
+        "values": {
+          "energy_kcal": 476,
+          "fat_total_g": 25,
+          "fat_saturated_g": null,
+          "fat_trans_g": null,
+          "carbohydrate_g": 44,
+          "sugar_g": 7.9,
+          "fiber_g": null,
+          "protein_g": 6.0,
+          "salt_g": 1.0,
+          "micros": null
+        }
+      },
+      "risks": {
+        "yulaf ezmesi (gluten) %37": "High",
+        "tam buğday gevreği (gluten)": "High",
+        "ay çekirdeği %12": "Low",
+        "bitkisel yağlar (ayçiçek, zeytinyağı)": "Low",
+        "domates salçası": "Low",
+        "hurma ezmesi": "High",
+        "bal": "High",
+        "tereyağı (süt ürünü)": "High",
+        "yumurta akı tozu": "High",
+        "peynir altı suyu tozu (süt ürünü)": "High",
+        "tuz %1.4": "Low",
+        "buğday gluteni": "High",
+        "sarımsak tozu": "Low",
+        "biberiye": "Low",
+        "kekik": "Low",
+        "eser miktarda badem, fındık ve yer fıstığı içerebilir": "Low"
+      },
+      "summary_explanation": "Etiket, kullanıcı profiline göre birden fazla kritik riski içeriyor. Kullanıcı gluten (buğday/arpa) alerjisi bildirmiş; ürün içinde açıkça belirtilmiş gluten içeren bileşenler var: yulaf ezmesi (gluten), tam buğday gevreği, buğday gluteni — bunlar yüksek risklidir ve üründen kaçınılmalıdır. Kullanıcı vegan; ürün bal, tereyağı, yumurta akı tozu ve peynir altı suyu tozu gibi hayvansal bileşenler içeriyor — bunlar vegan diyetine uygunsuz ve yüksek risk. Kullanıcı diyabet/şeker hastası; hurma ezmesi ve bal gibi yoğun şeker içeriği olabilecek bileşenler ve ürünün 100 g başına 44 g karbonhidrat, 7.9 g şeker içermesi nedeniyle kan şekeri kontrolü açısından yüksek risk oluşturabilir. Tuz 1.0 g/100 g (tuz %1.4 ifadesi içerikte) orta-yüksek tuzlu sayılabilir ancak kullanıcıda hipertansiyon belirtilmemiş; yine de dikkat gerektirir. Eser miktarda badem, fındık, yer fıstığı ibaresi çapraz bulaşma riski bildirir; kullanıcıda fındık/yer fıstığı alerjisi yoksa bu öğe düşük risk olarak sınıflandırıldı. Özetle ürün, kullanıcı için hem alerji (gluten) hem de beslenme tercihleri (vegan) ve diyabet yönetimi açısından uygun değildir.",
+      "summary_risk": "High"
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_035_EtiNero_330g",
+    "profile_name": "Profile_A_Vegan_Diabetic_Gluten",
+    "h1_ingredients": "buğday un (gluten), bitkisel yağ (palm), şeker şurubu, kakao tozu %8, tam yağlı süt tozu, kabartıcılar (amonyum hidrojenkarbonat, sodyum karbonat), tuz, aroma verici, krema %20 [şeker, bitkisel yağlar (palm, ayçiçek, pamuk, kanola), nişasta, yağ, peynir altı suyu tozu (süt ürünü), emülgatör (ayçiçek lesitini), aroma verici], eser miktarda fındık, soya ve susam içerebilir",
+    "h1_nutrition": {
+      "basis": "100g",
+      "is_normalized_100g": true,
+      "values": {
+        "energy_kcal": null,
+        "fat_total_g": null,
+        "fat_saturated_g": null,
+        "fat_trans_g": null,
+        "carbohydrate_g": null,
+        "sugar_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "salt_g": null,
+        "micros": null
+      }
+    },
+    "llm_response": {
+      "ingredients": [
+        "buğday un (gluten)",
+        "bitkisel yağ (palm)",
+        "şeker şurubu",
+        "kakao tozu %8",
+        "tam yağlı süt tozu",
+        "kabartıcılar (amonyum hidrojenkarbonat, sodyum karbonat)",
+        "tuz",
+        "aroma verici",
+        "krema %20 [şeker, bitkisel yağlar (palm, ayçiçek, pamuk, kanola), nişasta, yağ, peynir altı suyu tozu (süt ürünü), emülgatör (ayçiçek lesitini), aroma verici]",
+        "eser miktarda fındık",
+        "soya",
+        "susam"
+      ],
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": false,
+        "values": {
+          "energy_kcal": null,
+          "fat_total_g": null,
+          "fat_saturated_g": null,
+          "fat_trans_g": null,
+          "carbohydrate_g": null,
+          "sugar_g": null,
+          "fiber_g": null,
+          "protein_g": null,
+          "salt_g": null,
+          "micros": null
+        }
+      },
+      "risks": {
+        "buğday un (gluten)": "High",
+        "bitkisel yağ (palm)": "Low",
+        "şeker şurubu": "High",
+        "kakao tozu %8": "Low",
+        "tam yağlı süt tozu": "High",
+        "kabartıcılar (amonyum hidrojenkarbonat, sodyum karbonat)": "High",
+        "tuz": "High",
+        "aroma verici": "Medium",
+        "krema %20 [şeker, bitkisel yağlar (palm, ayçiçek, pamuk, kanola), nişasta, yağ, peynir altı suyu tozu (süt ürünü), emülgatör (ayçiçek lesitini), aroma verici]": "High",
+        "eser miktarda fındık": "Low",
+        "soya": "Low",
+        "susam": "Low"
+      },
+      "summary_explanation": "Ürün gluten içeren buğday unu içeriyor — kullanıcıda gluten/buğday/arpa alerjisi olduğundan bu, önemli bir yüksek risk faktörüdür. Ayrıca ürün şeker şurubu ve kremada ilave şeker ile nişasta içeriyor; kullanıcı diyabet (şeker hastalığı) olduğu için şeker/nişasta içeren bileşenler yüksek risk oluşturur. Üründe tam yağlı süt tozu ve kremada peynir altı suyu tozu (süt ürünü) bulunmakta; kullanıcı vegan/bitkisel tercihleri nedeniyle bu süt bileşenleri de yüksek risklidir. Kabartıcıların parantezinde 'sodyum karbonat' ve ayrıca 'tuz' açıkça yer alıyor; sodyum içeriği hipertansiyon riski olanlar için kritiktir (etiket içinde doğrudan sodyum içeren bileşen olarak yüksek risk olarak işaretlendi). Aroma vericiler genellikle tanımlanmamış bileşenler içerdiğinden vegan olmama veya gizli alerjen riski nedeniyle orta risk kabul edildi. Eser miktarda fındık, soya ve susam bildirimi çapraz kontaminasyon açısından uyarıdır; kullanıcı bunlara alerjik değilse doğrudan yüksek risk oluşturmaz ancak alerji olan kişiler için önemlidir.",
+      "summary_risk": "High"
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_045_KaanlarYağlıSiyahZeytin_1Kg",
+    "profile_name": "Profile_A_Vegan_Diabetic_Gluten",
+    "h1_ingredients": "sofralık siyah zeytin, tuz, bitkisel ayçiçek yağı, asitlik düzenleyici (E270), koruyucu (E21, E202)",
+    "h1_nutrition": {
+      "basis": "100g",
+      "is_normalized_100g": true,
+      "values": {
+        "energy_kcal": 140,
+        "fat_total_g": 10.0,
+        "fat_saturated_g": 1.6,
+        "fat_trans_g": null,
+        "carbohydrate_g": 10.6,
+        "sugar_g": 0.7,
+        "fiber_g": 3.3,
+        "protein_g": 1.8,
+        "salt_g": 6.5,
+        "micros": null
+      }
+    },
+    "llm_response": {
+      "ingredients": [
+        "sofralık siyah zeytin",
+        "tuz",
+        "bitkisel ayçiçek yağı",
+        "asitlik düzenleyici (E270)",
+        "koruyucu (E21, E202)"
+      ],
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": false,
+        "values": {
+          "energy_kcal": 140,
+          "fat_total_g": 10.0,
+          "fat_saturated_g": null,
+          "fat_trans_g": null,
+          "carbohydrate_g": 10.6,
+          "sugar_g": 0.7,
+          "fiber_g": null,
+          "protein_g": 1.8,
+          "salt_g": 6.5,
+          "micros": null
+        }
+      },
+      "risks": {
+        "sofralık siyah zeytin": "Medium",
+        "tuz": "High",
+        "bitkisel ayçiçek yağı": "Low",
+        "asitlik düzenleyici (E270)": "Low",
+        "koruyucu (E21, E202)": "Low"
+      },
+      "summary_explanation": "Ürün 100 g başına 6.5 g tuz içeriyor; bu çok yüksek bir tuz düzeyidir ve diyabetli kişilerde kardiyovasküler riskleri artırabileceği için 'tuz' bileşeni yüksek risk olarak değerlendirildi. Şeker miktarı düşük (0.7 g/100 g) ve doğrudan eklenmiş şeker içeriği yok, bu yüzden şeker açısından ilave yüksek risk yok. Ürün vegan/bitkisel tercihe uygundur (hayvansal bileşenler listede yok). Bu nedenle zeytin kendisi tuz ve karbonhidrat katkısı nedeniyle orta düzey risk (Medium) olarak sınıflandırıldı; bitkisel yağ, asitlik düzenleyici (E270) ve koruyucular (E21, E202) kullanıcının bildirilen alerjileri (gluten, buğday, arpa) ve vegan tercihi göz önüne alındığında düşük risk (Low) olarak değerlendirildi.",
+      "summary_risk": "High"
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_003_FiskobirlikNuga_700g",
+    "profile_name": "Profile_B_Halal_Hypertension_Lactose",
+    "h1_ingredients": "şeker, bitkisel yağlar (değişen miktarda; ayçiçek, pamuk), fındık (%16), kakao tozu (%9), yağsız süt tozu, peynir altı suyu tozu (süt ürünü), laktoz (süt ürünü), emülgatör (ayçiçek lesitini), aroma verici (vanilin)",
+    "h1_nutrition": {
+      "basis": "100g",
+      "is_normalized_100g": true,
+      "values": {
+        "energy_kcal": 535,
+        "fat_total_g": 30.5,
+        "fat_saturated_g": 6.4,
+        "fat_trans_g": 0.2,
+        "carbohydrate_g": 58.1,
+        "sugar_g": 49.8,
+        "fiber_g": 5.8,
+        "protein_g": 8.2,
+        "salt_g": 0.2,
+        "micros": null
+      }
+    },
+    "llm_response": {
+      "ingredients": [
+        "şeker",
+        "bitkisel yağlar (değişen miktarda; ayçiçek, pamuk)",
+        "fındık (%16)",
+        "kakao tozu (%9)",
+        "yağsız süt tozu",
+        "peynir altı suyu tozu (süt ürünü)",
+        "laktoz (süt ürünü)",
+        "emülgatör (ayçiçek lesitini)",
+        "aroma verici (vanilin)"
+      ],
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": false,
+        "values": {
+          "energy_kcal": 535,
+          "fat_total_g": 30.5,
+          "fat_saturated_g": null,
+          "fat_trans_g": null,
+          "carbohydrate_g": 58.1,
+          "sugar_g": 49.8,
+          "fiber_g": null,
+          "protein_g": 8.2,
+          "salt_g": 0.2,
+          "micros": null
+        }
+      },
+      "risks": {
+        "şeker": "High",
+        "bitkisel yağlar (değişen miktarda; ayçiçek, pamuk)": "Low",
+        "fındık (%16)": "Low",
+        "kakao tozu (%9)": "Low",
+        "yağsız süt tozu": "High",
+        "peynir altı suyu tozu (süt ürünü)": "High",
+        "laktoz (süt ürünü)": "High",
+        "emülgatör (ayçiçek lesitini)": "Low",
+        "aroma verici (vanilin)": "Low"
+      },
+      "summary_explanation": "Kullanıcının bildirdiği laktoz / süt şekeri alerjisi nedeniyle 'yağsız süt tozu', 'peynir altı suyu tozu (süt ürünü)' ve açıkça belirtilen 'laktoz (süt ürünü)' maddeleri yüksek risk taşır — bu ürün alerji reaksiyonuna neden olabilir. Kullanıcının hipertansiyon geçmişi göz önüne alındığında ürünün tuz içeriği düşük (0.2 g/100 g) olup hipertansiyon riski açısından tek porsiyonda görece düşüktür, fakat günlük toplam sodyum alımına dikkat edilmelidir. Helal / domuz yağı yok tercihi açısından içerikte domuz yağı veya domuz kökenli bileşen görünmemektedir. Fındık (%16) içerir; kullanıcı fındığa alerji bildirmemiş olsa da kabuklu yemişler yaygın alerjen olduğundan dikkat gerekebilir. Diğer bileşenler (şeker, bitkisel yağlar, kakao, emülgatör, vanilin) kullanıcının belirtilen durumları açısından doğrudan yüksek risk oluşturmaz.",
+      "summary_risk": "High"
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_015_EtiGongPopsBalHardal_80g",
+    "profile_name": "Profile_B_Halal_Hypertension_Lactose",
+    "h1_ingredients": "mısır (%74), bitkisel yağ (palm), buğday unu (gluten), bal ve hardal aroması (%6, 7) [şeker, tuz, soğan tozu, aromalar, ayçiçeği lesitini], bal ekstraktı, hardal ekstraktı, tuz, emülgatör (ayçiçeği lesitini), soğan tozu, aroma vericiler. Az miktarda süt ürünü ve kereviz içerebilir",
+    "h1_nutrition": {
+      "basis": "100g",
+      "is_normalized_100g": true,
+      "values": {
+        "energy_kcal": 453,
+        "fat_total_g": 18,
+        "fat_saturated_g": 7.8,
+        "fat_trans_g": 0,
+        "carbohydrate_g": 67,
+        "sugar_g": 40,
+        "fiber_g": null,
+        "protein_g": null,
+        "salt_g": null,
+        "micros": null
+      }
+    },
+    "llm_response": {
+      "ingredients": [
+        "mısır (%74)",
+        "bitkisel yağ (palm)",
+        "buğday unu (gluten)",
+        "bal ve hardal aroması (%6,7) [şeker, tuz, soğan tozu, aromalar, ayçiçeği lesitini]",
+        "bal ekstraktı",
+        "hardal ekstraktı",
+        "tuz",
+        "emülgatör (ayçiçeği lesitini)",
+        "soğan tozu",
+        "aroma vericiler",
+        "az miktarda süt ürünü (içerebilir)",
+        "kereviz (içerebilir)"
+      ],
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": false,
+        "values": {
+          "energy_kcal": 453,
+          "fat_total_g": 18,
+          "fat_saturated_g": null,
+          "fat_trans_g": null,
+          "carbohydrate_g": 67,
+          "sugar_g": 40,
+          "fiber_g": null,
+          "protein_g": null,
+          "salt_g": null,
+          "micros": null
+        }
+      },
+      "risks": {
+        "mısır (%74)": "Low",
+        "bitkisel yağ (palm)": "Low",
+        "buğday unu (gluten)": "Low",
+        "bal ve hardal aroması (%6,7) [şeker, tuz, soğan tozu, aromalar, ayçiçeği lesitini]": "High",
+        "bal ekstraktı": "Low",
+        "hardal ekstraktı": "Low",
+        "tuz": "High",
+        "emülgatör (ayçiçeği lesitini)": "Low",
+        "soğan tozu": "Low",
+        "aroma vericiler": "Medium",
+        "az miktarda süt ürünü (içerebilir)": "High",
+        "kereviz (içerebilir)": "Low"
+      },
+      "summary_explanation": "Ürün 100 g başına 40 g şeker ve toplam 67 g karbonhidrat içeriyor; bu yüksek şeker/karbonhidrat içeriği kan şekeri kontrolü gerektiren kişiler için risk oluşturur. Kullanıcının hipertansiyon geçmişi göz önüne alındığında en önemli husus içerik listesinde açıkça bulunan 'tuz' ve aromalarda bulunan tuz bileşenidir — tuz hipertansiyonu kötüleştirebilir (etikette tuz miktarı verilmemiş olsa da bileşen olarak mevcut). Kullanıcının laktoz / süt şekeri alerjisi açısından kritik nokta: ürün \"az miktarda süt ürünü içerebilir\" ibaresi taşıyor; iz miktardaki süt ürünü bile laktoz alerjisi olan kişiler için tehlikeli olabilir. Ayrıca içerikte buğday unu (gluten) ve kereviz izleri var; eğer bu alerjenlere karşı hassasiyet yoksa bunlar daha az önceliklidir. Helal/domuz yağı yönünden olumsuz bir bileşen görünmüyor (bitkisel palm yağı belirtilmiş). Özetle kullanıcı için en önemli riskler: süt ürünü izleri (alerji) ve tuz (hipertansiyon).",
+      "summary_risk": "High"
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_019_EtiLifalifAyÇekirdekliDomatesliTuzluYulafBar_30g",
+    "profile_name": "Profile_B_Halal_Hypertension_Lactose",
+    "h1_ingredients": "yulaf ezmesi (gluten) %37, tam buğday gevreği (gluten), ay çekirdeği %12, bitkisel yağlar (ayçiçek, zeytinyağı), domates salçası, hurma ezmesi, bal, tereyağı (süt ürünü), yumurta akı tozu, peynir altı suyu tozu (süt ürünü), tuz %1, 4, buğday gluteni, sarımsak tozu, biberiye, kekik, eser miktarda badem, fındık ve yer fıstığı içerebilir",
+    "h1_nutrition": {
+      "basis": "100g",
+      "is_normalized_100g": true,
+      "values": {
+        "energy_kcal": 476,
+        "fat_total_g": 25,
+        "fat_saturated_g": 4.1,
+        "fat_trans_g": 0,
+        "carbohydrate_g": 44,
+        "sugar_g": 7.9,
+        "fiber_g": null,
+        "protein_g": 6.0,
+        "salt_g": 1.0,
+        "micros": null
+      }
+    },
+    "llm_response": {
+      "ingredients": [
+        "yulaf ezmesi (gluten) %37",
+        "tam buğday gevreği (gluten)",
+        "ay çekirdeği %12",
+        "bitkisel yağlar (ayçiçek, zeytinyağı)",
+        "domates salçası",
+        "hurma ezmesi",
+        "bal",
+        "tereyağı (süt ürünü)",
+        "yumurta akı tozu",
+        "peynir altı suyu tozu (süt ürünü)",
+        "tuz %1,4",
+        "buğday gluteni",
+        "sarımsak tozu",
+        "biberiye",
+        "kekik",
+        "badem (eser miktarda içerebilir)",
+        "fındık (eser miktarda içerebilir)",
+        "yer fıstığı (eser miktarda içerebilir)"
+      ],
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": false,
+        "values": {
+          "energy_kcal": 476,
+          "fat_total_g": 25,
+          "fat_saturated_g": null,
+          "fat_trans_g": null,
+          "carbohydrate_g": 44,
+          "sugar_g": 7.9,
+          "fiber_g": null,
+          "protein_g": 6.0,
+          "salt_g": 1.0,
+          "micros": null
+        }
+      },
+      "risks": {
+        "yulaf ezmesi (gluten) %37": "Low",
+        "tam buğday gevreği (gluten)": "Low",
+        "ay çekirdeği %12": "Low",
+        "bitkisel yağlar (ayçiçek, zeytinyağı)": "Low",
+        "domates salçası": "Low",
+        "hurma ezmesi": "Low",
+        "bal": "Low",
+        "tereyağı (süt ürünü)": "High",
+        "yumurta akı tozu": "Medium",
+        "peynir altı suyu tozu (süt ürünü)": "High",
+        "tuz %1,4": "High",
+        "buğday gluteni": "Low",
+        "sarımsak tozu": "Low",
+        "biberiye": "Low",
+        "kekik": "Low",
+        "badem (eser miktarda içerebilir)": "Medium",
+        "fındık (eser miktarda içerebilir)": "Medium",
+        "yer fıstığı (eser miktarda içerebilir)": "Medium"
+      },
+      "summary_explanation": "Ürün 100 g başına 1.0 g tuz içeriyor ve içerik listesinde doğrudan 'tuz' (%1,4 olarak verilen) bulunduğundan hipertansiyon (yüksek tansiyon) olan kullanıcı için tuz içeriği önemli bir risk teşkil eder (High). Kullanıcının bildirilen laktoz/süt şekeri alerjisi nedeniyle 'tereyağı (süt ürünü)' ve 'peynir altı suyu tozu (süt ürünü)' içerikleri doğrudan yüksek risklidir (High) — bu bileşenler laktoz içerebilir. 'Yumurta akı tozu' ve iz miktarda bulunabilecek 'badem, fındık, yer fıstığı' ise alerjen potansiyeli olduğundan orta risk (Medium) olarak değerlendirilmiştir; kullanıcı bunlara karşı alerji bildirmemiş olsa da çapraz reaksiyon/iz içerik riski nedeniyle temkinli olunmalıdır. Diğer bileşenler (tahıllar, çekirdek, bitkisel yağlar, baharatlar, hurma ezmesi, bal vb.) kullanıcının mevcut sağlık koşulları ve tercihleri (helal, domuz yağı yok) açısından doğrudan çelişki oluşturmuyor ve genel olarak düşük risk taşır (Low). Üründe domuz yağı veya açıkça helal olmayan bileşen belirtilmemiştir.",
+      "summary_risk": "High"
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_035_EtiNero_330g",
+    "profile_name": "Profile_B_Halal_Hypertension_Lactose",
+    "h1_ingredients": "buğday un (gluten), bitkisel yağ (palm), şeker şurubu, kakao tozu %8, tam yağlı süt tozu, kabartıcılar (amonyum hidrojenkarbonat, sodyum karbonat), tuz, aroma verici, krema %20 [şeker, bitkisel yağlar (palm, ayçiçek, pamuk, kanola), nişasta, yağ, peynir altı suyu tozu (süt ürünü), emülgatör (ayçiçek lesitini), aroma verici], eser miktarda fındık, soya ve susam içerebilir",
+    "h1_nutrition": {
+      "basis": "100g",
+      "is_normalized_100g": true,
+      "values": {
+        "energy_kcal": null,
+        "fat_total_g": null,
+        "fat_saturated_g": null,
+        "fat_trans_g": null,
+        "carbohydrate_g": null,
+        "sugar_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "salt_g": null,
+        "micros": null
+      }
+    },
+    "llm_response": {
+      "ingredients": [
+        "buğday un (gluten)",
+        "bitkisel yağ (palm)",
+        "şeker şurubu",
+        "kakao tozu %8",
+        "tam yağlı süt tozu",
+        "kabartıcılar (amonyum hidrojenkarbonat, sodyum karbonat)",
+        "tuz",
+        "aroma verici",
+        "krema %20 [şeker, bitkisel yağlar (palm, ayçiçek, pamuk, kanola), nişasta, yağ, peynir altı suyu tozu (süt ürünü), emülgatör (ayçiçek lesitini), aroma verici]",
+        "eser miktarda fındık içerebilir",
+        "eser miktarda soya içerebilir",
+        "eser miktarda susam içerebilir"
+      ],
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": true,
+        "values": {
+          "energy_kcal": null,
+          "fat_total_g": null,
+          "fat_saturated_g": null,
+          "fat_trans_g": null,
+          "carbohydrate_g": null,
+          "sugar_g": null,
+          "fiber_g": null,
+          "protein_g": null,
+          "salt_g": null,
+          "micros": null
+        }
+      },
+      "risks": {
+        "buğday un (gluten)": "High",
+        "bitkisel yağ (palm)": "Low",
+        "şeker şurubu": "High",
+        "kakao tozu %8": "Low",
+        "tam yağlı süt tozu": "High",
+        "kabartıcılar (amonyum hidrojenkarbonat, sodyum karbonat)": "High",
+        "tuz": "High",
+        "aroma verici": "Low",
+        "krema %20 [şeker, bitkisel yağlar (palm, ayçiçek, pamuk, kanola), nişasta, yağ, peynir altı suyu tozu (süt ürünü), emülgatör (ayçiçek lesitini), aroma verici]": "High",
+        "eser miktarda fındık içerebilir": "Low",
+        "eser miktarda soya içerebilir": "Low",
+        "eser miktarda susam içerebilir": "Low"
+      },
+      "summary_explanation": "Besin değerleri etikette verilmemiş; bu yüzden makro/mikro değerlendirme yapılamadı. Kullanıcı profilinizdeki önemli noktalar: laktoz/süt şekeri alerjisi ve hipertansiyon. Etiket içeriyor: tam yağlı süt tozu ve krema içinde peynir altı suyu tozu (süt ürünü) — bunlar laktoz içerebileceği için alerji açısından YÜKSEK risk. Şeker şurubu ve kremadaki şeker diyabet/kontrol gerektiren durumlar için YÜKSEK risk oluşturur. Tuz ve kabartıcıdaki 'sodyum karbonat' hipertansiyon nedeniyle YÜKSEK risk taşır. Keto diyeti açısından buğday unu, şeker şurubu ve krema içindeki nişasta YÜKSEK risklidir. Helal/domuz yağıyla ilgili açık bir ibare yok; içerik bitkisel yağ (palm, ayçiçek, pamuk, kanola) şeklinde görünüyor, domuz yağı belirtilmemiş. İz miktarda fındık/soya/susam uyarıları alerjen uyarısıdır fakat sizin profilinizde bahsedilmemiş; bu maddeler sizin için mevcut bilgilerle DÜŞÜK risk olarak değerlendirildi.",
+      "summary_risk": "High"
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_045_KaanlarYağlıSiyahZeytin_1Kg",
+    "profile_name": "Profile_B_Halal_Hypertension_Lactose",
+    "h1_ingredients": "sofralık siyah zeytin, tuz, bitkisel ayçiçek yağı, asitlik düzenleyici (E270), koruyucu (E21, E202)",
+    "h1_nutrition": {
+      "basis": "100g",
+      "is_normalized_100g": true,
+      "values": {
+        "energy_kcal": 140,
+        "fat_total_g": 10.0,
+        "fat_saturated_g": 1.6,
+        "fat_trans_g": null,
+        "carbohydrate_g": 10.6,
+        "sugar_g": 0.7,
+        "fiber_g": 3.3,
+        "protein_g": 1.8,
+        "salt_g": 6.5,
+        "micros": null
+      }
+    },
+    "llm_response": {
+      "ingredients": [
+        "sofralık siyah zeytin",
+        "tuz",
+        "bitkisel ayçiçek yağı",
+        "asitlik düzenleyici (E270)",
+        "koruyucu (E21, E202)"
+      ],
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": false,
+        "values": {
+          "energy_kcal": 140,
+          "fat_total_g": 10.0,
+          "fat_saturated_g": null,
+          "fat_trans_g": null,
+          "carbohydrate_g": 10.6,
+          "sugar_g": 0.7,
+          "fiber_g": null,
+          "protein_g": 1.8,
+          "salt_g": 6.5,
+          "micros": null
+        }
+      },
+      "risks": {
+        "sofralık siyah zeytin": "Medium",
+        "tuz": "High",
+        "bitkisel ayçiçek yağı": "Low",
+        "asitlik düzenleyici (E270)": "Low",
+        "koruyucu (E21, E202)": "Medium"
+      },
+      "summary_explanation": "Besin değerleri 100 g bazında alındı. Ürünün tuz içeriği 6.5 g/100 g olup hipertansiyon (yüksek tansiyon) profiline sahip kullanıcı için belirgin risk oluşturur; bu nedenle 'tuz' maddesi High olarak işaretlendi. Siyah zeytinler genelde salamura ve tuz içerdiğinden 'sofralık siyah zeytin' hipertansiyon açısından orta risk (Medium) taşır. Şeker çok düşük (0.7 g) olduğundan diyabet için ilave risk yok. Kullanıcının laktoz/süt şekeri alerjisi açısından içerikte süt veya laktoz içeren bileşen yok; bu nedenle süt kaynaklı risk yok. Bitkisel ayçiçek yağı helal ve domuz yağı içermediğinden tercih edilen diyetle uyumludur (Low risk). E270 (laktik asit) ve koruyucular (E21, E202) genelde alerjen süt proteini içermez; bunlar hassasiyeti olan kişilerde veya koruyucu duyarlılığı varsa orta düzeyde sorun yaratabilir, bu yüzden koruyucular Medium; E270 Low olarak değerlendirildi. Toplam değerlendirme: ürün, yüksek tuz nedeniyle hipertansiyon profiline sahip kullanıcı için genel olarak yüksek risk teşkil eder.",
+      "summary_risk": "High"
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_003_FiskobirlikNuga_700g",
+    "profile_name": "Profile_C_Keto_NutAllergy_Heart",
+    "h1_ingredients": "şeker, bitkisel yağlar (değişen miktarda; ayçiçek, pamuk), fındık (%16), kakao tozu (%9), yağsız süt tozu, peynir altı suyu tozu (süt ürünü), laktoz (süt ürünü), emülgatör (ayçiçek lesitini), aroma verici (vanilin)",
+    "h1_nutrition": {
+      "basis": "100g",
+      "is_normalized_100g": true,
+      "values": {
+        "energy_kcal": 535,
+        "fat_total_g": 30.5,
+        "fat_saturated_g": 6.4,
+        "fat_trans_g": 0.2,
+        "carbohydrate_g": 58.1,
+        "sugar_g": 49.8,
+        "fiber_g": 5.8,
+        "protein_g": 8.2,
+        "salt_g": 0.2,
+        "micros": null
+      }
+    },
+    "llm_response": {
+      "ingredients": [
+        "şeker",
+        "bitkisel yağlar (değişen miktarda; ayçiçek, pamuk)",
+        "fındık (%16)",
+        "kakao tozu (%9)",
+        "yağsız süt tozu",
+        "peynir altı suyu tozu (süt ürünü)",
+        "laktoz (süt ürünü)",
+        "emülgatör (ayçiçek lesitini)",
+        "aroma verici (vanilin)"
+      ],
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": false,
+        "values": {
+          "energy_kcal": 535,
+          "fat_total_g": 30.5,
+          "fat_saturated_g": null,
+          "fat_trans_g": null,
+          "carbohydrate_g": 58.1,
+          "sugar_g": 49.8,
+          "fiber_g": null,
+          "protein_g": 8.2,
+          "salt_g": 0.2,
+          "micros": null
+        }
+      },
+      "risks": {
+        "şeker": "High",
+        "bitkisel yağlar (değişen miktarda; ayçiçek, pamuk)": "Medium",
+        "fındık (%16)": "High",
+        "kakao tozu (%9)": "Low",
+        "yağsız süt tozu": "Medium",
+        "peynir altı suyu tozu (süt ürünü)": "Medium",
+        "laktoz (süt ürünü)": "High",
+        "emülgatör (ayçiçek lesitini)": "Low",
+        "aroma verici (vanilin)": "Low"
+      },
+      "summary_explanation": "Etiket 100 g bazında yüksek karbonhidrat ve şeker içeriği (58.1 g karb / 49.8 g şeker) gösteriyor. Kullanıcının alerji profiline göre fındık içeriği (fındık %16) kesinlikle yüksek risklidir. Keto ve düşük karbonhidrat tercihi ile çelişen bileşenler: şeker ve laktoz (yüksek karbonhidrat) — bunlar hem keto hem de diyabet riski açısından yüksek kabul edilmiştir. Bitkisel yağlar (ayçiçek, pamuk) kardiyovasküler hastalık geçmişi olan kullanıcı için orta derecede risk taşıyabilir (özellikle işlenmiş/omega-6 ağırlıklı yağlar). Süt kaynaklı bileşenler (yağsız süt tozu, peynir altı suyu tozu) keto açısından istenmeyen ek karbonhidrat/laktoz içerebilir; bu nedenle orta risk olarak değerlendirildi. Emülgatör (ayçiçek lesitini), kakao tozu ve vanilin düşük riskli bileşenler olarak görülüyor. Genel olarak ürün, kullanıcının keto ve kardiyovasküler profiline uygun değildir ve alerji nedeniyle tüketilmemelidir.",
+      "summary_risk": "High"
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_015_EtiGongPopsBalHardal_80g",
+    "profile_name": "Profile_C_Keto_NutAllergy_Heart",
+    "h1_ingredients": "mısır (%74), bitkisel yağ (palm), buğday unu (gluten), bal ve hardal aroması (%6, 7) [şeker, tuz, soğan tozu, aromalar, ayçiçeği lesitini], bal ekstraktı, hardal ekstraktı, tuz, emülgatör (ayçiçeği lesitini), soğan tozu, aroma vericiler. Az miktarda süt ürünü ve kereviz içerebilir",
+    "h1_nutrition": {
+      "basis": "100g",
+      "is_normalized_100g": true,
+      "values": {
+        "energy_kcal": 453,
+        "fat_total_g": 18,
+        "fat_saturated_g": 7.8,
+        "fat_trans_g": 0,
+        "carbohydrate_g": 67,
+        "sugar_g": 40,
+        "fiber_g": null,
+        "protein_g": null,
+        "salt_g": null,
+        "micros": null
+      }
+    },
+    "llm_response": {
+      "ingredients": [
+        "mısır (%74)",
+        "bitkisel yağ (palm)",
+        "buğday unu (gluten)",
+        "bal ve hardal aroması (%6, 7) [şeker, tuz, soğan tozu, aromalar, ayçiçeği lesitini]",
+        "bal ekstraktı",
+        "hardal ekstraktı",
+        "tuz",
+        "emülgatör (ayçiçeği lesitini)",
+        "soğan tozu",
+        "aroma vericiler",
+        "Az miktarda süt ürünü ve kereviz içerebilir"
+      ],
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": false,
+        "values": {
+          "energy_kcal": 453,
+          "fat_total_g": 18,
+          "fat_saturated_g": null,
+          "fat_trans_g": null,
+          "carbohydrate_g": 67,
+          "sugar_g": 40,
+          "fiber_g": null,
+          "protein_g": null,
+          "salt_g": null,
+          "micros": null
+        }
+      },
+      "risks": {
+        "mısır (%74)": "High",
+        "bitkisel yağ (palm)": "High",
+        "buğday unu (gluten)": "High",
+        "bal ve hardal aroması (%6, 7) [şeker, tuz, soğan tozu, aromalar, ayçiçeği lesitini]": "High",
+        "bal ekstraktı": "High",
+        "hardal ekstraktı": "Low",
+        "tuz": "High",
+        "emülgatör (ayçiçeği lesitini)": "Low",
+        "soğan tozu": "Low",
+        "aroma vericiler": "Medium",
+        "Az miktarda süt ürünü ve kereviz içerebilir": "Medium"
+      },
+      "summary_explanation": "Ürün yüksek karbonhidrat içeriğine (100 g'da 67 g karbonhidrat, 40 g şeker) sahip; mısır (%74), şeker içeren aroma ve bal ekstraktı, ayrıca buğday unu nedeniyle keto/düşük karbonhidrat diyetine uygun değil (bu maddeler keto için yüksek risklidir). İçerikte 'tuz' açıkça yer alıyor ve tuz kalp/kardiyovasküler hastalığı olanlar için yüksek risk oluşturur. Palm yağı ise doymuş yağ içeriği nedeniyle kardiyovasküler riskleri artırabilir. Kullanıcının belirttiği fındık/çekirdek alerjileri ürün listesindeki ana fındık/badem/ceviz/antepfıstığı/yerfıstığı içermediği için doğrudan alerji riski düşük görünüyor; fakat 'az miktarda süt ürünü ve kereviz içerebilir' uyarısı çapraz kontaminasyon için orta düzeyde dikkat gerektirir. Aroma vericiler belirsiz maddeler içerebileceğinden (gizli alerjen/katkı olasılığı) orta risk olarak değerlendirildi.",
+      "summary_risk": "High"
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_019_EtiLifalifAyÇekirdekliDomatesliTuzluYulafBar_30g",
+    "profile_name": "Profile_C_Keto_NutAllergy_Heart",
+    "h1_ingredients": "yulaf ezmesi (gluten) %37, tam buğday gevreği (gluten), ay çekirdeği %12, bitkisel yağlar (ayçiçek, zeytinyağı), domates salçası, hurma ezmesi, bal, tereyağı (süt ürünü), yumurta akı tozu, peynir altı suyu tozu (süt ürünü), tuz %1, 4, buğday gluteni, sarımsak tozu, biberiye, kekik, eser miktarda badem, fındık ve yer fıstığı içerebilir",
+    "h1_nutrition": {
+      "basis": "100g",
+      "is_normalized_100g": true,
+      "values": {
+        "energy_kcal": 476,
+        "fat_total_g": 25,
+        "fat_saturated_g": 4.1,
+        "fat_trans_g": 0,
+        "carbohydrate_g": 44,
+        "sugar_g": 7.9,
+        "fiber_g": null,
+        "protein_g": 6.0,
+        "salt_g": 1.0,
+        "micros": null
+      }
+    },
+    "llm_response": {
+      "ingredients": [
+        "yulaf ezmesi (gluten) %37",
+        "tam buğday gevreği (gluten)",
+        "ay çekirdeği %12",
+        "bitkisel yağlar (ayçiçek, zeytinyağı)",
+        "domates salçası",
+        "hurma ezmesi",
+        "bal",
+        "tereyağı (süt ürünü)",
+        "yumurta akı tozu",
+        "peynir altı suyu tozu (süt ürünü)",
+        "tuz %1,4",
+        "buğday gluteni",
+        "sarımsak tozu",
+        "biberiye",
+        "kekik",
+        "eser miktarda badem",
+        "eser miktarda fındık",
+        "eser miktarda yer fıstığı"
+      ],
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": false,
+        "values": {
+          "energy_kcal": 476,
+          "fat_total_g": 25,
+          "fat_saturated_g": null,
+          "fat_trans_g": null,
+          "carbohydrate_g": 44,
+          "sugar_g": 7.9,
+          "fiber_g": null,
+          "protein_g": 6.0,
+          "salt_g": 1.0,
+          "micros": null
+        }
+      },
+      "risks": {
+        "yulaf ezmesi (gluten) %37": "High",
+        "tam buğday gevreği (gluten)": "High",
+        "ay çekirdeği %12": "Low",
+        "bitkisel yağlar (ayçiçek, zeytinyağı)": "Medium",
+        "domates salçası": "Low",
+        "hurma ezmesi": "High",
+        "bal": "High",
+        "tereyağı (süt ürünü)": "High",
+        "yumurta akı tozu": "Low",
+        "peynir altı suyu tozu (süt ürünü)": "Low",
+        "tuz %1,4": "High",
+        "buğday gluteni": "Medium",
+        "sarımsak tozu": "Low",
+        "biberiye": "Low",
+        "kekik": "Low",
+        "eser miktarda badem": "High",
+        "eser miktarda fındık": "High",
+        "eser miktarda yer fıstığı": "High"
+      },
+      "summary_explanation": "Ürün 100 g başına 44 g karbonhidrat ve 7.9 g şeker içeriyor; keto/düşük karbonhidrat tercihine uygun değil (yulaf, tam buğday, hurma ezmesi, bal nedeniyle). Kullanıcının alerjileri (badem, fındık, yer fıstığı) için etiket \"eser miktarda ... içerebilir\" ifadeleri nedeniyle ciddi ALERJİ riski vardır — bu iz miktarlar bile reaksiyon tetikleyebilir. Kardiyovasküler hastalık açısından dikkat edilmesi gerekenler: tuz (1.0 g/100 g) yüksek sayılabilir ve tereyağı gibi doymuş yağ kaynakları risk oluşturur. Ay çekirdeği ve zeytinyağı gibi bileşenler genelde daha uygun olsa da, ürünün toplam bileşimi (yüksek karbonhidrat + tuz + bazı doymuş yağ) kullanıcı için genel olarak yüksek risk taşımaktadır.",
+      "summary_risk": "High"
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_035_EtiNero_330g",
+    "profile_name": "Profile_C_Keto_NutAllergy_Heart",
+    "h1_ingredients": "buğday un (gluten), bitkisel yağ (palm), şeker şurubu, kakao tozu %8, tam yağlı süt tozu, kabartıcılar (amonyum hidrojenkarbonat, sodyum karbonat), tuz, aroma verici, krema %20 [şeker, bitkisel yağlar (palm, ayçiçek, pamuk, kanola), nişasta, yağ, peynir altı suyu tozu (süt ürünü), emülgatör (ayçiçek lesitini), aroma verici], eser miktarda fındık, soya ve susam içerebilir",
+    "h1_nutrition": {
+      "basis": "100g",
+      "is_normalized_100g": true,
+      "values": {
+        "energy_kcal": null,
+        "fat_total_g": null,
+        "fat_saturated_g": null,
+        "fat_trans_g": null,
+        "carbohydrate_g": null,
+        "sugar_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "salt_g": null,
+        "micros": null
+      }
+    },
+    "llm_response": {
+      "ingredients": [
+        "buğday un (gluten)",
+        "bitkisel yağ (palm)",
+        "şeker şurubu",
+        "kakao tozu %8",
+        "tam yağlı süt tozu",
+        "kabartıcılar (amonyum hidrojenkarbonat, sodyum karbonat)",
+        "tuz",
+        "aroma verici",
+        "krema %20",
+        "krema içindeki şeker",
+        "krema içindeki bitkisel yağlar (palm, ayçiçek, pamuk, kanola)",
+        "nişasta",
+        "yağ",
+        "peynir altı suyu tozu (süt ürünü)",
+        "emülgatör (ayçiçek lesitini)",
+        "eser miktarda fındık",
+        "soya",
+        "susam"
+      ],
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": false,
+        "values": {
+          "energy_kcal": null,
+          "fat_total_g": null,
+          "fat_saturated_g": null,
+          "fat_trans_g": null,
+          "carbohydrate_g": null,
+          "sugar_g": null,
+          "fiber_g": null,
+          "protein_g": null,
+          "salt_g": null,
+          "micros": null
+        }
+      },
+      "risks": {
+        "buğday un (gluten)": "High",
+        "bitkisel yağ (palm)": "High",
+        "şeker şurubu": "High",
+        "kakao tozu %8": "Low",
+        "tam yağlı süt tozu": "Medium",
+        "kabartıcılar (amonyum hidrojenkarbonat, sodyum karbonat)": "Medium",
+        "tuz": "High",
+        "aroma verici": "Low",
+        "krema %20": "High",
+        "krema içindeki şeker": "High",
+        "krema içindeki bitkisel yağlar (palm, ayçiçek, pamuk, kanola)": "High",
+        "nişasta": "High",
+        "yağ": "Low",
+        "peynir altı suyu tozu (süt ürünü)": "Low",
+        "emülgatör (ayçiçek lesitini)": "Low",
+        "eser miktarda fındık": "High",
+        "soya": "Low",
+        "susam": "Low"
+      },
+      "summary_explanation": "Besin değerleri tablosu eksik olduğundan miktarsal değerlendirme yapılamıyor. Etiket keto (düşük karbonhidrat) beslenmesi ve kardiyovasküler hastalık öykünüz açısından birkaç önemli riski içerir: 1) Keto için yüksek riskli bileşenler: 'buğday un', 'şeker şurubu', 'nişasta' ve krema içindeki şeker — bunlar ketozisi bozabilir (HIGH). 2) Kardiyovasküler risk: palm yağı ve tam yağlı süt tozu/krema gibi doymuş yağ kaynakları LDL artışına neden olabileceğinden önemli (High). 3) Hipertansiyon riski: 'tuz' (High); kabartıcı içindeki sodyum bileşikleri küçük miktarda da olsa ekstra sodyum kaynağıdır (Medium). 4) Alerji: etiket “eser miktarda fındık” içerir — siz fındığa alerjilisiniz; bu, çapraz kontaminasyon riski nedeniyle yüksek tehlike oluşturur (High). Diğer bileşenler (aroma verici, emülgatör, soya/susam ifadeleri) sizin alerji profiline göre düşük risklidir, fakat fındık kontaminasyonu nedeniyle ürün tüketimi önerilmez.",
+      "summary_risk": "High"
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_045_KaanlarYağlıSiyahZeytin_1Kg",
+    "profile_name": "Profile_C_Keto_NutAllergy_Heart",
+    "h1_ingredients": "sofralık siyah zeytin, tuz, bitkisel ayçiçek yağı, asitlik düzenleyici (E270), koruyucu (E21, E202)",
+    "h1_nutrition": {
+      "basis": "100g",
+      "is_normalized_100g": true,
+      "values": {
+        "energy_kcal": 140,
+        "fat_total_g": 10.0,
+        "fat_saturated_g": 1.6,
+        "fat_trans_g": null,
+        "carbohydrate_g": 10.6,
+        "sugar_g": 0.7,
+        "fiber_g": 3.3,
+        "protein_g": 1.8,
+        "salt_g": 6.5,
+        "micros": null
+      }
+    },
+    "llm_response": {
+      "ingredients": [
+        "sofralık siyah zeytin",
+        "tuz",
+        "bitkisel ayçiçek yağı",
+        "asitlik düzenleyici (E270)",
+        "koruyucu (E21, E202)"
+      ],
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": false,
+        "values": {
+          "energy_kcal": 140,
+          "fat_total_g": 10.0,
+          "fat_saturated_g": null,
+          "fat_trans_g": null,
+          "carbohydrate_g": 10.6,
+          "sugar_g": 0.7,
+          "fiber_g": null,
+          "protein_g": 1.8,
+          "salt_g": 6.5,
+          "micros": null
+        }
+      },
+      "risks": {
+        "sofralık siyah zeytin": "Medium",
+        "tuz": "High",
+        "bitkisel ayçiçek yağı": "Medium",
+        "asitlik düzenleyici (E270)": "Low",
+        "koruyucu (E21, E202)": "Low"
+      },
+      "summary_explanation": "Ana risk tuz içeriğidir: 100 g üründe 6.5 g tuz hipertansiyon ve kardiyovasküler hastalık olan kullanıcı için yüksek risk taşır (tuz doğrudan kan basıncı ve kalp hastalığı riskini artırır). Aldığınız alerjenler (fındık, badem, ceviz, antep fıstığı, yer fıstığı) içerikte yoktur. Ürün karbonhidrat olarak 10.6 g/100 g ile ketojenik (düşük karbonhidrat) diyet için uygunsuz olabilir; içerikte belirgin şeker yok (0.7 g) fakat porsiyon başına karbonhidrat toplamı keto hedeflerini zorlayabilir. Ayçiçek yağı keto açısından uygun bir yağ kaynağıdır ancak kardiyovasküler hastalığı olanlarda yağ türü ve toplam yağ alımı değerlendirilmelidir (işlenmiş yağlar, omega-6/omega-3 dengesine dikkat). E270 (laktik asit) ve E202 (potasyum sorbat) genelde düşük risklidir; E21 etiketi belirsiz ancak korunma amaçlı katkı maddesi olarak değerlendirilir—alerji öykünüzle ilişkili değildir. Öneri: tuz yüksekliği nedeniyle bu ürünü kardiovasküler hastalığınız ve hipertansiyon riskiniz göz önünde bulundurarak sınırlayın; mümkünse zeytinleri yıkayıp tuzunu azaltın ve tüketimi doktorunuzla görüşün.",
+      "summary_risk": "High"
+    },
+    "error": null
+  }
+]

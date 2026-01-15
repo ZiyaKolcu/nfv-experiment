@@ -1,0 +1,462 @@
+{
+  "hypothesis": "H2: Personalized Risk Analysis",
+  "profile_summaries": {
+    "Profile_A_Vegan_Diabetic_Gluten": {
+      "total_products": 5,
+      "successful_evaluations": 5,
+      "average_f1_score": 0.518,
+      "average_precision": 0.456,
+      "average_recall": 1.0
+    },
+    "Profile_B_Halal_Hypertension_Lactose": {
+      "total_products": 5,
+      "successful_evaluations": 5,
+      "average_f1_score": 0.933,
+      "average_precision": 0.9,
+      "average_recall": 1.0
+    },
+    "Profile_C_Keto_NutAllergy_Heart": {
+      "total_products": 5,
+      "successful_evaluations": 5,
+      "average_f1_score": 0.742,
+      "average_precision": 0.767,
+      "average_recall": 0.933
+    }
+  },
+  "overall_statistics": {
+    "total_products_analyzed": 15,
+    "total_successful": 15,
+    "overall_average_f1": 0.731,
+    "overall_average_precision": 0.708,
+    "overall_average_recall": 0.978,
+    "interpretation": "Measures how well the system detects profile-specific risks"
+  },
+  "detailed_evaluations": {
+    "Profile_A_Vegan_Diabetic_Gluten": [
+      {
+        "product_id": "Product_003_FiskobirlikNuga_700g",
+        "profile_name": "Profile_A_Vegan_Diabetic_Gluten",
+        "has_error": false,
+        "error_message": null,
+        "risk_detection": {
+          "total_expected_in_product": 6,
+          "correctly_flagged_high": 6,
+          "true_positives": 3,
+          "missed_high_risks": [],
+          "total_high_assigned": 4,
+          "precision": 0.75,
+          "recall": 1.0,
+          "f1_score": 0.857,
+          "dynamic_expected_count": 10
+        },
+        "risk_distribution": {
+          "total_ingredients": 16,
+          "high_count": 4,
+          "medium_count": 1,
+          "low_count": 11,
+          "high_ratio": 0.25,
+          "medium_ratio": 0.062,
+          "low_ratio": 0.688
+        },
+        "summary_risk": "High",
+        "overall_score": 0.857
+      },
+      {
+        "product_id": "Product_015_EtiGongPopsBalHardal_80g",
+        "profile_name": "Profile_A_Vegan_Diabetic_Gluten",
+        "has_error": false,
+        "error_message": null,
+        "risk_detection": {
+          "total_expected_in_product": 3,
+          "correctly_flagged_high": 3,
+          "true_positives": 3,
+          "missed_high_risks": [],
+          "total_high_assigned": 4,
+          "precision": 0.75,
+          "recall": 1.0,
+          "f1_score": 0.857,
+          "dynamic_expected_count": 8
+        },
+        "risk_distribution": {
+          "total_ingredients": 11,
+          "high_count": 4,
+          "medium_count": 3,
+          "low_count": 4,
+          "high_ratio": 0.364,
+          "medium_ratio": 0.273,
+          "low_ratio": 0.364
+        },
+        "summary_risk": "High",
+        "overall_score": 0.857
+      },
+      {
+        "product_id": "Product_019_EtiLifalifAyÇekirdekliDomatesliTuzluYulafBar_30g",
+        "profile_name": "Profile_A_Vegan_Diabetic_Gluten",
+        "has_error": false,
+        "error_message": null,
+        "risk_detection": {
+          "total_expected_in_product": 10,
+          "correctly_flagged_high": 10,
+          "true_positives": 7,
+          "missed_high_risks": [],
+          "total_high_assigned": 9,
+          "precision": 0.778,
+          "recall": 1.0,
+          "f1_score": 0.875,
+          "dynamic_expected_count": 19
+        },
+        "risk_distribution": {
+          "total_ingredients": 18,
+          "high_count": 9,
+          "medium_count": 3,
+          "low_count": 6,
+          "high_ratio": 0.5,
+          "medium_ratio": 0.167,
+          "low_ratio": 0.333
+        },
+        "summary_risk": "High",
+        "overall_score": 0.875
+      },
+      {
+        "product_id": "Product_035_EtiNero_330g",
+        "profile_name": "Profile_A_Vegan_Diabetic_Gluten",
+        "has_error": false,
+        "error_message": null,
+        "risk_detection": {
+          "total_expected_in_product": 0,
+          "correctly_flagged_high": 0,
+          "true_positives": 0,
+          "missed_high_risks": [],
+          "total_high_assigned": 0,
+          "precision": 0.0,
+          "recall": 1.0,
+          "f1_score": 0.0,
+          "dynamic_expected_count": 22
+        },
+        "risk_distribution": {
+          "total_ingredients": 0,
+          "high_count": 0,
+          "medium_count": 0,
+          "low_count": 0,
+          "high_ratio": 0.0,
+          "medium_ratio": 0.0,
+          "low_ratio": 0.0
+        },
+        "summary_risk": "Low",
+        "overall_score": 0.0
+      },
+      {
+        "product_id": "Product_045_KaanlarYağlıSiyahZeytin_1Kg",
+        "profile_name": "Profile_A_Vegan_Diabetic_Gluten",
+        "has_error": false,
+        "error_message": null,
+        "risk_detection": {
+          "total_expected_in_product": 0,
+          "correctly_flagged_high": 0,
+          "true_positives": 0,
+          "missed_high_risks": [],
+          "total_high_assigned": 1,
+          "precision": 0.0,
+          "recall": 1.0,
+          "f1_score": 0.0,
+          "dynamic_expected_count": 0
+        },
+        "risk_distribution": {
+          "total_ingredients": 5,
+          "high_count": 1,
+          "medium_count": 1,
+          "low_count": 3,
+          "high_ratio": 0.2,
+          "medium_ratio": 0.2,
+          "low_ratio": 0.6
+        },
+        "summary_risk": "High",
+        "overall_score": 0.0
+      }
+    ],
+    "Profile_B_Halal_Hypertension_Lactose": [
+      {
+        "product_id": "Product_003_FiskobirlikNuga_700g",
+        "profile_name": "Profile_B_Halal_Hypertension_Lactose",
+        "has_error": false,
+        "error_message": null,
+        "risk_detection": {
+          "total_expected_in_product": 7,
+          "correctly_flagged_high": 7,
+          "true_positives": 4,
+          "missed_high_risks": [],
+          "total_high_assigned": 4,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "dynamic_expected_count": 14
+        },
+        "risk_distribution": {
+          "total_ingredients": 9,
+          "high_count": 4,
+          "medium_count": 1,
+          "low_count": 4,
+          "high_ratio": 0.444,
+          "medium_ratio": 0.111,
+          "low_ratio": 0.444
+        },
+        "summary_risk": "High",
+        "overall_score": 1.0
+      },
+      {
+        "product_id": "Product_015_EtiGongPopsBalHardal_80g",
+        "profile_name": "Profile_B_Halal_Hypertension_Lactose",
+        "has_error": false,
+        "error_message": null,
+        "risk_detection": {
+          "total_expected_in_product": 0,
+          "correctly_flagged_high": 0,
+          "true_positives": 1,
+          "missed_high_risks": [],
+          "total_high_assigned": 2,
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1_score": 0.667,
+          "dynamic_expected_count": 4
+        },
+        "risk_distribution": {
+          "total_ingredients": 11,
+          "high_count": 2,
+          "medium_count": 4,
+          "low_count": 5,
+          "high_ratio": 0.182,
+          "medium_ratio": 0.364,
+          "low_ratio": 0.455
+        },
+        "summary_risk": "High",
+        "overall_score": 0.667
+      },
+      {
+        "product_id": "Product_019_EtiLifalifAyÇekirdekliDomatesliTuzluYulafBar_30g",
+        "profile_name": "Profile_B_Halal_Hypertension_Lactose",
+        "has_error": false,
+        "error_message": null,
+        "risk_detection": {
+          "total_expected_in_product": 5,
+          "correctly_flagged_high": 5,
+          "true_positives": 4,
+          "missed_high_risks": [],
+          "total_high_assigned": 4,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "dynamic_expected_count": 13
+        },
+        "risk_distribution": {
+          "total_ingredients": 18,
+          "high_count": 4,
+          "medium_count": 3,
+          "low_count": 11,
+          "high_ratio": 0.222,
+          "medium_ratio": 0.167,
+          "low_ratio": 0.611
+        },
+        "summary_risk": "High",
+        "overall_score": 1.0
+      },
+      {
+        "product_id": "Product_035_EtiNero_330g",
+        "profile_name": "Profile_B_Halal_Hypertension_Lactose",
+        "has_error": false,
+        "error_message": null,
+        "risk_detection": {
+          "total_expected_in_product": 8,
+          "correctly_flagged_high": 8,
+          "true_positives": 6,
+          "missed_high_risks": [],
+          "total_high_assigned": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "dynamic_expected_count": 17
+        },
+        "risk_distribution": {
+          "total_ingredients": 19,
+          "high_count": 6,
+          "medium_count": 2,
+          "low_count": 11,
+          "high_ratio": 0.316,
+          "medium_ratio": 0.105,
+          "low_ratio": 0.579
+        },
+        "summary_risk": "High",
+        "overall_score": 1.0
+      },
+      {
+        "product_id": "Product_045_KaanlarYağlıSiyahZeytin_1Kg",
+        "profile_name": "Profile_B_Halal_Hypertension_Lactose",
+        "has_error": false,
+        "error_message": null,
+        "risk_detection": {
+          "total_expected_in_product": 1,
+          "correctly_flagged_high": 1,
+          "true_positives": 1,
+          "missed_high_risks": [],
+          "total_high_assigned": 1,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "dynamic_expected_count": 2
+        },
+        "risk_distribution": {
+          "total_ingredients": 5,
+          "high_count": 1,
+          "medium_count": 2,
+          "low_count": 2,
+          "high_ratio": 0.2,
+          "medium_ratio": 0.4,
+          "low_ratio": 0.4
+        },
+        "summary_risk": "High",
+        "overall_score": 1.0
+      }
+    ],
+    "Profile_C_Keto_NutAllergy_Heart": [
+      {
+        "product_id": "Product_003_FiskobirlikNuga_700g",
+        "profile_name": "Profile_C_Keto_NutAllergy_Heart",
+        "has_error": false,
+        "error_message": null,
+        "risk_detection": {
+          "total_expected_in_product": 3,
+          "correctly_flagged_high": 2,
+          "true_positives": 3,
+          "missed_high_risks": ["laktoz"],
+          "total_high_assigned": 3,
+          "precision": 1.0,
+          "recall": 0.667,
+          "f1_score": 0.8,
+          "dynamic_expected_count": 10
+        },
+        "risk_distribution": {
+          "total_ingredients": 9,
+          "high_count": 3,
+          "medium_count": 3,
+          "low_count": 3,
+          "high_ratio": 0.333,
+          "medium_ratio": 0.333,
+          "low_ratio": 0.333
+        },
+        "summary_risk": "High",
+        "overall_score": 0.8
+      },
+      {
+        "product_id": "Product_015_EtiGongPopsBalHardal_80g",
+        "profile_name": "Profile_C_Keto_NutAllergy_Heart",
+        "has_error": false,
+        "error_message": null,
+        "risk_detection": {
+          "total_expected_in_product": 0,
+          "correctly_flagged_high": 0,
+          "true_positives": 5,
+          "missed_high_risks": [],
+          "total_high_assigned": 6,
+          "precision": 0.833,
+          "recall": 1.0,
+          "f1_score": 0.909,
+          "dynamic_expected_count": 17
+        },
+        "risk_distribution": {
+          "total_ingredients": 11,
+          "high_count": 6,
+          "medium_count": 1,
+          "low_count": 4,
+          "high_ratio": 0.545,
+          "medium_ratio": 0.091,
+          "low_ratio": 0.364
+        },
+        "summary_risk": "High",
+        "overall_score": 0.909
+      },
+      {
+        "product_id": "Product_019_EtiLifalifAyÇekirdekliDomatesliTuzluYulafBar_30g",
+        "profile_name": "Profile_C_Keto_NutAllergy_Heart",
+        "has_error": false,
+        "error_message": null,
+        "risk_detection": {
+          "total_expected_in_product": 0,
+          "correctly_flagged_high": 0,
+          "true_positives": 0,
+          "missed_high_risks": [],
+          "total_high_assigned": 0,
+          "precision": 0.0,
+          "recall": 1.0,
+          "f1_score": 0.0,
+          "dynamic_expected_count": 16
+        },
+        "risk_distribution": {
+          "total_ingredients": 0,
+          "high_count": 0,
+          "medium_count": 0,
+          "low_count": 0,
+          "high_ratio": 0.0,
+          "medium_ratio": 0.0,
+          "low_ratio": 0.0
+        },
+        "summary_risk": "High",
+        "overall_score": 0.0
+      },
+      {
+        "product_id": "Product_035_EtiNero_330g",
+        "profile_name": "Profile_C_Keto_NutAllergy_Heart",
+        "has_error": false,
+        "error_message": null,
+        "risk_detection": {
+          "total_expected_in_product": 0,
+          "correctly_flagged_high": 0,
+          "true_positives": 8,
+          "missed_high_risks": [],
+          "total_high_assigned": 8,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "dynamic_expected_count": 23
+        },
+        "risk_distribution": {
+          "total_ingredients": 17,
+          "high_count": 8,
+          "medium_count": 4,
+          "low_count": 5,
+          "high_ratio": 0.471,
+          "medium_ratio": 0.235,
+          "low_ratio": 0.294
+        },
+        "summary_risk": "High",
+        "overall_score": 1.0
+      },
+      {
+        "product_id": "Product_045_KaanlarYağlıSiyahZeytin_1Kg",
+        "profile_name": "Profile_C_Keto_NutAllergy_Heart",
+        "has_error": false,
+        "error_message": null,
+        "risk_detection": {
+          "total_expected_in_product": 1,
+          "correctly_flagged_high": 1,
+          "true_positives": 1,
+          "missed_high_risks": [],
+          "total_high_assigned": 1,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "dynamic_expected_count": 1
+        },
+        "risk_distribution": {
+          "total_ingredients": 5,
+          "high_count": 1,
+          "medium_count": 0,
+          "low_count": 4,
+          "high_ratio": 0.2,
+          "medium_ratio": 0.0,
+          "low_ratio": 0.8
+        },
+        "summary_risk": "High",
+        "overall_score": 1.0
+      }
+    ]
+  }
+}

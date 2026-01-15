@@ -1,0 +1,1152 @@
+[
+  {
+    "product_id": "Product_001_Fanta_1L",
+    "llm_response": {
+      "ingredients_text": "aroma (portakal aromalı), portakal suyu konsantresi (meyve suyu), su, karbondioksit, fruktoz-glukoz şurubu veya şeker, glukoz, C vitamini, sodyum sitrat, malik asit, renklendirici (beta-karoten), tatlandırıcılar (siklamat, sakkarin), koruyucu",
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": true,
+        "values": {
+          "energy_kcal": 30,
+          "fat_total_g": 0,
+          "fat_saturated_g": 0,
+          "fat_trans_g": null,
+          "carbohydrate_g": 7.3,
+          "sugar_g": 7.3,
+          "fiber_g": null,
+          "protein_g": 0.05,
+          "salt_g": 0.02,
+          "micros": null
+        }
+      }
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_002_SchweppesBitterLimon_1L",
+    "llm_response": {
+      "ingredients_text": "şeker, fruktoz-glukoz şurubu, tatlandırıcılar (acesülfam K, sukraloz), aroma (limon ve portakal), meyve suyu (meyve oranı en az %3), asitlik düzenleyici, karbondioksit, renklendiriciler",
+      "nutrition_data": {
+        "basis": "100ml",
+        "is_normalized_100g": true,
+        "values": {
+          "energy_kcal": 53,
+          "fat_total_g": 0.0,
+          "fat_saturated_g": 0.0,
+          "fat_trans_g": null,
+          "carbohydrate_g": 12.5,
+          "sugar_g": 12.5,
+          "fiber_g": 0.0,
+          "protein_g": 0.0,
+          "salt_g": 0.09,
+          "micros": null
+        }
+      }
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_003_FiskobirlikNuga_700g",
+    "llm_response": {
+      "ingredients_text": "şeker, bitkisel yağlar, kakao tozu (%9), yağsız süt tozu (süt ürünü), laktoz, peynir altı suyu (whey) (süt ürünü), fındık (%16), emülgatör (ayçiçek lesitini), aroma verici (vanilin)",
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": true,
+        "values": {
+          "energy_kcal": 535,
+          "fat_total_g": 30.5,
+          "fat_saturated_g": 6.4,
+          "fat_trans_g": null,
+          "carbohydrate_g": 58.1,
+          "sugar_g": 49.8,
+          "fiber_g": 5.8,
+          "protein_g": 8.2,
+          "salt_g": 0.2,
+          "micros": null
+        }
+      }
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_004_SütaşKakaoluSüt_200ml",
+    "llm_response": {
+      "ingredients_text": "homojenize ve pastörize inek sütü, sofra şekeri, kakao (%1.2), kıvam artırıcı (karagenan), doğal vanilya aroma vericisi, vitamin D",
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": true,
+        "values": {
+          "energy_kcal": 60,
+          "fat_total_g": 1.2,
+          "fat_saturated_g": 0.36,
+          "fat_trans_g": null,
+          "carbohydrate_g": 9.5,
+          "sugar_g": 9.4,
+          "fiber_g": null,
+          "protein_g": 2.8,
+          "salt_g": 0.17,
+          "micros": null
+        }
+      }
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_005_Biskrem_100g",
+    "llm_response": {
+      "ingredients_text": "buğday unu, şeker, bitkisel yağlar (palm, ayçiçek), invert şeker şurubu, azaltılmış kakao tozu (%3), yumurta, fındık püresi, kabartıcılar (sodyum hidrojen karbonat, disodyum difosfat), tam yağlı süt tozu, emülgatör (soya lesitin, poligiserol polirisinoleat), aroma vericiler (süt içerir), tuz",
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": true,
+        "values": {
+          "energy_kcal": 492,
+          "fat_total_g": 60,
+          "fat_saturated_g": 12,
+          "fat_trans_g": null,
+          "carbohydrate_g": 19,
+          "sugar_g": 6.4,
+          "fiber_g": null,
+          "protein_g": 6.4,
+          "salt_g": 0.2,
+          "micros": null
+        }
+      }
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_006_ÜlkerPöti_35g",
+    "llm_response": {
+      "ingredients_text": "buğday unu, şeker, yumurta, su, bitkisel yağlar (palm, tam hidrojenize palm), invert şeker şurubu, nem verici (gliserol), yumurta akı, modifiye nişasta, kabartıcılar (disodyum difosfat, sodyum hidrojencarbonat), tuz, emülgatörler (mono- ve digliseritler, lesitin), koruyucular (sorbik asit, potasyum sorbat), asitlik düzenleyici (sitrik asit), kıvam artırıcı (guar gum), aroma vericiler, eser miktarda susam",
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": true,
+        "values": {
+          "energy_kcal": 392,
+          "fat_total_g": 19.0,
+          "fat_saturated_g": 8.8,
+          "fat_trans_g": null,
+          "carbohydrate_g": 48.0,
+          "sugar_g": 27.0,
+          "fiber_g": 1.9,
+          "protein_g": 5.6,
+          "salt_g": 1.1,
+          "micros": null
+        }
+      }
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_007_EtiEtimek_143g",
+    "llm_response": {
+      "ingredients_text": "buğday unu (gluten), bitkisel yağ (ayçiçek, pamuk, kanola), şeker, maya, gluten, emülgatör (lesitin), aroma/ekstrakt, süt ürünü ve yumurta içerebilir, tuz",
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": true,
+        "values": {
+          "energy_kcal": 402,
+          "fat_total_g": 6,
+          "fat_saturated_g": null,
+          "fat_trans_g": null,
+          "carbohydrate_g": 60,
+          "sugar_g": 3,
+          "fiber_g": null,
+          "protein_g": 9,
+          "salt_g": 0.9,
+          "micros": null
+        }
+      }
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_008_EtiLifalifYulafEzmesi_350g",
+    "llm_response": {
+      "ingredients_text": "yulaf ezmesi",
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": true,
+        "values": {
+          "energy_kcal": 360,
+          "fat_total_g": 7.5,
+          "fat_saturated_g": 2.3,
+          "fat_trans_g": 0,
+          "carbohydrate_g": 53,
+          "sugar_g": 1.6,
+          "fiber_g": 13,
+          "protein_g": 15,
+          "salt_g": 0.02,
+          "micros": null
+        }
+      }
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_009_DimesŞeftaliMeyveSuyu_200ml",
+    "llm_response": {
+      "ingredients_text": "su, şeftali püre konsantresi, şeker (pancar şekeri kullanılmıştır), aroma verici (şeftali), asitlik düzenleyici (sitrik asit)",
+      "nutrition_data": {
+        "basis": "100ml",
+        "is_normalized_100g": true,
+        "values": {
+          "energy_kcal": 43,
+          "fat_total_g": 0,
+          "fat_saturated_g": 0,
+          "fat_trans_g": null,
+          "carbohydrate_g": 11,
+          "sugar_g": 10,
+          "fiber_g": null,
+          "protein_g": 0,
+          "salt_g": 0,
+          "micros": null
+        }
+      }
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_010_GüneşNişasta_800g",
+    "llm_response": {
+      "ingredients_text": "mısır nişastası",
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": true,
+        "values": {
+          "energy_kcal": 352,
+          "fat_total_g": 0.1,
+          "fat_saturated_g": 0.0,
+          "fat_trans_g": null,
+          "carbohydrate_g": 88.9,
+          "sugar_g": 0.0,
+          "fiber_g": null,
+          "protein_g": 0.45,
+          "salt_g": 0.025,
+          "micros": null
+        }
+      }
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_011_AnkaraKuskus_500g",
+    "llm_response": {
+      "ingredients_text": "durum buğday irmiği",
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": true,
+        "values": {
+          "energy_kcal": 357,
+          "fat_total_g": 1.79,
+          "fat_saturated_g": 0.49,
+          "fat_trans_g": null,
+          "carbohydrate_g": 73.3,
+          "sugar_g": 2.5,
+          "fiber_g": 2.99,
+          "protein_g": 10.79,
+          "salt_g": null,
+          "micros": null
+        }
+      }
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_012_AnkaraMakarna_500g",
+    "llm_response": {
+      "ingredients_text": "durum buğdayı irmiği (semolina)",
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": true,
+        "values": {
+          "energy_kcal": 357,
+          "fat_total_g": null,
+          "fat_saturated_g": null,
+          "fat_trans_g": null,
+          "carbohydrate_g": null,
+          "sugar_g": 2.99,
+          "fiber_g": 2.5,
+          "protein_g": 10.7,
+          "salt_g": 0.004,
+          "micros": null
+        }
+      }
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_013_ÜlkerÇubukKraker_40g",
+    "llm_response": {
+      "ingredients_text": "buğday unu, bitkisel yağ (palmiye) (%3, 5), tuz, emülgatörler (soya lesitini, mono- ve digliseritler, diasetil tartarik asit esterleri), asitlik düzenleyici, kabartıcılar (sodyum hidrojen karbonat, disodyum difosfat), tam yağlı süt tozu, nişasta, az miktarda yumurta, susam. Eser miktarda kabuklu yemişler içerebilir",
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": true,
+        "values": {
+          "energy_kcal": 403,
+          "fat_total_g": 6.3,
+          "fat_saturated_g": 2.4,
+          "fat_trans_g": null,
+          "carbohydrate_g": 63.0,
+          "sugar_g": 4.0,
+          "fiber_g": null,
+          "protein_g": 4.0,
+          "salt_g": 0.65,
+          "micros": null
+        }
+      }
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_014_AvşarLimonluGazoz_200g",
+    "llm_response": {
+      "ingredients_text": "doğal mineralli su, karbondioksit, asitlik düzenleyici (sitrik asit), c vitamini, doğal aroma vericisi, diğer doğal aroma vericiler, stabilizerler (arabik), antioksidan (gliserol esterleri), askorbik asit, potasyum sorbat, sodyum benzoat",
+      "nutrition_data": {
+        "basis": "100ml",
+        "is_normalized_100g": false,
+        "values": {
+          "energy_kcal": 40,
+          "fat_total_g": null,
+          "fat_saturated_g": 0.0,
+          "fat_trans_g": null,
+          "carbohydrate_g": 9.6,
+          "sugar_g": 9.6,
+          "fiber_g": null,
+          "protein_g": 0.2,
+          "salt_g": null,
+          "micros": null
+        }
+      }
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_015_EtiGongPopsBalHardal_80g",
+    "llm_response": {
+      "ingredients_text": "mısır (%74), bitkisel yağ (palmiye), bal (%6, 7), hardal (%6, 7) [şeker, tuz, soğan tozu, un (gluten), aromavericiler, maydanoz tozu, bal ekstresi, hardal ekstresi, emülgatör (ayçiçeği lesitini)], buğday unu (gluten), soğan tozu, tuz, emülgatör; ürün iz miktarda süt ve kereviz içerebilir",
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": true,
+        "values": {
+          "energy_kcal": 453,
+          "fat_total_g": 18,
+          "fat_saturated_g": 7.8,
+          "fat_trans_g": null,
+          "carbohydrate_g": 40,
+          "sugar_g": null,
+          "fiber_g": null,
+          "protein_g": null,
+          "salt_g": null,
+          "micros": null
+        }
+      }
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_016_DamlaMineraMangoAnanas_200ml",
+    "llm_response": {
+      "ingredients_text": "doğal mineralli su, şeker, fruktoz-glukoz şurubu (veya), karbondioksit, mango ve ananas aromalı, asit düzenleyici (sitrik asit), koruyucu (potasyum sorbat), tatlandırıcı (sukraloz), renklendiriciler",
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": true,
+        "values": {
+          "energy_kcal": null,
+          "fat_total_g": 0,
+          "fat_saturated_g": 0,
+          "fat_trans_g": null,
+          "carbohydrate_g": 3.8,
+          "sugar_g": 3.8,
+          "fiber_g": null,
+          "protein_g": 0,
+          "salt_g": 0,
+          "micros": null
+        }
+      }
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_017_ÜlkerÇikolata_60g",
+    "llm_response": {
+      "ingredients_text": "şeker, tam yağlı süt tozu, kakao yağı, kakao kitlesi, emülgatör (soya lesitini), tuz, aroma verici. kakao kuru maddesi en az %30'dur. eser miktarda gluten, yumurta, yerfıstığı ve sert kabuklu meyveler içerebilir",
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": true,
+        "values": {
+          "energy_kcal": 537,
+          "fat_total_g": 30,
+          "fat_saturated_g": 16,
+          "fat_trans_g": null,
+          "carbohydrate_g": 57,
+          "sugar_g": 56,
+          "fiber_g": 2.5,
+          "protein_g": 7.9,
+          "salt_g": 0.26,
+          "micros": null
+        }
+      }
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_018_ÜlkerSaklıköyTamBuğday_95g",
+    "llm_response": {
+      "ingredients_text": "buğday unu, şeker, bitkisel yağlar (palm), tam buğday unu (15%), nişasta, tam yağlı süttozu, fındık püresi (26%), peyniraltı suyu tozu (süt), kabartıcılar (amonyum hidrojen karbonat, sodyum hidrojen karbonat, disodyum difosfat), malt ekstraktı (arpa), yağsız süttozu, invert şeker şurubu, tuz, aroma vericiler (süt), emülgatörler (soya lesitin, sodyum stearoil laktilat), yumurta, yağ azaltılmış kakao tozu, asitlik düzenleyici (sitrik asit)",
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": true,
+        "values": {
+          "energy_kcal": null,
+          "fat_total_g": null,
+          "fat_saturated_g": null,
+          "fat_trans_g": null,
+          "carbohydrate_g": null,
+          "sugar_g": null,
+          "fiber_g": null,
+          "protein_g": null,
+          "salt_g": null,
+          "micros": null
+        }
+      }
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_019_EtiLifalifAyÇekirdekliDomatesliTuzluYulafBar_30g",
+    "llm_response": {
+      "ingredients_text": "yulaf (%37), tam buğday gevreği (gluten), ayçiçek çekirdeği, bitkisel yağlar (ayçiçek, zeytinyağı), domates salçası, hurma, bal, tereyağı (süt ürünü), yumurta akı tozu, peynir altı tozu (süt ürünü), tuz (%1, 4), buğday gluteni, sarımsak tozu, kekik, eser miktarda badem, fındık ve yer fıstığı",
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": true,
+        "values": {
+          "energy_kcal": 476,
+          "fat_total_g": 12,
+          "fat_saturated_g": 4.1,
+          "fat_trans_g": 0,
+          "carbohydrate_g": 44,
+          "sugar_g": 7.9,
+          "fiber_g": null,
+          "protein_g": 3.0,
+          "salt_g": 1.4,
+          "micros": null
+        }
+      }
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_020_SekÇikolatalıSüt_200ml",
+    "llm_response": {
+      "ingredients_text": "pastörize süt, şeker, kakao, %0, 2 çikolata tozu, çikolata aroma vericisi, vanilin aroma vericisi, kıvam artırıcı (karragenan)",
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": true,
+        "values": {
+          "energy_kcal": 62,
+          "fat_total_g": 1.5,
+          "fat_saturated_g": 1.1,
+          "fat_trans_g": null,
+          "carbohydrate_g": 9.2,
+          "sugar_g": 9.0,
+          "fiber_g": null,
+          "protein_g": 2.8,
+          "salt_g": 0.1,
+          "micros": null
+        }
+      }
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_021_CappyKarışıkMeyveNektarı_330ml",
+    "llm_response": {
+      "ingredients_text": "",
+      "nutrition_data": {
+        "basis": "100ml",
+        "is_normalized_100g": false,
+        "values": {
+          "energy_kcal": 43,
+          "fat_total_g": 0,
+          "fat_saturated_g": 0,
+          "fat_trans_g": null,
+          "carbohydrate_g": 10,
+          "sugar_g": 10,
+          "fiber_g": 0,
+          "protein_g": 0,
+          "salt_g": 0,
+          "micros": null
+        }
+      }
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_022_ÜlkerÇikolatalıGofret_36g",
+    "llm_response": {
+      "ingredients_text": "şeker, buğday unu, fındık püresi (%10), tam yağlı süttozu, bitkisel yağlar (palm, tam hidrojenize palm yağı, palm çekirdeği yağı), kakao kitlesi, kakao yağı, nişasta, peyniraltı suyu tozu, emülgatörler (amonyum fosfatitler, soya lesitini, poligliserol polirikinoleat), tuz, aroma vericiler, kakao tozu, yağsız süt tozu, yumurta akı tozu, kabartma ajanları (amonyum hidrojen karbonat, sodyum hidrojen karbonat). Eser miktarda diğer sert kabuklu yemişler ve yerfıstığı içerebilir",
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": true,
+        "values": {
+          "energy_kcal": 543,
+          "fat_total_g": 31,
+          "fat_saturated_g": 14,
+          "fat_trans_g": null,
+          "carbohydrate_g": 58,
+          "sugar_g": 38,
+          "fiber_g": 2.4,
+          "protein_g": 6.5,
+          "salt_g": 0.26,
+          "micros": null
+        }
+      }
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_023_ÜlkerFındıkKremalıGofret_220gr",
+    "llm_response": {
+      "ingredients_text": "şeker, buğday unu, bitkisel yağlar (palm, tam hidrojenize palm, ayçiçek, kanola), fındık püresi (%5.6), nişasta, kakao tozu (%2.3), peyniraltı suyu tozu, yağsız süttozu, yumurta, emülgatör (lesitinler) (soya içerir), tuz, aroma verici, asitlik düzenleyici (sitrik asit), kabartma maddesi (amonyum hidrojen karbonat)",
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": true,
+        "values": {
+          "energy_kcal": 513,
+          "fat_total_g": 19.7,
+          "fat_saturated_g": 3.9,
+          "fat_trans_g": null,
+          "carbohydrate_g": null,
+          "sugar_g": 35.9,
+          "fiber_g": 0.8,
+          "protein_g": 5.9,
+          "salt_g": 0.3,
+          "micros": null
+        }
+      }
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_024_Ülkerİkram_84g",
+    "llm_response": {
+      "ingredients_text": "buğday unu, şeker, bitkisel yağlar (palmiye, hidrojenize palmiye), invert şeker şurubu, modifiye nişasta, kabartıcılar (amonyum hidrojen karbonat, sodyum hidrojen karbonat), kakao tozu, peyniraltı suyu tozu, üzüm pekmezi, yağsız süttozu, tuz, emülgatörler (lesitinler - soya içerir), kakaomass / kakao kütlesi, tam yağlı süttozu, tartarik asit esterleri (mono ve di-gliseridler), aroma vericiler, un işlem maddesi (sodyum metabisülfit), asitlik düzenleyici (sitrik asit), yumurta, fındık, sert kabuklu meyveler, susam ve yer fıstığı (eser miktarda içerebilir)",
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": true,
+        "values": {
+          "energy_kcal": null,
+          "fat_total_g": null,
+          "fat_saturated_g": null,
+          "fat_trans_g": null,
+          "carbohydrate_g": null,
+          "sugar_g": null,
+          "fiber_g": null,
+          "protein_g": 2.1,
+          "salt_g": 0.19,
+          "micros": null
+        }
+      }
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_025_EtiBurçakKurabi_50g",
+    "llm_response": {
+      "ingredients_text": "tam buğday unu (gluten), yulaf ezmesi (gluten), hindistan cevizi, kabartıcılar (amonyum hidrojen karbonat, sodyum hidrojen karbonat, kalsiyum pirofosfat), hindiba kökü lifi, portakal püresi (%9), çavdar unu, vitamin D, vitamin B12, doğal aroma, susam ve fındık içerebilir, üretildiği fabrikada süt ürünleri kullanılmaktadır",
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": true,
+        "values": {
+          "energy_kcal": 448,
+          "fat_total_g": 17,
+          "fat_saturated_g": 6.0,
+          "fat_trans_g": 0,
+          "carbohydrate_g": 63,
+          "sugar_g": 13,
+          "fiber_g": 7.7,
+          "protein_g": 10,
+          "salt_g": 0.98,
+          "micros": null
+        }
+      }
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_026_EtiBurçakTamBuğdayUnluBisküvi_131g",
+    "llm_response": {
+      "ingredients_text": "buğday unu (gluten), tam buğday unu (gluten), bitkisel yağ (palm, ayçiçek, pamuk, kanola), arpa malt ekstraktı (gluten), kabartıcılar (amonyum hidrojen karbonat, sodyum hidrojen karbonat, sodyum asit pirofosfat), peynir altı suyu özü (süt ürünü), süt tozu, buğday kepeği (gluten), tuz, aroma vericiler, emülgatör (sodyum stearoil-2-laktilat), sade karamel, eser miktarda susam içerebilir",
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": true,
+        "values": {
+          "energy_kcal": 455,
+          "fat_total_g": 13.1,
+          "fat_saturated_g": null,
+          "fat_trans_g": null,
+          "carbohydrate_g": 65.1,
+          "sugar_g": 21.1,
+          "fiber_g": 2.16,
+          "protein_g": 8.69,
+          "salt_g": 0.384,
+          "micros": null
+        }
+      }
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_027_DrOetkerÇikolataSosu_123g",
+    "llm_response": {
+      "ingredients_text": "şeker, yağ (azaltılmış), kakao (kakaodan elde edilmiş çikolata), modifiye mısır nişastası, nişasta (%1, 9), kıvam arttırıcı (ksantan)",
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": true,
+        "values": {
+          "energy_kcal": 125,
+          "fat_total_g": 2.0,
+          "fat_saturated_g": 1.2,
+          "fat_trans_g": null,
+          "carbohydrate_g": 22.0,
+          "sugar_g": 19.0,
+          "fiber_g": null,
+          "protein_g": 4.2,
+          "salt_g": 0.139,
+          "micros": null
+        }
+      }
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_028_CocaCola_300ml",
+    "llm_response": {
+      "ingredients_text": "su, şeker, karbondioksit, karamel (renklendirici), asitlik düzenleyici (fosforik asit), doğal aroma vericileri, kafein",
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": true,
+        "values": {
+          "energy_kcal": 42,
+          "fat_total_g": 0,
+          "fat_saturated_g": 0,
+          "fat_trans_g": null,
+          "carbohydrate_g": 10.6,
+          "sugar_g": 10.6,
+          "fiber_g": null,
+          "protein_g": 0,
+          "salt_g": 0,
+          "micros": null
+        }
+      }
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_029_Fanta_330ml",
+    "llm_response": {
+      "ingredients_text": "su, portakal konsantresi (meyve oranı en az %3), fruktoz-glukoz şurubu, şeker, malik asit, sodyum sitrat, aroma vericileri, tatlandırıcılar, renklendiriciler (beta-karoten), kıvam artırıcılar, c vitamini",
+      "nutrition_data": {
+        "basis": "100ml",
+        "is_normalized_100g": true,
+        "values": {
+          "energy_kcal": 30,
+          "fat_total_g": 0,
+          "fat_saturated_g": 0,
+          "fat_trans_g": null,
+          "carbohydrate_g": 7.3,
+          "sugar_g": 7.3,
+          "fiber_g": null,
+          "protein_g": 0,
+          "salt_g": 0.02,
+          "micros": null
+        }
+      }
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_030_DrOetkerPuding_111g",
+    "llm_response": {
+      "ingredients_text": "şeker, yağı azaltılmış kakao tozu, nişasta, süt, bitter çikolata parçaları (%1.0), süt ve sert kabuklu meyve içerebilir",
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": true,
+        "values": {
+          "energy_kcal": 131,
+          "fat_total_g": 3.7,
+          "fat_saturated_g": 2.5,
+          "fat_trans_g": null,
+          "carbohydrate_g": 19.0,
+          "sugar_g": 16.9,
+          "fiber_g": null,
+          "protein_g": 4.0,
+          "salt_g": 0.11,
+          "micros": null
+        }
+      }
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_031_NestleÇikolataClassicBitter_60g",
+    "llm_response": {
+      "ingredients_text": "kakao kitlesi, şeker, bey­niraltı suyu tozu (süt ürünü), yağı azaltılmış kakao tozu, süt yağı, kakao yağı, emülgatör (lesitinler), doğal aroma verici (buğday, diğer sert kabuklu meyveler ve yer fıstığı içerebilir)",
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": true,
+        "values": {
+          "energy_kcal": 521,
+          "fat_total_g": 31,
+          "fat_saturated_g": 20,
+          "fat_trans_g": null,
+          "carbohydrate_g": 49,
+          "sugar_g": 45,
+          "fiber_g": 8.7,
+          "protein_g": 6.8,
+          "salt_g": 0.02,
+          "micros": null
+        }
+      }
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_032_SütaşLabne_200g",
+    "llm_response": {
+      "ingredients_text": "pastörize inek sütü, peynir kültürü, sofra tuzu",
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": true,
+        "values": {
+          "energy_kcal": 198,
+          "fat_total_g": 18.0,
+          "fat_saturated_g": 11.7,
+          "fat_trans_g": null,
+          "carbohydrate_g": 4.5,
+          "sugar_g": 4.5,
+          "fiber_g": null,
+          "protein_g": 4.5,
+          "salt_g": 0.7,
+          "micros": null
+        }
+      }
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_033_HeinzDomatesKetçap_375g",
+    "llm_response": {
+      "ingredients_text": "domates püresi, sirke, şeker, tuz, ketçap özütleri (baharat ve bitki özütleri); içerebilir: süt ürünü, yumurta, hardal, et",
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": true,
+        "values": {
+          "energy_kcal": 102,
+          "fat_total_g": 0.19,
+          "fat_saturated_g": null,
+          "fat_trans_g": null,
+          "carbohydrate_g": 22.89,
+          "sugar_g": 12.9,
+          "fiber_g": null,
+          "protein_g": 1.89,
+          "salt_g": 2.329,
+          "micros": null
+        }
+      }
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_034_HeinzMayonez_330g",
+    "llm_response": {
+      "ingredients_text": "sorbat, aroma vericiler, benzoat, potasyum, koruyucu (sodyum), ksantan gam, antioksidan (laktik asit), baharat, düzenleyici (sitrik asit), renklendirici (beta karoten, disodyum EDTA), kalsiyum",
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": true,
+        "values": {
+          "energy_kcal": 385,
+          "fat_total_g": null,
+          "fat_saturated_g": null,
+          "fat_trans_g": null,
+          "carbohydrate_g": null,
+          "sugar_g": null,
+          "fiber_g": null,
+          "protein_g": 2,
+          "salt_g": null,
+          "micros": null
+        }
+      }
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_035_EtiNero_330g",
+    "llm_response": {
+      "ingredients_text": "buğday unu (gluten), bitkisel yağlar (palm, ayçiçek, pamuk, kanola), şeker şurubu, yağsız kakao tozu %8, tam yağlı süt tozu, kabartıcılar (amonyum hidrojen karbonat, sodyum karbonat), aroma verici, krema %20 [şeker, bitkisel yağlar (palm, ayçiçek, pamuk, kanola), nişasta, tuz, emülgatör (ayçiçek lesitini), aroma verici], eser miktarda fındık, soya, peynir altı suyu tozu (süt) ve susam içerebilir",
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": true,
+        "values": {
+          "energy_kcal": 487,
+          "fat_total_g": null,
+          "fat_saturated_g": null,
+          "fat_trans_g": null,
+          "carbohydrate_g": null,
+          "sugar_g": null,
+          "fiber_g": null,
+          "protein_g": null,
+          "salt_g": null,
+          "micros": null
+        }
+      }
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_036_EtiBurçak_393g",
+    "llm_response": {
+      "ingredients_text": "buğday unu (gluten), tam buğday unu (gluten) %25, bitkisel yağlar (palm, ayçiçek, pamuk, kanola), şeker, yumurta, amonyum hidrojen karbonat, sodyum hidrojen karbonat, sodyum asit pirofosfat, arpa maltı ekstraktı (gluten), invert şeker şurubu, peyniraltı suyu tozu (süt ürünü), yağsız süt tozu, buğday kepeği, emülgatör (sodyum stearoyl-2-laktilat), renklendirici (sade karamel / zuckerkulör), tuz, aroma vericiler. Eser miktarda fındık, soya ürünü, susam ve yer fıstığı içerebilir.",
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": true,
+        "values": {
+          "energy_kcal": 455,
+          "fat_total_g": 18,
+          "fat_saturated_g": null,
+          "fat_trans_g": null,
+          "carbohydrate_g": 62,
+          "sugar_g": null,
+          "fiber_g": null,
+          "protein_g": 5.8,
+          "salt_g": 1.1,
+          "micros": null
+        }
+      }
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_037_DostKefir_1L",
+    "llm_response": {
+      "ingredients_text": "",
+      "nutrition_data": {
+        "basis": "100ml",
+        "is_normalized_100g": true,
+        "values": {
+          "energy_kcal": 44,
+          "fat_total_g": 2.3,
+          "fat_saturated_g": 1.3,
+          "fat_trans_g": null,
+          "carbohydrate_g": 4.9,
+          "sugar_g": 3.2,
+          "fiber_g": null,
+          "protein_g": 3.2,
+          "salt_g": 0.27,
+          "micros": null
+        }
+      }
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_038_ÜlkerHanımellerÇokodamla_82g",
+    "llm_response": {
+      "ingredients_text": "buğday unu, şeker, bitkisel yağlar (palm, tam hidrojene palm çekirdeği), invert şeker şurubu, kakao tozu (1, 7%), peyniraltı suyu tozu, kabartıcılar (amonyum hidrojenkarbonat, sodyum hidrojenkarbonat, disodyum difosfat), yağsız süt tozu, tam süt tozu, emülgatörler (soya lesitini, poligliserol polirisinoleat), aroma vericiler, yumurta, fındık; iz miktarda yer fıstığı, sert kabuklu yemişler ve susam içerebilir",
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": true,
+        "values": {
+          "energy_kcal": 488,
+          "fat_total_g": 23,
+          "fat_saturated_g": 13,
+          "fat_trans_g": null,
+          "carbohydrate_g": 65,
+          "sugar_g": 26,
+          "fiber_g": null,
+          "protein_g": 6,
+          "salt_g": 0.26,
+          "micros": null
+        }
+      }
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_039_KühneElmaSirkesi_500ml",
+    "llm_response": {
+      "ingredients_text": "elma",
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": true,
+        "values": {
+          "energy_kcal": 0,
+          "fat_total_g": 0,
+          "fat_saturated_g": 0,
+          "fat_trans_g": null,
+          "carbohydrate_g": null,
+          "sugar_g": 0,
+          "fiber_g": 0,
+          "protein_g": 0,
+          "salt_g": 0,
+          "micros": null
+        }
+      }
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_040_TadelleSütlüÇikolataKaplamalıFındıkKremalıGofret_28g",
+    "llm_response": {
+      "ingredients_text": "fındık kreması (%45) (şeker, bitkisel yağ (palm, ayçiçek), peynir altı suyu tozu, fındık (%5), yağ azaltılmış kakao tozu, yağsız süt tozu, emülgatör (ayçiçek lesitini), doğal aroma verici (vanilya)), sütlü çikolata kaplama (%32) (şeker, kakaoyağı, kakao kitlesi, tam yağlı süt tozu, yağsız süt tozu, emülgatör (ayçiçek lesitini), doğal aroma verici (vanilya)), gofret yaprağı (buğday unu, palm yağı, tuz, emülgatör (ayçiçek lesitini), kabartıcılar (amonyum bikarbonat, sodyum bikarbonat)). May contain: yer fıstığı ve diğer sert kabuklu yemişler.",
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": true,
+        "values": {
+          "energy_kcal": 526,
+          "fat_total_g": 28.8,
+          "fat_saturated_g": 4.4,
+          "fat_trans_g": null,
+          "carbohydrate_g": 62.0,
+          "sugar_g": 38.0,
+          "fiber_g": 1.1,
+          "protein_g": 6.5,
+          "salt_g": 0.18,
+          "micros": null
+        }
+      }
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_041_ÜlkerAlbeniAtıştırmalık_72g",
+    "llm_response": {
+      "ingredients_text": "şeker, buğday unu, bitkisel yağlar (palm, palm çekirdeği, shea), maltodekstrin, karamel (%15), bisküvi parçacıkları (86%), sütlü çikolata kaplama (eser miktarda %28), şekerle koyulaştırılmış yarı yağlı süt, tam yağlı süt tozu, peynir altı suyu (whey), kakao kitlesi, kakao yağı, azaltılmış yağlı kakao tozu, yağsız süt tozu, invert şeker şurubu, emülgatörler (amonyum fosfatidleri, mono- ve digliseritleri yağ asitlerinin, soya lesitini, poligliserol polirisinoleat, mono- ve diasetil tartarik asit esterleri), kabartıcılar (amonyum karbonat / fosfatlar, disodyum difosfat, sodyum hidrojen karbonat), nişasta, aroma vericiler, un işlem maddesi (sodyum karbonat, metabisülfit), nem verici (gliserol). Yerfıstığı ve sert kabuklu meyveler içerebilir.",
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": true,
+        "values": {
+          "energy_kcal": 147,
+          "fat_total_g": 8.0,
+          "fat_saturated_g": null,
+          "fat_trans_g": null,
+          "carbohydrate_g": 62,
+          "sugar_g": 39,
+          "fiber_g": 0.6,
+          "protein_g": 9.1,
+          "salt_g": null,
+          "micros": null
+        }
+      }
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_042_ÜlkerBeyazÇikolatalıFındıklıKremalıGofret_35g",
+    "llm_response": {
+      "ingredients_text": "şeker, buğday unu, bitkisel yağlar (palm, tam hidrojenize palm), kakao yağı, tam yağlı süttozu (72%), peynir altı suyu tozu, fındık püresi (%14), nişasta, emülgatörler (soya lesitini, poligliserol polirikinoleat), tuz, aroma vericiler, yumurta akı, kakao tozu, kabartma ajanları (amonyum hidrojen karbonat, sodyum hidrojen karbonat). May contain: yerfıstığı ve sert kabuklu yemişler",
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": true,
+        "values": {
+          "energy_kcal": 520,
+          "fat_total_g": 26,
+          "fat_saturated_g": 13,
+          "fat_trans_g": null,
+          "carbohydrate_g": 66,
+          "sugar_g": 44,
+          "fiber_g": 1.0,
+          "protein_g": 6.6,
+          "salt_g": 0.33,
+          "micros": null
+        }
+      }
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_043_DrOetkerKazandibi_155g",
+    "llm_response": {
+      "ingredients_text": "şeker, nişastalar, pirinç unu, aroma verici",
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": true,
+        "values": {
+          "energy_kcal": 151,
+          "fat_total_g": 3.8,
+          "fat_saturated_g": 2.5,
+          "fat_trans_g": null,
+          "carbohydrate_g": 25,
+          "sugar_g": 19,
+          "fiber_g": null,
+          "protein_g": 3.6,
+          "salt_g": 0.12,
+          "micros": null
+        }
+      }
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_044_ÜlkerMetroKlasik_36g",
+    "llm_response": {
+      "ingredients_text": "şeker, maltodekstrin, yağlar (palm, tam hidrojene palm çekirdeği yağı), kakao kitlesi, kakao yağı, tam yağlı süt tozu, yağsız süt tozu, invert şeker şurubu, su, koyulaştırılmış kakao tozu, yumurta akı tozu, emülgatörler (amonyum fosfatidler, mono- ve digliseridler, poligliserol polirisinoleat, soya lesitini), peyniraltı suyu tozu, tuz, nişasta, aroma vericiler. Eser miktarda gluten, yerfıstığı ve sert kabuklu meyveler içerebilir. çikolata kaplı (%29), karamel (%33), nugat (%30)",
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": true,
+        "values": {
+          "energy_kcal": 447,
+          "fat_total_g": 18,
+          "fat_saturated_g": 9.7,
+          "fat_trans_g": null,
+          "carbohydrate_g": 24,
+          "sugar_g": 19,
+          "fiber_g": null,
+          "protein_g": 1.1,
+          "salt_g": 1.4,
+          "micros": null
+        }
+      }
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_045_KaanlarYağlıSiyahZeytin_1Kg",
+    "llm_response": {
+      "ingredients_text": "sofralık siyah zeytin, tuz, ayçiçek yağı, asitlik düzenleyici (E270), bitkisel koruyucu (E21, E202)",
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": true,
+        "values": {
+          "energy_kcal": 140,
+          "fat_total_g": 10.0,
+          "fat_saturated_g": 1.6,
+          "fat_trans_g": null,
+          "carbohydrate_g": 10.6,
+          "sugar_g": 0.7,
+          "fiber_g": 3.3,
+          "protein_g": 1.8,
+          "salt_g": 6.5,
+          "micros": null
+        }
+      }
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_046_BiscolataStixHindistanCevizli_36g",
+    "llm_response": {
+      "ingredients_text": "sütlü çikolata (%52, 5) (şeker, kakao yağı, yağlı süt tozu, kakao kitlesi), bisküvi (%34) (buğday unu (gluten içerir), bitkisel yağ (palm), fruktoz şurubu, şeker, peyniraltı suyu tozu (süt ürünü), yağsız süt tozu, emülgatör (ayçiçek lesitini), tuz, kabartıcılar (amonyum bikarbonat, sodyum asit pirofosfat, sodyum bikarbonat)), hindistan cevizi (%13, 5)",
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": true,
+        "values": {
+          "energy_kcal": 488,
+          "fat_total_g": 23.0,
+          "fat_saturated_g": 16.4,
+          "fat_trans_g": null,
+          "carbohydrate_g": 59.1,
+          "sugar_g": 34.1,
+          "fiber_g": 4.49,
+          "protein_g": 9.0,
+          "salt_g": 0.6,
+          "micros": null
+        }
+      }
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_047_BiscolataStixSütlüÇikolatalı_40g",
+    "llm_response": {
+      "ingredients_text": "bisküvi (%54) (buğday unu (gluten içerir), bitkisel yağ (palm), fruktoz şurubu, şeker, peyniraltı suyu tozu (süt ürünü), tuz, kabartıcılar (amonyum bikarbonat, sodyum bikarbonat, sodyum asit pirofosfat), emülgatör (ayçiçek lesitini)), sütlü çikolata (%46) (şeker, kakao yağı, tam yağlı süt tozu, kakao kitlesi, peyniraltı suyu tozu (süt ürünü), yağsız süt tozu, emülgatör (ayçiçek lesitini), aroma verici)",
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": true,
+        "values": {
+          "energy_kcal": 556,
+          "fat_total_g": 34.0,
+          "fat_saturated_g": 20.7,
+          "fat_trans_g": 0.0,
+          "carbohydrate_g": 52.3,
+          "sugar_g": 27.5,
+          "fiber_g": 3.0,
+          "protein_g": 8.5,
+          "salt_g": 1.1,
+          "micros": null
+        }
+      }
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_048_EkmecikTostEkmeği_670g",
+    "llm_response": {
+      "ingredients_text": "buğday unu (gluten), su, maya, bitkisel yağ (değişen miktarlarda palm, pamuk, hunsa, ayçiçek), şeker, emülgatör (sodyum stearoyl laktilat, yağ asitlerinin mono- ve digliseritlerinin mono- ve diasetil tartarik asit esterleri), kıvam arttırıcı (guar gum), enzim (alfa amilaz, lipaz ve ksilanaz), antioksidan (askorbik asit), tuz, koruyucu (kalsiyum propiyonat, sorbik asit), gluten",
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": true,
+        "values": {
+          "energy_kcal": 259,
+          "fat_total_g": 3.2,
+          "fat_saturated_g": 1.2,
+          "fat_trans_g": null,
+          "carbohydrate_g": 46.6,
+          "sugar_g": 2.8,
+          "fiber_g": 3.1,
+          "protein_g": 9.5,
+          "salt_g": 0.9,
+          "micros": null
+        }
+      }
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_049_BiscolataMoodCaramelMacchiato_125g",
+    "llm_response": {
+      "ingredients_text": "karamel krema macchiatolu (%62), dolgulu bisküvi (%38), bitkisel yağlar (palm, pamuk), şeker, ayçiçek yağı, peyniraltı suyu tozu, süt tozu (süt ürünü), tam yağlı süt tozu, yağsız süt tozu, beyaz kakao yağı, tam çikolata (%2) (şeker, yağlı süt tozu, kakao tozu), emülgatör (ayçiçek lesitini), karamelize şeker, aroma vericiler, kakao tozu, tuz, buğday unu (gluten içerir), kahve (%0, 02), patates nişastası, nişasta, kabartıcılar (sodyum bikarbonat, amonyum bikarbonat), pirinç nişastası, pirofosfatlar, renklendirici, glukoz şurubu, yumurta, susam, fındık (iz miktarda)",
+      "nutrition_data": {
+        "basis": "100g",
+        "is_normalized_100g": true,
+        "values": {
+          "energy_kcal": 506,
+          "fat_total_g": 28,
+          "fat_saturated_g": 15,
+          "fat_trans_g": 0,
+          "carbohydrate_g": 56,
+          "sugar_g": 34,
+          "fiber_g": 5.3,
+          "protein_g": 3.6,
+          "salt_g": 0.94,
+          "micros": null
+        }
+      }
+    },
+    "error": null
+  },
+  {
+    "product_id": "Product_050_CocaCola_2,5L",
+    "llm_response": {
+      "ingredients_text": "",
+      "nutrition_data": {
+        "basis": "100ml",
+        "is_normalized_100g": true,
+        "values": {
+          "energy_kcal": 30,
+          "fat_total_g": 0,
+          "fat_saturated_g": 0,
+          "fat_trans_g": null,
+          "carbohydrate_g": 7.52,
+          "sugar_g": 6.36,
+          "fiber_g": null,
+          "protein_g": 0,
+          "salt_g": 0,
+          "micros": null
+        }
+      }
+    },
+    "error": null
+  }
+]

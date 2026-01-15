@@ -1,0 +1,226 @@
+{
+  "Profile_A_Vegan_Diabetic_Gluten": {
+    "name": "Profile A: Vegan + Diabetic + Gluten Allergy",
+    "description": "Strictest profile - animal products, gluten, and high sugar are all HIGH risk",
+    "profile": {
+      "allergies": [
+        "gluten",
+        "buğday",
+        "arpa"
+      ],
+      "dietary_preferences": [
+        "vegan",
+        "bitkisel"
+      ],
+      "health_conditions": [
+        "diyabet",
+        "şeker hastalığı"
+      ]
+    },
+    "nutrition_rules": {
+      "sugar_g": {
+        "threshold": 10.0,
+        "operator": ">",
+        "risk": "High"
+      }
+    },
+    "expected_ingredient_risks": [
+      "süt",
+      "süt tozu",
+      "tam yağlı süt",
+      "yağsız süt",
+      "inek sütü",
+      "yumurta",
+      "yumurta tozu",
+      "yumurta akı",
+      "peynir",
+      "kaşar",
+      "beyaz peynir",
+      "bal",
+      "arı sütü",
+      "jelatin",
+      "hayvansal jelatin",
+      "whey",
+      "whey protein",
+      "peynir altı suyu",
+      "krema",
+      "tereyağı",
+      "buğday",
+      "buğday unu",
+      "tam buğday unu",
+      "arpa",
+      "arpa maltı",
+      "malt özü",
+      "çavdar",
+      "çavdar unu",
+      "şeker",
+      "sofra şekeri",
+      "kristal şeker",
+      "toz şeker",
+      "glikoz",
+      "glikoz şurubu",
+      "mısır şurubu",
+      "fruktoz",
+      "fruktoz şurubu",
+      "fruktoz-glukoz şurubu",
+      "invert şeker",
+      "invert şeker şurubu",
+      "yulaf",
+      "yulaf ezmesi",
+      "yulaf kepeği",
+      "nişasta",
+      "mısır nişastası",
+      "patates nişastası",
+      "modifiye nişasta",
+      "maltodekstrin",
+      "dekstroz",
+      "pirinç unu",
+      "pirinç nişastası",
+      "kıvam arttırıcı"
+    ]
+  },
+  "Profile_B_Halal_Hypertension_Lactose": {
+    "name": "Profile B: Halal + Hypertension + Lactose Intolerance",
+    "description": "Religious + cardiovascular + digestive restrictions",
+    "profile": {
+      "allergies": [
+        "laktoz",
+        "süt şekeri"
+      ],
+      "dietary_preferences": [
+        "helal",
+        "domuz yağı yok"
+      ],
+      "health_conditions": [
+        "hipertansiyon",
+        "yüksek tansiyon"
+      ]
+    },
+    "nutrition_rules": {
+      "salt_g": {
+        "threshold": 1.5,
+        "operator": ">",
+        "risk": "High"
+      }
+    },
+    "expected_ingredient_risks": [
+      "domuz",
+      "domuz yağı",
+      "domuz eti",
+      "domuz jelatin",
+      "pork gelatin",
+      "süt",
+      "süt tozu",
+      "tam yağlı süt tozu",
+      "yağsız süt tozu",
+      "inek sütü",
+      "peynir",
+      "kaşar",
+      "beyaz peynir",
+      "krem peynir",
+      "yoğurt",
+      "süzme yoğurt",
+      "whey",
+      "whey protein",
+      "peynir altı suyu",
+      "laktoz",
+      "süt şekeri",
+      "krema",
+      "tereyağı",
+      "süt yağı",
+      "aroma verici (süt içerir)",
+      "aroma vericiler (süt içerir)",
+      "tuz",
+      "sofra tuzu",
+      "deniz tuzu",
+      "alkol",
+      "etanol",
+      "etil alkol",
+      "şeker",
+      "glikoz",
+      "fruktoz"
+    ]
+  },
+  "Profile_C_Keto_NutAllergy_Heart": {
+    "name": "Profile C: Keto Diet + Nut Allergies + Heart Disease",
+    "description": "Low-carb diet with nut allergies and cardiovascular concern",
+    "profile": {
+      "allergies": [
+        "fındık",
+        "badem",
+        "ceviz",
+        "antep fıstığı",
+        "yer fıstığı"
+      ],
+      "dietary_preferences": [
+        "keto",
+        "düşük karbonhidrat"
+      ],
+      "health_conditions": [
+        "kalp hastalığı",
+        "kardiyovasküler"
+      ]
+    },
+    "nutrition_rules": {
+      "carbohydrate_g": {
+        "threshold": 15.0,
+        "operator": ">",
+        "risk": "High"
+      },
+      "fat_saturated_g": {
+        "threshold": 5.0,
+        "operator": ">",
+        "risk": "High"
+      }
+    },
+    "expected_ingredient_risks": [
+      "fındık",
+      "fındık ezmesi",
+      "fındık yağı",
+      "badem",
+      "badem ezmesi",
+      "badem tozu",
+      "ceviz",
+      "ceviz içi",
+      "fıstık",
+      "antep fıstığı",
+      "yer fıstığı",
+      "fıstık ezmesi",
+      "şeker",
+      "sofra şekeri",
+      "kristal şeker",
+      "un",
+      "buğday unu",
+      "beyaz un",
+      "tam buğday unu",
+      "nişasta",
+      "mısır nişastası",
+      "patates nişastası",
+      "buğday nişastası",
+      "pirinç",
+      "pirinç unu",
+      "makarna",
+      "erişte",
+      "kuskus",
+      "hidrojenize yağ",
+      "kısmen hidrojenize yağ",
+      "trans yağ",
+      "trans yağ asidi",
+      "palm yağı",
+      "palmiye yağı",
+      "doymuş yağ",
+      "tuz",
+      "sofra tuzu",
+      "laktoz",
+      "süt şekeri",
+      "bal",
+      "bal ekstraktı",
+      "krema",
+      "kaymak",
+      "tereyağı",
+      "palm",
+      "margarin",
+      "kakao yağı"
+    ]
+  }
+}
