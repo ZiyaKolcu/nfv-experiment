@@ -3,3 +3,7 @@ google-genai
 anthropic
 python-dotenv
 tqdm
+matplotlib
+numpy
+pandas
+scipy

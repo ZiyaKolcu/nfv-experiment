@@ -33,7 +33,7 @@
                 "image_1.jpg"
             ]
         },
-        "ingredients_text": "su, şeker veya fruktoz glukoz şurubu, limon ve portakal suyu konsantreleri (meyve oranı en az %3), karbondioksit, asitliği düzenleyici (sitrik asit), koruyucu (potasyum sorbat), tatlandırıcılar (asesulfam k, sukraloz), aroma vericiler, antioksidan (askorbik asit), renklendiriciler (karotenler, klorofilinlerin bakır kompleksleri), kıvam arttırıcı (keçi boynuzu gamı)",
+        "ingredients_text": "su, şeker veya fruktoz glukoz şurubu, limon ve portakal suyu konsantreleri (meyve oranı en az %3), karbondioksit, asitliği düzenleyici (sitrik asit), koruyucu (potasyum sorbat), tatlandırıcılar (asesülfam k, sukraloz), aroma vericiler, antioksidan (askorbik asit), renklendiriciler (karotenler, klorofilinlerin bakır kompleksleri), kıvam arttırıcı (keçi boynuzu gamı)",
         "nutrition_data": {
             "basis": "100ml",
             "is_normalized_100g": true,
@@ -57,7 +57,7 @@
                 "image_1.jpg"
             ]
         },
-        "ingredients_text": "şeker, bi̇tki̇sel yağlar (deği̇şen mi̇ktarlarda findik, ayçi̇çek, pamuk),findik%16, kakao tozu%7, yağsiz süt toz, peyni̇r alti suyu tozu(süt ürünü),laktoz, emülgatör(ayçi̇çek lesi̇ti̇ni̇),aroma veri̇ci̇(vani̇li̇n)",
+        "ingredients_text": "şeker, bi̇tki̇sel yağlar (deği̇şen mi̇ktarlarda fındık, ayçi̇çek, pamuk),fındık %16, kakao tozu%7, yağsiz süt toz, peyni̇r alti suyu tozu(süt ürünü),laktoz, emülgatör(ayçi̇çek lesi̇ti̇ni̇),aroma veri̇ci̇(vani̇li̇n)",
         "nutrition_data": {
             "basis": "100g",
             "is_normalized_100g": true,
